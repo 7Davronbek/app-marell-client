@@ -29,6 +29,70 @@ $secondary: #FF2BFF;
 
     .secondaryRow {
         padding-top: 140px;
+
+        .adminCard {
+            padding: 20px 20px 40px;
+        }
+
+        h5 {
+            font-size: 30px;
+            line-height: 38px;
+            font-weight: 700;
+            margin-left: 25px;
+        }
+
+        h6 {
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 31px;
+            margin-left: auto;
+            padding: 6px 30px 3px;
+            background: rgba(153, 162, 213, 0.08);
+            border-radius: 1000px;
+        }
+
+        .row {
+
+            &:nth-child(2) {
+                margin-top: 25px;
+                padding: 10px;
+
+                .adminCard {
+                    padding: 0;
+                    padding-top: 10px;
+                }
+            }
+        }
+
+        .tiketWrap {
+            position: relative;
+
+            span {
+                &:nth-child(2) {
+                    position: absolute;
+                    right: 12px;
+                    top: 7px;
+
+                }
+            }
+        }
+    }
+
+    .secondaryCol {
+
+        .adminCard {
+            padding: 12px 10px 20px 15px;
+            margin-bottom: 44px;
+            width: -100%;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        h5 {
+            margin-left: 0;
+        }
     }
 
     .myCard {
@@ -46,6 +110,7 @@ $secondary: #FF2BFF;
             font-size: 20px;
             line-height: 25px;
             color: $mainColor;
+            margin-top: 7px;
         }
 
         span {
