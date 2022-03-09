@@ -20,6 +20,27 @@ const AdminLayout = (props) => {
                                     </Link>
                                 </div>
 
+                                <div className="avatar position-relative">
+                                    <h2>lv 1</h2>
+                                    <span><img src="/assets/icon/sh.svg" alt="" /></span>
+                                    <div className="phone">
+                                        <img src="/assets/icon/add_a_photo.SVG" alt="" />
+                                    </div>
+                                </div>
+
+                                <div className="profileContent">
+                                    <h1><Link to='/marell-admin/set-profile'>Имя Фамилия</Link></h1>
+
+                                    <div className="d-flex align-items-center">
+                                        <h3>AMARELL BALANCE</h3>
+
+                                        <div className="d-flex align-items-center btnWrap">
+                                            <h6>900</h6>
+                                            <span><img src="/assets/icon/plus.svg" alt="" /></span>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <div className="myCardWrap">
 
                                     <Link onClick={() => {setMenu(false)}} to='/main'>
