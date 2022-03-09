@@ -16,6 +16,8 @@ import Delivery from "./components/Delivery";
 import Baskets from "./components/Baskets";
 import ScrollToTop from "./components/ScrollToTop";
 
+import AdminMain from "./components/admin/AdminMain";
+
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -56,6 +58,9 @@ const App = () => {
           <Route exact path="/private-office" component={PrivateRoom} />
           <Route exact path="/log-in" component={LogIn} />
           <Route exact path="/sign-in" component={SignIn} />
+
+          <Route exact path="/marell-admin" component={AdminMain} />
+
         </Switch>
       </Router>
     </>

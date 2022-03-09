@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import LeftLayout from './LeftLayout'
 
 const LogIn = () => {
@@ -31,7 +32,7 @@ const LogIn = () => {
                             <a>Забыл пароль</a>
 
                             <div className="d-flex align-items-center justify-content-center btnWrap">
-                                <button className="btn nyBtn pink mr-3">Вход</button>
+                                <Link to='/marell-admin' className="btn nyBtn pink mr-3">Вход</Link>
                             </div>
                         </div>
 
