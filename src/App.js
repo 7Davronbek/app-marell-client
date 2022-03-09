@@ -61,6 +61,10 @@ const App = () => {
 
           <Route exact path="/marell-admin" component={AdminMain} />
 
+          <Route exact path="/marell-admin/active-orders" component={Header} />
+          <Route exact path="/marell-admin/career" component={Header} />
+          <Route exact path="/marell-admin/balance-operations" component={Header} />
+
         </Switch>
       </Router>
     </>
