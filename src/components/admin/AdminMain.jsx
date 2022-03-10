@@ -11,7 +11,7 @@ const AdminMain = () => {
 
                         <div className="col-5 h-100">
 
-                            <Link to='/admin-marell/active-orders' className="myCard adminCard h-100">
+                            <Link to='/marell-admin/active-orders' className="myCard adminCard h-100">
                                 <div>
                                     <h5>Активные заказы</h5>
                                     <p>Ближайшая: не ожидается</p>
@@ -20,7 +20,7 @@ const AdminMain = () => {
                             </Link>
                         </div>
                         <div className="col-3 px-1 h-100">
-                            <Link to='/admin-marell/career' className="myCard adminCard h-100">
+                            <Link to='/marell-admin/career' className="myCard adminCard h-100">
                                 <div>
                                     <h5>Активные заказы</h5>
                                 </div>
@@ -30,7 +30,7 @@ const AdminMain = () => {
 
                         <div className="col-4 h-100">
 
-                            <Link to='/admin-marell/balance-operations' className="myCard adminCard h-100">
+                            <Link to='/marell-admin/balance-operations' className="myCard adminCard h-100">
                                 <div>
                                     <h5>Операции с балансом</h5>
                                 </div>

@@ -1,6 +1,12 @@
 $mainColor: #0EECEC;
 $secondary: #FF2BFF;
 
+.card, .card-body {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+}
+
 .adminCard {
     background: rgba(55, 55, 55, 0.2);
     border-radius: 8px;
@@ -251,6 +257,52 @@ $secondary: #FF2BFF;
             &:focus {
                 background-color: $mainColor;
             }
+        }
+    }
+}
+
+.career {
+    padding: 70px 0;
+
+    h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        margin-bottom: 90px !important;
+
+        span {
+            color: $secondary;
+        }
+    }
+
+    h2 {
+        background: linear-gradient(90.38deg, #01FFFF -2.58%, #F50AFF 99.67%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    h3 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+        color: $secondary;
+    }
+
+    h4 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .card {
+
+        .card-body {
+            padding: 25px 17px;
         }
     }
 }

@@ -8,6 +8,11 @@
 
 html {
     scroll-behavior: smooth;
+    
+    ::selection {
+        background-color: #FF2BFF;
+        color: #fff;
+    }
 
     body {
         background: #03060E;
@@ -32,6 +37,10 @@ html {
                 text-decoration: none !important;
                 color: #ccc;
             }
+        }
+
+        img {
+            user-select: none;
         }
 
         ul,li {
