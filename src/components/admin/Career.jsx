@@ -5,6 +5,7 @@ const Career = () => {
     return (
         <>
             <AdminLayout>
+
                 <div className="career">
                     <h1>Карьера <span>%</span></h1>
 
@@ -40,6 +41,7 @@ const Career = () => {
                     </div>
 
                 </div>
+                
             </AdminLayout>
         </>
     )
