@@ -15,6 +15,23 @@ $secondary: #FF2BFF;
     border: 0;
 }
 
+.myShadows {
+    background: rgba(55, 55, 55, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 3px 5px $mainColor;
+}
+
+.h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-align: center;
+}
+
 .adminCard {
     background: rgba(55, 55, 55, 0.2);
     border-radius: 8px;
@@ -283,7 +300,7 @@ $secondary: #FF2BFF;
             line-height: 25px;
             color: #FFFFFF;
         }
-    
+
         h6 {
             font-weight: 600;
             font-size: 25px;
@@ -462,5 +479,164 @@ $secondary: #FF2BFF;
                 border-radius: 20px;
             }
         }
+    }
+}
+
+.favoriteBrands {
+    padding: 60px;
+
+    .card {
+        margin-top: 30px;
+
+        .card-body {
+            display: flex;
+            align-items: center;
+
+            .img {
+                margin-right: 25px;
+            }
+
+            h4,
+            h5 {
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 31px;
+                color: #FFFFFF;
+            }
+
+            h4 {
+                color: #fff;
+            }
+
+            h5 {
+                color: #FF2BFF;
+                margin-top: 18px;
+                font-weight: 500;
+            }
+        }
+
+        &.first {
+            margin-top: 80px;
+        }
+    }
+}
+
+.faq {
+    padding: 70px 0;
+
+    .topCard {
+        padding: 0 100px;
+        margin-bottom: 70px;
+    }
+
+    a {
+        display: block;
+        padding: 10px 15px;
+        width: 45%;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 38px;
+        width: 420px;
+        margin-bottom: 30px;
+    }
+
+    .card {
+
+        .card-body {
+            display: flex;
+            align-items: center;
+
+            .img {
+                margin-right: 16px;
+                position: relative;
+
+                .second {
+                    position: absolute;
+                    top: 21px;
+                    left: 14px;
+                }
+            }
+
+            h3 {
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 31px;
+                color: #FFFFFF;
+            }
+
+            h4 {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 25px;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 100px 0 66px !important;
+
+        span {
+            margin-left: 33px;
+
+            img {
+                width: 128px;
+            }
+        }
+    }
+}
+
+.activeOrders {
+    padding: 70px 0;
+
+    h1 {
+        margin-bottom: 25px;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 31px;
+    }
+
+    .card {
+        filter: drop-shadow(0px 16px 16px rgba(0, 0, 0, 0.16));
+        border-radius: 16px;
+        padding: 10px;
+
+        // .card-body {
+            // padding: 18px 19px;
+        // }
+    }
+
+    .starWrap {
+        display: flex;
+        align-items: center;
+        margin: 19px 0;
+
+        span {
+            margin-right: 6px;
+        }
+    }
+
+    .camera {
+        display: flex;
+        align-items: center;
+        background: #0EECEC;
+        border-radius: 4px;
+        justify-content: space-between;
+        padding: 3px 16px;
+    }
+
+    h4 {
+        padding: 0 10px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        color: #0EECEC;
+        margin-top: 20px;
     }
 }

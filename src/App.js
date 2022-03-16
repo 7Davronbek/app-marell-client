@@ -20,6 +20,9 @@ import AdminMain from "./components/admin/AdminMain";
 import SetProfile from "./components/admin/SetProfile";
 import Career from "./components/admin/Career";
 import PlasticCard from "./components/admin/PlasticCard";
+import FavoriteBrands from "./components/admin/FavoriteBrands";
+import Faq from "./components/admin/Faq";
+import ActiveOrders from "./components/admin/ActiveOrders";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -64,10 +67,12 @@ const App = () => {
 
           <Route exact path="/marell-admin" component={AdminMain} />
 
-          <Route exact path="/marell-admin/active-orders" component={Header} />
+          <Route exact path="/marell-admin/active-orders" component={ActiveOrders} />
           <Route exact path="/marell-admin/career" component={Career} />
           <Route exact path="/marell-admin/balance-operations" component={PlasticCard} />
           <Route exact path="/marell-admin/set-profile" component={SetProfile} />
+          <Route exact path="/marell-admin/favorite-brands" component={FavoriteBrands} />
+          <Route exact path="/marell-admin/faq" component={Faq} />
 
         </Switch>
       </Router>
