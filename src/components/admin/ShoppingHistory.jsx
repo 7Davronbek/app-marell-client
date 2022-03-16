@@ -18,6 +18,8 @@ const ShoppingHistory = () => {
                     <img src="/assets/image/main2.png" className='w-100' alt="" />
                   </div>
 
+
+
                   <div className="d-flex align-items-center justify-content-between">
                     <button className="btn myBtn">Футболка “Marell” </button>
                     <button className="btn secondaryBtn">19.01</button>
