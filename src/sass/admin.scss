@@ -608,7 +608,7 @@ $secondary: #FF2BFF;
         padding: 10px;
 
         // .card-body {
-            // padding: 18px 19px;
+        // padding: 18px 19px;
         // }
     }
 
@@ -638,5 +638,89 @@ $secondary: #FF2BFF;
         line-height: 25px;
         color: #0EECEC;
         margin-top: 20px;
+    }
+}
+
+.shoppingHistory {
+    padding: 60px 0;
+ 
+    .bottomWrap {
+        margin-top: 20px;
+    }
+
+    .card {
+        padding: 16px 14px;
+        background: linear-gradient(360deg, #16181B 0%, rgba(22, 24, 27, 0) 70.26%);
+        filter: drop-shadow(0px 16px 16px rgba(0, 0, 0, 0.16));
+        border-radius: 0 0 16px 16px;
+        margin-top: 25px;
+
+        .card-body {
+
+            .img {
+                position: relative;
+
+                .iconWrap {
+                    position: absolute;
+                    background: #FF2BFF;
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    right: 25px;
+                    top: 6px;
+                    cursor: pointer;
+
+                    .icon {
+                        width: 15px;
+                        height: 16px;
+                    }
+                }
+            }
+
+            h3 {
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 18px;
+                margin-bottom: 8px;
+                color: #758089;
+            }
+
+            h4 {
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 19px;
+                color: #F9FAFC;
+            }
+
+            .icon-star {
+                width: 20px;
+                height: 20px;
+            }
+
+            .myBtn {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 20px;
+                color: #FFFFFF;
+                padding: 11px 29px 12px;
+                background: rgba(153, 162, 213, 0.08);
+                backdrop-filter: blur(16px);
+                border-radius: 8px;
+            }
+
+            .secondaryBtn {
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 19px;
+                color: #0EECEC;
+                padding: 12px 3px;
+                background: #ff2bff25;
+                backdrop-filter: blur(16px);
+                border-radius: 8px;
+            }
+        }
     }
 }

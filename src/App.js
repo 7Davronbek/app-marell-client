@@ -23,6 +23,7 @@ import PlasticCard from "./components/admin/PlasticCard";
 import FavoriteBrands from "./components/admin/FavoriteBrands";
 import Faq from "./components/admin/Faq";
 import ActiveOrders from "./components/admin/ActiveOrders";
+import ShoppingHistory from "./components/admin/ShoppingHistory";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -73,6 +74,7 @@ const App = () => {
           <Route exact path="/marell-admin/set-profile" component={SetProfile} />
           <Route exact path="/marell-admin/favorite-brands" component={FavoriteBrands} />
           <Route exact path="/marell-admin/faq" component={Faq} />
+          <Route exact path="/marell-admin/shoping-history" component={ShoppingHistory} />
 
         </Switch>
       </Router>

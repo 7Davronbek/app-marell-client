@@ -1,4 +1,101 @@
 
+.icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+
+    mask-size: 100%;
+    mask-repeat: no-repeat;
+
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+
+    background-color: #0E7274;
+    transition: all .4s ease-in-out;
+
+    &.icon-star {
+        mask-image: url("../assets/star-green.svg");
+        -webkit-mask-image: url("../assets/star-green.svg");
+        width: 33px;
+        width: 31px;
+
+        &.black {
+            background: #7F8A94;
+        }
+
+        &.pink {
+            background: #FF2BFF;
+        }
+    }
+
+    &.icon-main {
+        mask-image: url("../assets/navbar11.svg");
+        -webkit-mask-image: url("../assets/navbar11.svg");
+    }
+
+    &.icon-heart {
+        mask-image: url("../assets/heard.svg");
+        -webkit-mask-image: url("../assets/heard.svg");
+
+        width: 20px;
+        height: 20px;
+        background-color: #fff;
+    }
+
+    &.icon-karzina {
+        mask-image: url("../assets/navbar2.svg");
+        -webkit-mask-image: url("../assets/navbar2.svg");
+    }
+
+    &.icon-katalog {
+        mask-image: url("../assets/katalog.svg");
+        -webkit-mask-image: url("../assets/katalog.svg");
+    }
+
+    &.icon-credit-card {
+        mask-image: url("../assets/credit_card.svg");
+        -webkit-mask-image: url("../assets/credit_card.svg");
+    }
+
+    &.icon-basket {
+        mask-image: url("../assets/navbar2.svg");
+        -webkit-mask-image: url("../assets/navbar2.svg");
+        background-color: #0EECEC;
+        width: 28px;
+        height: 28px;
+    }
+
+    &.icon-man {
+        mask-image: url("../assets/navbar3.svg");
+        -webkit-mask-image: url("../assets/navbar3.svg");
+        width: 20px;
+        height: 53px;
+    }
+
+    &.icon-woman {
+        mask-image: url("../assets/navbar4.svg");
+        -webkit-mask-image: url("../assets/navbar4.svg");
+        width: 25px;
+        height: 53px;
+    }
+
+    &.icon-partners {
+        mask-image: url("../assets/navbar5.svg");
+        -webkit-mask-image: url("../assets/navbar5.svg");
+    }
+
+    &.icon-support {
+        mask-image: url("../assets/support.svg");
+        -webkit-mask-image: url("../assets/support.svg");
+    }
+
+    &.icon-backup {
+        mask-image: url("../assets/navbar6.svg");
+        -webkit-mask-image: url("../assets/navbar6.svg");
+    }
+
+}
+
 @keyframes anim1 {
     0% {
         opacity: 1;
