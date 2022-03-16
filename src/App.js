@@ -19,6 +19,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import AdminMain from "./components/admin/AdminMain";
 import SetProfile from "./components/admin/SetProfile";
 import Career from "./components/admin/Career";
+import PlasticCard from "./components/admin/PlasticCard";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -65,7 +66,7 @@ const App = () => {
 
           <Route exact path="/marell-admin/active-orders" component={Header} />
           <Route exact path="/marell-admin/career" component={Career} />
-          <Route exact path="/marell-admin/balance-operations" component={Header} />
+          <Route exact path="/marell-admin/balance-operations" component={PlasticCard} />
           <Route exact path="/marell-admin/set-profile" component={SetProfile} />
 
         </Switch>
