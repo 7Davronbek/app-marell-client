@@ -71,15 +71,15 @@ const LeftLayout = (props) => {
                                 <div className="myCardWrap">
                                     <Link onClick={() => {setMenu(false)}} to='/man'>
                                         <div className={`myCard mans ${history.location.pathname === '/man' ? 'actives' : ''}`}>
-                                            <div className="icon icon-man"></div>
-                                            <h5>Мужчине</h5>
+                                            <div className="icon icon-katalog"></div>
+                                            <h5>Каталог</h5>
                                         </div>
                                     </Link>
 
                                     <Link onClick={() => {setMenu(false)}} to='/woman'>
                                         <div className={`myCard ${history.location.pathname === '/woman' ? 'active' : ''}`}>
-                                            <div className="icon icon-woman"></div>
-                                            <h5>Женщине</h5>
+                                            <div className=""><img src="/assets/icon/amarell.svg" alt="" /></div>
+                                            <h5>Карьера</h5>
                                         </div>
                                     </Link>
                                 </div>
