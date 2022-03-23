@@ -4,6 +4,7 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 import BenefitOffers from './BenefitOffers';
 import BestSeller from './BestSeller';
 import LeftLayout from './LeftLayout';
+import Reviews from './Reviews';
 
 const Main = () => {
     const [catalog, setCatalog] = useState(false)
@@ -350,6 +351,7 @@ const Main = () => {
 
                 <BestSeller />
                 <BenefitOffers />
+                <Reviews />
 
             </div>
         </div>
