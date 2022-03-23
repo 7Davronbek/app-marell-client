@@ -34,7 +34,7 @@ const Man = () => {
                         1200: {
                             items: 3
                         }
-                    }} mouseTracking autoPlay={true} autoPlayInterval={3500} disableDotsControls={true} infinite={true} className=''>
+                    }} mouseTracking autoPlay={true} autoPlayInterval={3500} disableDotsControls={true} infinite={true}>
 
                         <div className="carouselWrap ">
                             <div className='myCard cursor '>
