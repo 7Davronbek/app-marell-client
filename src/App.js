@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { ScaleLoader } from "react-spinners";
-import Header from './components/Header'
+import Header from "./components/Header";
 import Man from "./components/Man";
 import Main from "./components/Main";
 import Woman from "./components/Woman";
@@ -24,15 +24,16 @@ import FavoriteBrands from "./components/admin/FavoriteBrands";
 import Faq from "./components/admin/Faq";
 import ActiveOrders from "./components/admin/ActiveOrders";
 import ShoppingHistory from "./components/admin/ShoppingHistory";
+import Checkout from "./components/Checkout";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-      setTimeout(() => {
-          console.clear()
-      }, 1000)
-  }, [])
+    setTimeout(() => {
+      console.clear();
+    }, 1000);
+  }, []);
 
   window.addEventListener("load", () => {
     setIsLoading(false);
@@ -43,16 +44,19 @@ const App = () => {
       {isLoading ? (
         <div className="loader">
           <ScaleLoader color="#FF2CFF" loading={isLoading} />
-        </div> ) : ( "" )}
+        </div>
+      ) : (
+        ""
+      )}
 
       <Router>
-
         <ScrollToTop />
 
         <Switch>
           <Route exact path="/" component={Header} />
           <Route exact path="/main" component={Main} />
           <Route exact path="/basket" component={Baskets} />
+          <Route exact path="/basket/checkout" component={Checkout} />
           <Route exact path="/man" component={Man} />
           <Route exact path="/woman" component={Woman} />
           <Route exact path="/partners" component={Partners} />
@@ -60,7 +64,11 @@ const App = () => {
           <Route exact path="/support" component={Support} />
           <Route exact path="/support/partnership" component={Patrnership} />
           <Route exact path="/support/return-basis" component={ReturnBasis} />
-          <Route exact path="/support/delivery-and-payment" component={Delivery} />
+          <Route
+            exact
+            path="/support/delivery-and-payment"
+            component={Delivery}
+          />
 
           <Route exact path="/private-office" component={PrivateRoom} />
           <Route exact path="/log-in" component={LogIn} />
@@ -68,14 +76,33 @@ const App = () => {
 
           <Route exact path="/marell-admin" component={AdminMain} />
 
-          <Route exact path="/marell-admin/active-orders" component={ActiveOrders} />
+          <Route
+            exact
+            path="/marell-admin/active-orders"
+            component={ActiveOrders}
+          />
           <Route exact path="/marell-admin/career" component={Career} />
-          <Route exact path="/marell-admin/balance-operations" component={PlasticCard} />
-          <Route exact path="/marell-admin/set-profile" component={SetProfile} />
-          <Route exact path="/marell-admin/favorite-brands" component={FavoriteBrands} />
+          <Route
+            exact
+            path="/marell-admin/balance-operations"
+            component={PlasticCard}
+          />
+          <Route
+            exact
+            path="/marell-admin/set-profile"
+            component={SetProfile}
+          />
+          <Route
+            exact
+            path="/marell-admin/favorite-brands"
+            component={FavoriteBrands}
+          />
           <Route exact path="/marell-admin/faq" component={Faq} />
-          <Route exact path="/marell-admin/shoping-history" component={ShoppingHistory} />
-
+          <Route
+            exact
+            path="/marell-admin/shoping-history"
+            component={ShoppingHistory}
+          />
         </Switch>
       </Router>
     </>
