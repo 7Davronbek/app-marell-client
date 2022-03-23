@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
+import BestSeller from './BestSeller';
 import LeftLayout from './LeftLayout';
 
 const Main = () => {
@@ -331,6 +332,22 @@ const Main = () => {
                     </AliceCarousel> */}
 
                 </LeftLayout>
+
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+
+                            <div className="mainLine">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <BestSeller />
 
             </div>
         </div>

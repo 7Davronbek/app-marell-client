@@ -623,8 +623,8 @@ html {
 
         .leftSide {
             background: #08080C;
-            height: 100vh;
-            padding: 30px 35px 0;
+            // height: 100vh;
+            padding: 30px 35px 50px;
             position: sticky;
             top: 40px;
             transition: all .5s linear;
@@ -1542,12 +1542,29 @@ html {
 
         .main {
 
+            .mainLine {
+                margin-top: 60px;
+                margin-bottom: 160px;
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                div {
+                    width: 30%;
+                    border: 1.5px solid rgba(255, 43, 255, 0.7);
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    height: 170px;
+                }
+            }
+            
             .mainHeader2 {
                 margin-top: 30px;
             }
 
             .mainHeader {
-                margin-top: 50px;
+                margin-top: 50px    ;
 
                 .alice-carousel__next-btn {
                     top: 50% !important;
@@ -1907,9 +1924,31 @@ html {
             }
         }
 
+        .bestSeller {
+            padding-bottom: 80px;
+
+            .cards {
+
+                .cardsHeader {
+                    position: relative;
+
+                    
+                }
+            }
+
+            h1 {
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 50px;
+                text-align: center;
+                color: #FFFFFF;
+                margin-bottom: 50px !important;
+            }
+        }
+
         .basket {
             padding-bottom: 50px;
-            padding-top: 30px;
+            padding-top: 40px;
 
             .basketImgWrap {
 
