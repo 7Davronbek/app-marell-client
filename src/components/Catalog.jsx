@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 import EyeAnimation from './EyeAnimation';
 import LeftLayout from './LeftLayout';
 
@@ -23,7 +24,7 @@ const Catalog = () => {
             ) : (
                 ""
             )}
-            <div className="man">
+            <div className="catalog">
 
                 <LeftLayout>
 
@@ -60,192 +61,79 @@ const Catalog = () => {
                     <div className="cardWrap">
                         <div className="row">
                             <div className="col-3">
-                                <div className="card">
+                                <Link to='/catalog/clothes' className="card">
                                     <div className="card-body">
                                         <img src="/assets/image/catalog.png" className='w-100' alt="" />
                                         <h5>Одежда</h5>
                                     </div>
-                                </div>
+                                </Link>
                             </div>
+                            
+                            <Link to='/catalog/clothes' className="col-3">
+                                <div className="card">
+                                    <div className="card-body">
+                                        <img src="/assets/image/catalog.png" className='w-100' alt="" />
+                                        <h5>Обувь</h5>
+                                    </div>
+                                </div>
+                            </Link>
+                            
+                            <Link to='/catalog/clothes' className="col-3">
+                                <div className="card">
+                                    <div className="card-body">
+                                        <img src="/assets/image/catalog.png" className='w-100' alt="" />
+                                        <h5>Канцтовары</h5>
+                                    </div>
+                                </div>
+                            </Link>
+                            
+                            <Link to='/catalog/clothes' className="col-3">
+                                <div className="card">
+                                    <div className="card-body">
+                                        <img src="/assets/image/catalog.png" className='w-100' alt="" />
+                                        <h5>Для здоровья</h5>
+                                    </div>
+                                </div>
+                            </Link>
+                            
+                            <Link to='/catalog/clothes' className="col-3">
+                                <div className="card">
+                                    <div className="card-body">
+                                        <img src="/assets/image/catalog.png" className='w-100' alt="" />
+                                        <h5>Украшения</h5>
+                                    </div>
+                                </div>
+                            </Link>
+                            
+                            <Link to='/catalog/clothes' className="col-3">
+                                <div className="card">
+                                    <div className="card-body">
+                                        <img src="/assets/image/catalog.png" className='w-100' alt="" />
+                                        <h5>Косметика</h5>
+                                    </div>
+                                </div>
+                            </Link>
+                            
+                            <Link to='/catalog/clothes' className="col-3">
+                                <div className="card">
+                                    <div className="card-body">
+                                        <img src="/assets/image/catalog.png" className='w-100' alt="" />
+                                        <h5>18 +</h5>
+                                    </div>
+                                </div>
+                            </Link>
+                            
+                            <Link to='/catalog/clothes' className="col-3">
+                                <div className="card">
+                                    <div className="card-body">
+                                        <img src="/assets/image/catalog.png" className='w-100' alt="" />
+                                        <h5>Сервисы</h5>
+                                    </div>
+                                </div>
+                            </Link>
+
                         </div>
                     </div>
-
-                    {/* <div className="topNavbar myRadius d-flex align-items-center justify-content-between">
-                        <div className="d-flex align-items-center leftBtn">
-                            <button className="btn">Категории</button>
-                            <button className="btn">Фильтр</button>
-                            <button className="btn">Коллекции</button>
-                        </div>
-                        <input type="text" placeholder='ПОИСК' className='form-control' />
-                    </div>
-
-                    <h5 className='mb-4'><span className="blue">Top</span> Men</h5>
-
-                    <AliceCarousel className='myCarousel' responsive={{
-                        450: {
-                            items: 1
-                        },
-                        480: {
-                            items: 2
-                        },
-                        800: {
-                            items: 2
-                        },
-                        1200: {
-                            items: 3
-                        }
-                    }} mouseTracking autoPlay={true} autoPlayInterval={3500} disableDotsControls={true} infinite={true}>
-
-                        <div className="carouselWrap ">
-                            <div className='myCard cursor '>
-                                <div className="headerImg position-relative">
-                                    <i><img src="/assets/image/main1.png" alt="" className='w-100 mainImg' /></i>
-                                    <i className="position-absolute bg"><img src="/assets/image/main1bg.png" className='w-100' alt="" /></i>
-                                </div>
-
-                                <div className="bodyContent myRadius">
-                                    <div className="d-flex align-items-center justify-content-between mb-3">
-                                        <button className="btn topBtn white">Подробнее</button>
-                                        <button className="btn topBtn">Купить</button>
-                                    </div>
-
-                                    <div className="d-flex align-items-center justify-content-between">
-                                        <div>
-                                            <h6>RUB</h6>
-                                            <h5>10.5k</h5>
-                                        </div>
-
-                                        <div>
-                                            <h6>BTC</h6>
-                                            <h5>94</h5>
-                                        </div>
-
-                                        <div className="d-flex align-items-center">
-                                            <button className="btn bottomBtn first"><img src="/assets/icon/circle3.svg" alt="" /></button>
-                                            <button className="btn bottomBtn"><img src="/assets/icon/share.svg" alt="" /></button>
-                                            <button className="btn bottomBtn"><img src="/assets/icon/star.svg" alt="" /></button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div className="carouselWrap ">
-                            <div className='myCard cursor '>
-                                <div className="headerImg position-relative">
-                                    <i><img src="/assets/image/main2.png" alt="" className='w-100 mainImg' /></i>
-                                    <i className="position-absolute bg"><img src="/assets/image/main2bg.png" className='w-100' alt="" /></i>
-                                </div>
-
-                                <div className="bodyContent myRadius">
-                                    <div className="d-flex align-items-center justify-content-between mb-3">
-                                        <button className="btn topBtn white">Подробнее</button>
-                                        <button className="btn topBtn">Купить</button>
-                                    </div>
-
-                                    <div className="d-flex align-items-center justify-content-between">
-                                        <div>
-                                            <h6>RUB</h6>
-                                            <h5>10.5k</h5>
-                                        </div>
-
-                                        <div>
-                                            <h6>BTC</h6>
-                                            <h5>94</h5>
-                                        </div>
-
-                                        <div className="d-flex align-items-center">
-                                            <button className="btn bottomBtn first"><img src="/assets/icon/circle3.svg" alt="" /></button>
-                                            <button className="btn bottomBtn"><img src="/assets/icon/share.svg" alt="" /></button>
-                                            <button className="btn bottomBtn"><img src="/assets/icon/star.svg" alt="" /></button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div className="carouselWrap ">
-                            <div className='myCard cursor '>
-                                <div className="headerImg position-relative">
-                                    <i><img src="/assets/image/main1.png" alt="" className='w-100 mainImg' /></i>
-                                    <i className="position-absolute bg"><img src="/assets/image/main1bg.png" className='w-100' alt="" /></i>
-                                </div>
-
-                                <div className="bodyContent myRadius">
-                                    <div className="d-flex align-items-center justify-content-between mb-3">
-                                        <button className="btn topBtn white">Подробнее</button>
-                                        <button className="btn topBtn">Купить</button>
-                                    </div>
-
-                                    <div className="d-flex align-items-center justify-content-between">
-                                        <div>
-                                            <h6>RUB</h6>
-                                            <h5>10.5k</h5>
-                                        </div>
-
-                                        <div>
-                                            <h6>BTC</h6>
-                                            <h5>94</h5>
-                                        </div>
-
-                                        <div className="d-flex align-items-center">
-                                            <button className="btn bottomBtn first"><img src="/assets/icon/circle3.svg" alt="" /></button>
-                                            <button className="btn bottomBtn"><img src="/assets/icon/share.svg" alt="" /></button>
-                                            <button className="btn bottomBtn"><img src="/assets/icon/star.svg" alt="" /></button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div className="carouselWrap ">
-                            <div className='myCard cursor '>
-                                <div className="headerImg position-relative">
-                                    <i><img src="/assets/image/main2.png" alt="" className='w-100 mainImg' /></i>
-                                    <i className="position-absolute bg"><img src="/assets/image/main2bg.png" className='w-100' alt="" /></i>
-                                </div>
-
-                                <div className="bodyContent myRadius">
-                                    <div className="d-flex align-items-center justify-content-between mb-3">
-                                        <button className="btn topBtn white">Подробнее</button>
-                                        <button className="btn topBtn">Купить</button>
-                                    </div>
-
-                                    <div className="d-flex align-items-center justify-content-between">
-                                        <div>
-                                            <h6>RUB</h6>
-                                            <h5>10.5k</h5>
-                                        </div>
-
-                                        <div>
-                                            <h6>BTC</h6>
-                                            <h5>94</h5>
-                                        </div>
-
-                                        <div className="d-flex align-items-center">
-                                            <button className="btn bottomBtn first"><img src="/assets/icon/circle3.svg" alt="" /></button>
-                                            <button className="btn bottomBtn"><img src="/assets/icon/share.svg" alt="" /></button>
-                                            <button className="btn bottomBtn"><img src="/assets/icon/star.svg" alt="" /></button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                    </AliceCarousel>
-
-
-                    <h6 className="myRadius title px-1 mb-2 w-25 text-center mt-4">Новинки</h6>
-                    <div className="newsContent d-flex align-items-center justify-content-between">
-                        <i className='mr-3'><img src="/assets/image/main33.png" alt="" className="w-100" /></i>
-                        <i className='mr-3'><img src="/assets/image/main33.png" alt="" className="w-100" /></i>
-                        <i><img src="/assets/image/main33.png" alt="" className="w-100" /></i>
-                    </div> */}
 
                 </LeftLayout>
 

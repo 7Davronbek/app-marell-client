@@ -24,6 +24,8 @@ import ActiveOrders from "./components/admin/ActiveOrders";
 import ShoppingHistory from "./components/admin/ShoppingHistory";
 import Checkout from "./components/Checkout";
 import EyeAnimation from "./components/EyeAnimation";
+import Clothes from "./pages/catalog/Clothes";
+import ForMan from "./pages/catalog/ForMan";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -58,7 +60,11 @@ const App = () => {
           <Route exact path="/" component={Main} />
           <Route exact path="/basket" component={Baskets} />
           <Route exact path="/basket/checkout" component={Checkout} />
+          
           <Route exact path="/catalog" component={Catalog} />
+          <Route exact path="/catalog/clothes" component={Clothes} />
+          <Route exact path="/catalog/clothes/for-man" component={ForMan} />
+
           <Route exact path="/woman" component={Woman} />
           <Route exact path="/partners" component={Partners} />
 

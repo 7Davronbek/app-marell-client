@@ -2487,7 +2487,7 @@ html {
         }
 
         .woman,
-        .man {
+        .catalog {
 
             .newsContent {
 
@@ -2868,6 +2868,106 @@ html {
 
             @media(max-width: 767px) {
                 margin-bottom: 50px;
+            }
+        }
+
+        .esspecially {
+
+            h2 {
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 50px;
+                margin-bottom: 25px !important;
+            }
+
+            .alice-carousel__wrapper {
+
+                .alice-carousel__stage-item {
+                    margin-left: 35px;
+
+                    .myCard {
+                        padding: 10px 9px 15px;
+                        border: 1.5px solid rgba(65, 65, 65, 0.32);
+                        border-radius: 16px;
+                    }
+
+                    h5 {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 25px;
+                        text-align: center;
+                        color: #F5F5F5;
+                        margin-top: 14px;
+                    }
+                }
+            }
+        }
+
+        .catalog {
+
+            .cardWrap {
+                padding: 45px 0;
+            }
+
+            .card {
+                border-radius: 16px;
+                transition: all .3s ease-in-out;
+                margin-bottom: 45px;
+
+                .card-body {
+                    border: 1.5px solid rgba(65, 65, 65, 0.32);
+                    border-radius: 16px;
+                    padding: 15px 12px 22px 12px;
+
+                    h5 {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 25px;
+                        text-align: center;
+                        margin-top: 21px;
+                        color: #F5F5F5;
+                    }
+                }
+
+                &:hover {
+                    cursor: pointer;
+                    box-shadow: 0 2px 6px #dc26ff;
+                }
+            }
+        }
+
+        .catalogClothes {
+
+            .cardWrap {
+                padding: 45px 0;
+            }
+
+            .card {
+                border-radius: 16px;
+                transition: all .3s ease-in-out;
+                margin-bottom: 45px;
+                cursor: pointer;
+
+                .card-body {
+                    border: 1.5px solid rgba(65, 65, 65, 0.32);
+                    border-radius: 16px;
+                    padding: 15px 12px 22px 12px;
+
+                    h5 {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 25px;
+                        text-align: center;
+                        margin-top: 21px;
+                        color: #F5F5F5;
+                    }
+                }
+
+                &.main {
+                    background: rgba(255, 255, 255, 0.1);
+                    box-shadow: 0 2px 6px #dc26ff;
+                    border: 1.5px solid rgb(14, 236, 236);
+                }
             }
         }
 
