@@ -15,7 +15,7 @@ const Main = () => {
                 <LeftLayout>
 
                     <div className="searchWrap shadows">
-                        <button onClick={() => setCatalog(!catalog)} className="btn">ВСЕ <span><img src="/assets/icon/down.svg" alt="" /></span>
+                        <div onClick={() => setCatalog(!catalog)} className="btn">ВСЕ <span><img src="/assets/icon/down.svg" alt="" /></span>
                             <div onMouseLeave={() => setCatalog(false)} className={`buttonWrap ${catalog ? 'active' : ''}`}>
                                 <h6>Женская одежда</h6>
                                 <h6>Мужская одежда</h6>
@@ -27,7 +27,7 @@ const Main = () => {
                                 <h6>Косметика</h6>
                                 <h6>Косметика</h6>
                             </div>
-                        </button>
+                        </div>
                         <input type="text" placeholder='Я ищу...' className="form-control" />
                         <p><span><img src="/assets/icon/search.svg" alt="" /></span> поиск</p>
                     </div>

@@ -52,8 +52,8 @@ const LeftLayout = (props) => {
 
                                 <div className="myCardWrap">
 
-                                    <Link onClick={() => {setMenu(false)}} to='/main'>
-                                        <div className={`myCard ${history.location.pathname === '/main' ? 'active' : ''}`}>
+                                    <Link onClick={() => {setMenu(false)}} to='/'>
+                                        <div className={`myCard ${history.location.pathname === '/' ? 'active' : ''}`}>
                                             <div className="icon icon-main"></div>
                                             <h5>Главная</h5>
                                         </div>

@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { ScaleLoader } from "react-spinners";
-import Header from "./components/Header";
 import Man from "./components/Man";
 import Main from "./components/Main";
 import Woman from "./components/Woman";
