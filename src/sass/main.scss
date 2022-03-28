@@ -3193,23 +3193,20 @@ html {
                         position: absolute;
                         background: rgba(132, 141, 183, 0.44);
                         backdrop-filter: blur(16px);
-                        width: 66px;
-                        height: 66px;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 7px;
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        top: 20px;
-                        left: 20px;
-
-                        img {
-                            width: 100%;
-                        }
+                        top: 0px;
+                        left: 13px;
                     }
 
                     .icon-heart {
                         position: absolute;
-                        top: 45px;
-                        right: 45px;
+                        top: 20px;
+                        right: 22px;
                         background-color: #FF2BFF;
                     }
                 }
@@ -3302,6 +3299,46 @@ html {
 
             .arrow {
                 margin-right: 10px;
+                position: relative;
+
+                .arrowWrap {
+                    position: absolute;
+                    width: 200px;
+                    padding: 5px 8px;
+                    background: rgba(0, 0, 0, 0.84);
+                    border: 0.3px solid #0EECEC;
+                    box-sizing: border-box;
+                    border-radius: 10px;
+                    top: 51px;
+                    opacity: 0;
+                    transform: scale(0);
+                    transition: all .3s ease-in-out;
+
+                    h6 {
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 18px;
+                        color: #FFFFFF;
+                        background: linear-gradient(180deg, rgba(25, 27, 31, 0.48) 0%, rgba(25, 27, 31, 0.3072) 100%);
+                        border: 1px solid #FF2BFF;
+                        box-sizing: border-box;
+                        border-radius: 4px;
+                        padding: 2px 4px;
+                        margin-bottom: 7px !important;
+
+                        &:last-child {
+                            margin-bottom: 0 !important;
+                        }
+                    }
+                }
+
+                &:hover {
+
+                    .arrowWrap {
+                        opacity: 1;
+                        transform: scale(1);
+                    }
+                }
             }
         }
 

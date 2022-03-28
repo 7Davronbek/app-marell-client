@@ -56,7 +56,16 @@ const CatalogSecond = () => {
                             </div>
 
 
-                            <div className="arrow ml-auto"><img src="/assets/icon/sort_arrow.svg" alt="" /></div>
+                            <div className="arrow ml-auto">
+                                <img src="/assets/icon/sort_arrow.svg" alt="" />
+                                <div className="arrowWrap">
+                                    <h6>По убыванию цены</h6>
+                                    <h6>По возрастанию цены</h6>
+                                    <h6>По популярности</h6>
+                                    <h6>По рейтингу</h6>
+                                    <h6>Сначала новинки</h6>
+                                </div>
+                            </div>
                             <div className="filter"><img src="/assets/icon/filter.svg" alt="" /></div>
 
                         </div>
