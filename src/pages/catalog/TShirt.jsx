@@ -4,7 +4,7 @@ import Esspecially from '../../components/Esspecially';
 import EyeAnimation from '../../components/EyeAnimation';
 import LeftLayout from '../../components/LeftLayout';
 
-const ForMan = () => {
+const TShirt = () => {
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
@@ -209,4 +209,4 @@ const ForMan = () => {
     )
 }
 
-export default ForMan
+export default TShirt

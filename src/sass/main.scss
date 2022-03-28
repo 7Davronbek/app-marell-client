@@ -2872,6 +2872,91 @@ html {
         }
 
         .esspecially {
+            padding-bottom: 40px;
+
+            .alice-carousel__next-btn {
+                position: absolute;
+                top: -70px;
+                right: 0;
+                width: 54px;
+                height: 54px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: rgba(153, 162, 213, 0.04);
+                backdrop-filter: blur(16px);
+                top: 50%;
+                right: -35px;
+                transform: translateY(-50%);
+            
+
+                span {
+                    width: 54px;
+                    height: 54px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    &::before {
+                        content: '';
+                        width: 11px;
+                        height: 18px;
+                        background-image: url(../assets/arrowRight.svg);
+                    }
+
+                    &::after {
+                        display: none;
+                    }
+
+                    @media(max-width: 992px) {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+            }
+
+            .alice-carousel__prev-btn {
+                position: absolute;
+                top: -70px;
+                right: 65px;
+                width: 54px;
+                height: 54px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: rgba(153, 162, 213, 0.04);
+                backdrop-filter: blur(16px);
+                top: 50%;
+                left: -35px;
+                transform: translateY(-50%);
+            
+
+                span {
+                    width: 54px;
+                    height: 54px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    &::before {
+                        content: '';
+                        width: 11px;
+                        height: 18px;
+                        background-image: url(../assets/arrowLeft.svg);
+                    }
+
+                    &::after {
+                        display: none;
+                    }
+
+                    @media(max-width: 992px) {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+            }
 
             h2 {
                 font-weight: 700;
@@ -2937,6 +3022,24 @@ html {
         }
 
         .catalogClothes {
+
+            &.forMan {
+                
+                .myCol {
+                    position: relative;
+
+                    .secondary {
+                        position: absolute;
+                        top: 55px;
+                        width: 87%;
+                        z-index: 9;
+                    }
+                }
+
+                .card {
+                    margin-bottom: 15px !important;
+                }
+            }
 
             .cardWrap {
                 padding: 45px 0;

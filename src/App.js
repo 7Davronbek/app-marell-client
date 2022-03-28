@@ -26,6 +26,7 @@ import Checkout from "./components/Checkout";
 import EyeAnimation from "./components/EyeAnimation";
 import Clothes from "./pages/catalog/Clothes";
 import ForMan from "./pages/catalog/ForMan";
+import TShirt from "./pages/catalog/TShirt";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -64,6 +65,7 @@ const App = () => {
           <Route exact path="/catalog" component={Catalog} />
           <Route exact path="/catalog/clothes" component={Clothes} />
           <Route exact path="/catalog/clothes/for-man" component={ForMan} />
+          <Route exact path="/catalog/clothes/for-man/t-shirt" component={TShirt} />
 
           <Route exact path="/woman" component={Woman} />
           <Route exact path="/partners" component={Partners} />
