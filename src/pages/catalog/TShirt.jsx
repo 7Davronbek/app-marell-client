@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Esspecially from '../../components/Esspecially';
 import EyeAnimation from '../../components/EyeAnimation';
 import LeftLayout from '../../components/LeftLayout';
+import TShirtPagination from '../../components/TShirtPagination';
 
 const TShirt = () => {
     const [isLoading, setIsLoading] = useState(true);
@@ -25,7 +26,7 @@ const TShirt = () => {
             ) : (
                 ""
             )}
-            <div className="catalogClothes forMan">
+            <div className="catalogClothes forMan tShirt">
 
                 <LeftLayout>
 
@@ -36,7 +37,7 @@ const TShirt = () => {
                             <div className="searchWrap shadows positin-relative">
                                 <div onClick={() => setCatalog(!catalog)} className="btn">
 
-                                Mужская <span><img src="/assets/icon/down.svg" alt="" /></span>
+                                    Mужская <span><img src="/assets/icon/down.svg" alt="" /></span>
 
 
                                 </div>
@@ -80,118 +81,147 @@ const TShirt = () => {
                                         </div>
                                     </div>
                                 </Link>
+                                <Link to='/catalog/clothes/for-man' className="card main third">
+                                    <div className="card-body">
+                                        <img src="/assets/image/catalog.png" className='w-100' alt="" />
+                                        <div className='d-flex align-items-center justify-content-center mt-3'>
+                                            <h4>Футболки</h4>
+                                            <span className='ml-3'><img src="/assets/icon/close.svg" alt="" /></span>
+                                        </div>
+                                    </div>
+                                </Link>
                             </div>
 
                             <div className="col-9">
                                 <div className="row">
+                                    <div className="col-6">
+                                        <div className="cards">
 
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
-                                        <div className="card">
-                                            <div className="card-body">
-                                                <img src="/assets/image/catalog.png" className='w-100' alt="" />
-                                                <h5>Футболки</h5>
+                                            <div className="cardsHeader">
+                                                <img src="/assets/image/1.png" alt="" className="w-100" />
+                                                <div className="icon icon-heart"></div>
+                                            </div>
+                                            <div className="cardsBody">
+                                                <div className="top">
+                                                    <button className="btn first">Футболка “Marell” </button>
+                                                    <button className="btn"><img src="/assets/icon/cardBag.svg" alt="" /></button>
+                                                </div>
+                                                <div className="bottom">
+                                                    <div className=''>
+                                                        <h5>RUB</h5>
+                                                        <h4>1600 P</h4>
+                                                    </div>
+                                                    <div className=''>
+                                                        <h5>AMARELL</h5>
+                                                        <h4>94</h4>
+                                                    </div>
+                                                    <div className='d-flex align-items-center'>
+                                                        <i className="icon icon-star mr-1"></i>
+                                                        <i className="icon icon-star mr-1"></i>
+                                                        <i className="icon icon-star mr-1"></i>
+                                                        <i className="icon icon-star mr-1"></i>
+                                                        <i className="icon icon-star"></i>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </Link>
+                                    </div>
+                                    <div className="col-6">
+                                        <div className="cards">
 
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
-                                        <div className="card">
-                                            <div className="card-body">
-                                                <img src="/assets/image/catalog.png" className='w-100' alt="" />
-                                                <h5>Толстовки</h5>
+                                            <div className="cardsHeader">
+                                                <img src="/assets/image/1.png" alt="" className="w-100" />
+                                                <div className="icon icon-heart"></div>
+                                            </div>
+                                            <div className="cardsBody">
+                                                <div className="top">
+                                                    <button className="btn first">Футболка “Marell” </button>
+                                                    <button className="btn"><img src="/assets/icon/cardBag.svg" alt="" /></button>
+                                                </div>
+                                                <div className="bottom">
+                                                    <div className=''>
+                                                        <h5>RUB</h5>
+                                                        <h4>1600 P</h4>
+                                                    </div>
+                                                    <div className=''>
+                                                        <h5>AMARELL</h5>
+                                                        <h4>94</h4>
+                                                    </div>
+                                                    <div className='d-flex align-items-center'>
+                                                        <i className="icon icon-star mr-1"></i>
+                                                        <i className="icon icon-star mr-1"></i>
+                                                        <i className="icon icon-star mr-1"></i>
+                                                        <i className="icon icon-star mr-1"></i>
+                                                        <i className="icon icon-star"></i>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </Link>
+                                    </div>
+                                    <div className="col-6">
+                                        <div className="cards">
 
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
-                                        <div className="card">
-                                            <div className="card-body">
-                                                <img src="/assets/image/catalog.png" className='w-100' alt="" />
-                                                <h5>Толстовки</h5>
+                                            <div className="cardsHeader">
+                                                <img src="/assets/image/1.png" alt="" className="w-100" />
+                                                <div className="icon icon-heart"></div>
+                                            </div>
+                                            <div className="cardsBody">
+                                                <div className="top">
+                                                    <button className="btn first">Футболка “Marell” </button>
+                                                    <button className="btn"><img src="/assets/icon/cardBag.svg" alt="" /></button>
+                                                </div>
+                                                <div className="bottom">
+                                                    <div className=''>
+                                                        <h5>RUB</h5>
+                                                        <h4>1600 P</h4>
+                                                    </div>
+                                                    <div className=''>
+                                                        <h5>AMARELL</h5>
+                                                        <h4>94</h4>
+                                                    </div>
+                                                    <div className='d-flex align-items-center'>
+                                                        <i className="icon icon-star mr-1"></i>
+                                                        <i className="icon icon-star mr-1"></i>
+                                                        <i className="icon icon-star mr-1"></i>
+                                                        <i className="icon icon-star mr-1"></i>
+                                                        <i className="icon icon-star"></i>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </Link>
+                                    </div>
+                                    <div className="col-6">
+                                        <div className="cards">
 
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
-                                        <div className="card">
-                                            <div className="card-body">
-                                                <img src="/assets/image/catalog.png" className='w-100' alt="" />
-                                                <h5>Свитера</h5>
+                                            <div className="cardsHeader">
+                                                <img src="/assets/image/1.png" alt="" className="w-100" />
+                                                <div className="icon icon-heart"></div>
+                                            </div>
+                                            <div className="cardsBody">
+                                                <div className="top">
+                                                    <button className="btn first">Футболка “Marell” </button>
+                                                    <button className="btn"><img src="/assets/icon/cardBag.svg" alt="" /></button>
+                                                </div>
+                                                <div className="bottom">
+                                                    <div className=''>
+                                                        <h5>RUB</h5>
+                                                        <h4>1600 P</h4>
+                                                    </div>
+                                                    <div className=''>
+                                                        <h5>AMARELL</h5>
+                                                        <h4>94</h4>
+                                                    </div>
+                                                    <div className='d-flex align-items-center'>
+                                                        <i className="icon icon-star mr-1"></i>
+                                                        <i className="icon icon-star mr-1"></i>
+                                                        <i className="icon icon-star mr-1"></i>
+                                                        <i className="icon icon-star mr-1"></i>
+                                                        <i className="icon icon-star"></i>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </Link>
-
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
-                                        <div className="card">
-                                            <div className="card-body">
-                                                <img src="/assets/image/catalog.png" className='w-100' alt="" />
-                                                <h5>Женская</h5>
-                                            </div>
-                                        </div>
-                                    </Link>
-
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
-                                        <div className="card">
-                                            <div className="card-body">
-                                                <img src="/assets/image/catalog.png" className='w-100' alt="" />
-                                                <h5>Детская</h5>
-                                            </div>
-                                        </div>
-                                    </Link>
-
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
-                                        <div className="card">
-                                            <div className="card-body">
-                                                <img src="/assets/image/catalog.png" className='w-100' alt="" />
-                                                <h5>Мужская</h5>
-                                            </div>
-                                        </div>
-                                    </Link>
-
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
-                                        <div className="card">
-                                            <div className="card-body">
-                                                <img src="/assets/image/catalog.png" className='w-100' alt="" />
-                                                <h5>Женская</h5>
-                                            </div>
-                                        </div>
-                                    </Link>
-
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
-                                        <div className="card">
-                                            <div className="card-body">
-                                                <img src="/assets/image/catalog.png" className='w-100' alt="" />
-                                                <h5>Детская</h5>
-                                            </div>
-                                        </div>
-                                    </Link>
-
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
-                                        <div className="card">
-                                            <div className="card-body">
-                                                <img src="/assets/image/catalog.png" className='w-100' alt="" />
-                                                <h5>Мужская</h5>
-                                            </div>
-                                        </div>
-                                    </Link>
-
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
-                                        <div className="card">
-                                            <div className="card-body">
-                                                <img src="/assets/image/catalog.png" className='w-100' alt="" />
-                                                <h5>Женская</h5>
-                                            </div>
-                                        </div>
-                                    </Link>
-
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
-                                        <div className="card">
-                                            <div className="card-body">
-                                                <img src="/assets/image/catalog.png" className='w-100' alt="" />
-                                                <h5>Детская</h5>
-                                            </div>
-                                        </div>
-                                    </Link>
+                                    </div>
                                 </div>
                             </div>
 
@@ -199,11 +229,14 @@ const TShirt = () => {
                         </div>
                     </div>
 
-                    <Esspecially />
 
 
                 </LeftLayout>
 
+                <TShirtPagination/> 
+
+
+                <Esspecially />
             </div>
         </>
     )
