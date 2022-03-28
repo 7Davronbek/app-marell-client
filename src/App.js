@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Man from "./components/Man";
+import Catalog from "./components/Catalog";
 import Main from "./components/Main";
 import Woman from "./components/Woman";
 import PrivateRoom from "./components/PrivateRoom";
@@ -58,7 +58,7 @@ const App = () => {
           <Route exact path="/" component={Main} />
           <Route exact path="/basket" component={Baskets} />
           <Route exact path="/basket/checkout" component={Checkout} />
-          <Route exact path="/man" component={Man} />
+          <Route exact path="/catalog" component={Catalog} />
           <Route exact path="/woman" component={Woman} />
           <Route exact path="/partners" component={Partners} />
 

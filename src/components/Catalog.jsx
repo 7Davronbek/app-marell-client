@@ -1,16 +1,76 @@
-import React from 'react'
-import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css';
+import React, { useEffect, useState } from 'react'
+import EyeAnimation from './EyeAnimation';
 import LeftLayout from './LeftLayout';
 
-const Man = () => {
+const Catalog = () => {
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setIsLoading(false)
+        }, 1000)
+    }, [])
+
+    const [catalog, setCatalog] = useState(false)
     return (
         <>
+            {isLoading ? (
+                <div className="loader">
+                    <div className={`eye cursor text-center `}>
+                        <EyeAnimation />
+                    </div>
+                </div>
+            ) : (
+                ""
+            )}
             <div className="man">
-                
+
                 <LeftLayout>
 
-                    <div className="topNavbar myRadius d-flex align-items-center justify-content-between">
+
+                    <div className="row">
+                        <div className="col-12 zed">
+
+                            <div className="searchWrap shadows positin-relative">
+                                <div onClick={() => setCatalog(!catalog)} className="btn">
+
+                                    ВСЕ <span><img src="/assets/icon/down.svg" alt="" /></span>
+
+
+                                </div>
+                                <input type="text" placeholder='Я ищу...' className="form-control" />
+                                <p><span><img src="/assets/icon/search.svg" alt="" /></span> поиск</p>
+
+
+                                <div onMouseLeave={() => setCatalog(false)} className={`buttonWrap ${catalog ? 'active' : ''}`}>
+                                    <h6>Женская одежда</h6>
+                                    <h6>Мужская одежда</h6>
+                                    <h6>Канцтовары</h6>
+                                    <h6>Продукты для здоровья</h6>
+                                    <h6>Украшения</h6>
+                                    <h6>Косметика</h6>
+                                    <h6>Косметика</h6>
+                                    <h6>Косметика</h6>
+                                    <h6>Косметика</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="cardWrap">
+                        <div className="row">
+                            <div className="col-3">
+                                <div className="card">
+                                    <div className="card-body">
+                                        <img src="/assets/image/catalog.png" className='w-100' alt="" />
+                                        <h5>Одежда</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* <div className="topNavbar myRadius d-flex align-items-center justify-content-between">
                         <div className="d-flex align-items-center leftBtn">
                             <button className="btn">Категории</button>
                             <button className="btn">Фильтр</button>
@@ -185,7 +245,7 @@ const Man = () => {
                         <i className='mr-3'><img src="/assets/image/main33.png" alt="" className="w-100" /></i>
                         <i className='mr-3'><img src="/assets/image/main33.png" alt="" className="w-100" /></i>
                         <i><img src="/assets/image/main33.png" alt="" className="w-100" /></i>
-                    </div>
+                    </div> */}
 
                 </LeftLayout>
 
@@ -194,4 +254,4 @@ const Man = () => {
     )
 }
 
-export default Man
+export default Catalog

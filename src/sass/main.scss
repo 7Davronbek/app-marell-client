@@ -70,6 +70,10 @@ html {
             cursor: pointer;
         }
 
+        .zed {
+            z-index: 99;
+        }
+
         .loader {
             display: flex;
             align-items: center;
@@ -92,6 +96,7 @@ html {
                 0% {
                     transform: rotate(0);
                 }
+
                 30% {
                     transform: rotate(10deg);
                 }
@@ -1577,10 +1582,10 @@ html {
                 border-radius: 8px;
                 padding: 12px 10px;
                 text-align: left;
-                opacity: 0;
-                z-index: -2;
                 transition: all .5s ease-in-out;
                 height: 190px;
+                z-index: 999;
+                opacity: 0;
                 transform: scale(0);
 
                 &::-webkit-scrollbar {
@@ -1603,6 +1608,7 @@ html {
                     line-height: 22px;
                     color: #191B1F;
                     margin-bottom: 10px !important;
+                    cursor: pointer;
                 }
 
                 &.active {
@@ -1621,7 +1627,7 @@ html {
                 text-align: center;
                 color: #FFFFFF;
                 background: #ff2bffa1;
-                border-radius: 5px;
+                border-radius: 0 5px 5px 0;
                 padding: 9px 16px;
                 cursor: pointer;
                 padding: 7px 25px 10px;
@@ -1649,6 +1655,11 @@ html {
                     line-height: 22px;
                     color: #FFFFFF;
                 }
+
+                &:focus {
+                    background: linear-gradient(90deg, rgba(255, 43, 255, 0.45) 0%, rgba(255, 255, 255, 0.05) 100%);
+                    color: #fff
+                }
             }
 
             .btn {
@@ -1661,10 +1672,10 @@ html {
                 align-items: center;
                 background: rgba(14, 236, 236, 0.7);
                 border-radius: 5px;
-                padding: 9px 15px 7px 22px;
+                padding: 9px 15px 7px 30px;
 
                 span {
-                    margin-left: 24px;
+                    margin-left: 45px;
                     transform: translateY(-1px);
                 }
             }
