@@ -82,6 +82,24 @@ html {
             right: 0;
             bottom: 0;
             position: fixed;
+
+            .eye {
+                animation: eyeAnimation 1.5s ease infinite;
+
+            }
+
+            @keyframes eyeAnimation {
+                0% {
+                    transform: rotate(0);
+                }
+                30% {
+                    transform: rotate(10deg);
+                }
+
+                100% {
+                    transform: rotate(-360deg);
+                }
+            }
         }
 
         .myRadius {

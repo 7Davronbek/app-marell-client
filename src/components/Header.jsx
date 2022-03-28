@@ -21,7 +21,7 @@ const Header = (props) => {
                                 </div>
                             </div>
                             <div className="col-12 flex-wrap btnWrap d-flex align-items-center justify-content-between">
-                                <a className='myBtn' href="https://t.me/purecashflow" target='_blank'>CASHFLOW</a>
+                                <a className='myBtn' rel="noreferrer" href="https://t.me/purecashflow" target='_blank'>CASHFLOW</a>
                                 <Link onClick={(e) => e.stopPropagation()} className='myBtn' to="/main">CLOTHES</Link>
                                 <Link onClick={(e) => e.stopPropagation()} className='myBtn ' to="/partners">PARTNERS</Link>
                             </div>

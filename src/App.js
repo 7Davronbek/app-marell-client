@@ -25,6 +25,7 @@ import Faq from "./components/admin/Faq";
 import ActiveOrders from "./components/admin/ActiveOrders";
 import ShoppingHistory from "./components/admin/ShoppingHistory";
 import Checkout from "./components/Checkout";
+import EyeAnimation from "./components/EyeAnimation";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -43,7 +44,9 @@ const App = () => {
     <>
       {isLoading ? (
         <div className="loader">
-          <ScaleLoader color="#FF2CFF" loading={isLoading} />
+        <div className={`eye cursor text-center `}>
+            <EyeAnimation />
+        </div>
         </div>
       ) : (
         ""
@@ -53,8 +56,8 @@ const App = () => {
         <ScrollToTop />
 
         <Switch>
-          <Route exact path="/" component={Header} />
-          <Route exact path="/main" component={Main} />
+          {/* <Route exact path="/" component={Header} /> */}
+          <Route exact path="/" component={Main} />
           <Route exact path="/basket" component={Baskets} />
           <Route exact path="/basket/checkout" component={Checkout} />
           <Route exact path="/man" component={Man} />
