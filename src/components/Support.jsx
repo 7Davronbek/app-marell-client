@@ -17,74 +17,149 @@ const Support = () => {
         <div className="support">
 
             <LeftLayout>
-                <h2>Поддержка</h2>
 
-                <p className="w-50">Подробно опишите возникшую проблему, мы постараемся  помочь вам в кротчайшее время.</p>
+                <div className="row myRow">
+                    <div className="col-5">
+                        <h2>MARELL FAQ</h2>
 
-                <div className="col-12">
-                    <Accordion>
-                        <AccordionItem data-aos='fade-right'>
-                            <AccordionItemHeading>
-                                <AccordionItemButton>
-                                    What harsh truths do you prefer to ignore?
-                                </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                                <p>
-                                    Exercitation in fugiat est ut ad ea cupidatat ut in
-                                    cupidatat occaecat ut occaecat consequat est minim minim
-                                    esse tempor laborum consequat esse adipisicing eu
-                                    reprehenderit enim.
-                                </p>
-                            </AccordionItemPanel>
-                        </AccordionItem>
-                        <AccordionItem data-aos='fade-right'>
-                            <AccordionItemHeading>
-                                <AccordionItemButton>
-                                    Is free will real or just an illusion?
-                                </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                                <p>
-                                    In ad velit in ex nostrud dolore cupidatat consectetur
-                                    ea in ut nostrud velit in irure cillum tempor laboris
-                                    sed adipisicing eu esse duis nulla non.
-                                </p>
-                            </AccordionItemPanel>
-                        </AccordionItem>
+                        <p>Здесь вы найдете ответы на часто задаваемые вопросы о платформе Marell.store.</p>
 
-                        <AccordionItem data-aos='fade-right'>
-                            <AccordionItemHeading>
-                                <AccordionItemButton>
-                                    What harsh truths do you prefer to ignore?
-                                </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                                <p>
-                                    Exercitation in fugiat est ut ad ea cupidatat ut in
-                                    cupidatat occaecat ut occaecat consequat est minim minim
-                                    esse tempor laborum consequat esse adipisicing eu
-                                    reprehenderit enim.
-                                </p>
-                            </AccordionItemPanel>
-                        </AccordionItem>
-                        <AccordionItem data-aos='fade-right'>
-                            <AccordionItemHeading>
-                                <AccordionItemButton>
-                                    Is free will real or just an illusion?
-                                </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                                <p>
-                                    In ad velit in ex nostrud dolore cupidatat consectetur
-                                    ea in ut nostrud velit in irure cillum tempor laboris
-                                    sed adipisicing eu esse duis nulla non.
-                                </p>
-                            </AccordionItemPanel>
-                        </AccordionItem>
+                        <Accordion>
+                            <AccordionItem>
+                                <AccordionItemHeading>
+                                    <AccordionItemButton>
+                                        Что такое Marell.store?
+                                        <i className="icon icon-info"></i>
+                                    </AccordionItemButton>
+                                </AccordionItemHeading>
+                                <AccordionItemPanel>
+                                    <h6>
+                                        Exercitation in fugiat est ut ad ea cupidatat ut in
+                                        cupidatat occaecat ut occaecat consequat est minim minim
+                                        esse tempor laborum consequat esse adipisicing eu
+                                        reprehenderit enim.
+                                    </h6>
+                                </AccordionItemPanel>
+                            </AccordionItem>
+                            <AccordionItem>
+                                <AccordionItemHeading>
+                                    <AccordionItemButton>
+                                        Для кого предназначена платформа Marell.store?
+                                        <i className="icon icon-info"></i>
+                                    </AccordionItemButton>
+                                </AccordionItemHeading>
+                                <AccordionItemPanel>
+                                    <h6>
+                                        In ad velit in ex nostrud dolore cupidatat consectetur
+                                        ea in ut nostrud velit in irure cillum tempor laboris
+                                        sed adipisicing eu esse duis nulla non.
+                                    </h6>
+                                </AccordionItemPanel>
+                            </AccordionItem>
 
-                    </Accordion>
+                            <AccordionItem>
+                                <AccordionItemHeading>
+                                    <AccordionItemButton>
+                                        Важен ли мой опыт и возраст для участия?
+                                        <i className="icon icon-info"></i>
+                                    </AccordionItemButton>
+                                </AccordionItemHeading>
+                                <AccordionItemPanel>
+                                    <h6>
+                                        Плащадка  Marell.store для лиц старше 18 лет.
+                                    </h6>
 
+                                    <h6 className="mt-4">Ваш опыт неважен, главное чтобы вы были активным человеком. Чем больше активность, тем выше заработок.</h6>
+                                </AccordionItemPanel>
+                            </AccordionItem>
+
+                            <AccordionItem>
+                                <AccordionItemHeading>
+                                    <AccordionItemButton>
+                                        Для кого предназначена платформа Marell.store?
+                                        <i className="icon icon-info"></i>
+                                    </AccordionItemButton>
+                                </AccordionItemHeading>
+                                <AccordionItemPanel>
+                                    <h6>
+                                        In ad velit in ex nostrud dolore cupidatat consectetur
+                                        ea in ut nostrud velit in irure cillum tempor laboris
+                                        sed adipisicing eu esse duis nulla non.
+                                    </h6>
+                                </AccordionItemPanel>
+                            </AccordionItem>
+
+                            <AccordionItem>
+                                <AccordionItemHeading>
+                                    <AccordionItemButton>
+                                        Для кого предназначена платформа Marell.store?
+                                        <i className="icon icon-info"></i>
+                                    </AccordionItemButton>
+                                </AccordionItemHeading>
+                                <AccordionItemPanel>
+                                    <h6>
+                                        In ad velit in ex nostrud dolore cupidatat consectetur
+                                        ea in ut nostrud velit in irure cillum tempor laboris
+                                        sed adipisicing eu esse duis nulla non.
+                                    </h6>
+                                </AccordionItemPanel>
+                            </AccordionItem>
+
+                            <AccordionItem>
+                                <AccordionItemHeading>
+                                    <AccordionItemButton>
+                                        Для кого предназначена платформа Marell.store?
+                                        <i className="icon icon-info"></i>
+                                    </AccordionItemButton>
+                                </AccordionItemHeading>
+                                <AccordionItemPanel>
+                                    <h6>
+                                        In ad velit in ex nostrud dolore cupidatat consectetur
+                                        ea in ut nostrud velit in irure cillum tempor laboris
+                                        sed adipisicing eu esse duis nulla non.
+                                    </h6>
+                                </AccordionItemPanel>
+                            </AccordionItem>
+
+                        </Accordion>
+
+                    </div>
+
+                    <div className="col-7">
+                        <div className="top">
+                            <button className="btn">Доставка и Оплата</button>
+                            <button className="btn">Условия Возврата</button>
+                            <button className="btn">СотрудничествоОплата</button>
+                        </div>
+
+                        <div className="middle">
+                            <h4>Способы получить свой заказ в России и СНГ:</h4>
+
+
+                            <h4>•	Курьерская доставка (без примерки) по Москве в пределах МКАД</h4>
+
+                            <h4>•	Доставка курьерской службой СДЭК в пункт выдачи
+                                Курьерская доставка по Москве в пределах МКАД
+                                Стоимость: 350 рублей</h4>
+
+                            <h4>Способ оплаты: банковской картой (заказ отправляем при 100% оплате)</h4>
+
+                            <h4>Если у вас возникли вопросы, напишите в диалоговое окно раздела «Поддержка». Наши специалисты помогут вам в кротчайшие сроки.</h4>
+
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+
+                        </div>
+                    </div>
                 </div>
 
                 {/* 

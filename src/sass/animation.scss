@@ -33,6 +33,14 @@
         -webkit-mask-image: url("../assets/navbar11.svg");
     }
 
+    &.icon-info {
+        mask-image: url("../assets/info.svg");
+        -webkit-mask-image: url("../assets/info.svg");
+        width: 25px;
+        height: 25px;
+        background: #0EECEC;
+    }
+
     &.icon-amarell {
         mask-image: url("../assets/amarell.svg");
         -webkit-mask-image: url("../assets/amarell.svg");
