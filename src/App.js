@@ -4,7 +4,6 @@ import Catalog from "./components/Catalog";
 import Main from "./components/Main";
 import Woman from "./components/Woman";
 import PrivateRoom from "./components/PrivateRoom";
-import Partners from "./components/Partners";
 import Support from "./components/Support";
 import LogIn from "./components/LogIn";
 import SignIn from "./components/SignIn";
@@ -27,6 +26,7 @@ import EyeAnimation from "./components/EyeAnimation";
 import Clothes from "./pages/catalog/Clothes";
 import ForMan from "./pages/catalog/ForMan";
 import TShirt from "./pages/catalog/TShirt";
+import Brands from "./components/Brands";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -68,7 +68,7 @@ const App = () => {
           <Route exact path="/catalog/clothes/for-man/t-shirt" component={TShirt} />
 
           <Route exact path="/woman" component={Woman} />
-          <Route exact path="/partners" component={Partners} />
+          <Route exact path="/brands" component={Brands} />
 
           <Route exact path="/support" component={Support} />
           <Route exact path="/support/partnership" component={Patrnership} />

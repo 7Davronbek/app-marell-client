@@ -1,5 +1,4 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect, useState } from 'react'
 import LeftLayout from './LeftLayout'
 import {
     Accordion,
@@ -11,10 +10,28 @@ import {
 
 
 import 'react-accessible-accordion/dist/fancy-example.css';
+import EyeAnimation from './EyeAnimation';
 
 const Support = () => {
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setIsLoading(false)
+        }, 1000)
+    }, [])
+
     return (
         <div className="support">
+            {isLoading ? (
+                <div className="loader">
+                    <div className={`eye cursor text-center `}>
+                        <EyeAnimation />
+                    </div>
+                </div>
+            ) : (
+                ""
+            )}
 
             <LeftLayout>
 
@@ -158,6 +175,25 @@ const Support = () => {
                             <br />
                             <br />
 
+                        </div>
+
+                        <div className="bottom">
+                            <div className="bottomCard">
+                            <div className="admin_text">
+                                    <span><img src="/assets/image/marellMini2.png" alt="" /></span>
+                                    <h3>Подробно опишите возникшую проблему и оставьте контакт для связи. Мы постараемся помочь вам в кротчайшее время.</h3>
+                                </div>
+                                <div className="user_text">
+                                    <h3>Не приходят реферальные </h3>
+                                    <div className="circle"></div>
+                                </div>
+                            </div>
+
+                            <div className="main_text">
+                                <input type="text" placeholder='|' className="form-control" />
+                                <span><img src="/assets/icon/telegram.svg" alt="" /></span>
+                                <span><img src="/assets/icon/file.svg" alt="" /></span>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -3349,103 +3349,36 @@ html {
 
         .partners {
 
-            .myRadius {
-                &.pinks {
-                    &::before {
-                        left: 0;
-                    }
-                }
+            .myRow {
+                margin-top: 40px;
             }
+            
+            .swiper {
+                padding: 15px;
 
-            .myCard {
-                position: relative;
-
-                .cardBody {
-                    padding: 0 24px 24px;
-
-                    .topBtn {
-                        font-weight: bold;
-                        font-size: 16px;
-                        line-height: 20px;
-                        color: #FFFFFF;
-                        background: rgba(153, 162, 213, 0.08);
-                        backdrop-filter: blur(16px);
-                        border-radius: 8px;
-                        width: 124px;
-                        height: 44px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        margin: 0 auto 23px;
-
-                        @media(max-width: 550px) {
-                            font-size: 10px;
-                            line-height: 12px;
-                            width: 85px;
-                            height: 35px;
-                            margin-bottom: 15px;
-                        }
-                    }
-
-                    h6 {
-                        font-weight: 600;
-                        font-size: 14px;
-                        line-height: 17px;
-                        color: #758089;
-
-                        @media(max-width: 550px) {
-                            font-size: 8px;
-                            line-height: 10px;
-                        }
-                    }
-
-                    h5 {
-                        margin-top: 3px;
-                        font-weight: bold;
-                        font-size: 15px;
-                        line-height: 19px;
-                        color: #F9FAFC;
-
-                        @media(max-width: 550px) {
-                            font-size: 7px;
-                            line-height: 9px;
-                        }
-                    }
-
-                    .bottomBtn {
-
-                        .btn {
-                            width: 32px;
-                            height: 32px;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            border-radius: 50%;
-                            background: #FF2BFF;
-
-                            &:nth-child(1) {
-                                background: rgba(153, 162, 213, 0.08);
-                                backdrop-filter: blur(16px);
-                            }
-                        }
-
-                        @media(max-width: 550px) {
-                            transform: scale(0.8) translateX(15px);
-                        }
-
-                        @media(max-width: 400px) {
-                            transform: scale(0.75) translateX(6px);
-                        }
-                    }
-
-                    @media(max-width: 550px) {
-                        padding: 0 12px 15px;
-                    }
+                .swiper-wrapper {
+                    padding: 11px;
                 }
-            }
 
-            @media(max-width: 767px) {
-                margin-bottom: 50px;
+                .topImg {
+                    box-shadow: 0 3px 5px #0eecec;
+                    border-radius: 35px;
+                }
+
+                .swiper-slide {
+                    margin-right: 10px;
+                    padding: 3px;
+                }
+
+                .swiper-slide-thumb-active {
+                    box-shadow: 0 3px 5px #0eecec;
+                    border-radius: 20px;
+                    transition: all .4s ease-in-out;
+                }
+
+                .swiper-button-next, .swiper-button-prev {
+                    display: none;
+                }
             }
         }
 
@@ -3771,6 +3704,7 @@ html {
         .support {
 
             .myRow {
+
                 margin-top: 40px;
 
                 .top {
@@ -3830,6 +3764,96 @@ html {
                     &::-webkit-scrollbar-thumb {
                         background: #FF2BFF;
                         border-radius: 15px;
+                    }
+                }
+
+                .bottom {
+                    background: #03060E;
+                    border: 2px solid #FF2BFF;
+                    border-radius: 4px;
+                    margin-top: 40px;
+
+                    .bottomCard {
+                        padding: 20px;
+                        height: 290px;
+                        max-height: 300px;
+                        overflow-y: auto;
+
+                        &::-webkit-scrollbar {
+                            width: 10px;
+                        }
+    
+                        &::-webkit-scrollbar-track {
+                            background: transparent;
+                            background: #ff2bff70;
+                        }
+    
+                        &::-webkit-scrollbar-thumb {
+                            background: #FF2BFF;
+                            border-radius: 15px;
+                        }
+                    }
+
+                    .admin_text {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 20px;
+                        width: 90%;
+
+                        h3 {
+                            font-weight: 700;
+                            font-size: 12px;
+                            line-height: 15px;
+                            color: #FFFFFF;
+                            margin-left: 12px;
+                            background: rgba(14, 236, 236, 0.37);
+                            border-radius: 7px 7px 7px 0;
+                            padding: 7px;
+                        }
+                    }
+
+                    .user_text {
+                        width: 90%;
+                        margin-left: auto;
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 20px;
+                        justify-content: end;
+
+                        h3 {
+                            font-weight: 700;
+                            font-size: 12px;
+                            line-height: 15px;
+                            color: #FFFFFF;
+                            background: rgba(14, 236, 236, 0.37);
+                            border-radius: 7px 7px 0 7px;
+                            padding: 7px;
+                            margin-right: 10px;
+                        }
+
+                        .circle {
+                            width: 40px;
+                            height: 40px;
+                            background-color: #C4C4C4;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    .main_text {
+                        background: rgb(255, 255, 255);
+                        border: 1px solid #FF2BFF;
+                        border-radius: 4px;
+                        display: flex;
+                        align-items: center;
+
+                        input {
+                            border: 0;
+                        }
+                        
+                        span {
+                            margin-right: 25px;
+                            cursor: pointer;
+                        }
                     }
                 }
 

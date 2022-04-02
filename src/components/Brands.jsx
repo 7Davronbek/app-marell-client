@@ -1,14 +1,75 @@
-import React from 'react'
+import React, { useState } from 'react'
 import LeftLayout from './LeftLayout'
+import { FreeMode, Navigation, Thumbs } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 
-const Partners = () => {
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/navigation";
+import "swiper/css/thumbs";
+
+const Brands = () => {
+    const [thumbsSwiper, setThumbsSwiper] = useState(null);
+
     return (
         <>
 
-        <div className="partners position-relative">
-            
-        <LeftLayout>
+            <div className="partners position-relative">
 
+                <LeftLayout>
+
+                    <div className="row myRow">
+                        <div className="col-6">
+                            <Swiper
+                                style={{
+                                    "--swiper-navigation-color": "#fff",
+                                    "--swiper-pagination-color": "#fff",
+                                }}
+                                spaceBetween={10}
+                                navigation={true}
+                                thumbs={{ swiper: thumbsSwiper }}
+                                modules={[FreeMode, Navigation, Thumbs]}
+                                className="mySwiper2"
+                            >
+                                <SwiperSlide className='topImg'>
+                                    <img alt='marell' className='w-100' src="/assets/image/slider.png" />
+                                </SwiperSlide>
+                                <SwiperSlide className='topImg'>
+                                    <img alt='marell' className='w-100' src="/assets/image/slider.png" />
+                                </SwiperSlide>
+                                <SwiperSlide className='topImg'>
+                                    <img alt='marell' className='w-100' src="/assets/image/slider.png" />
+                                </SwiperSlide>
+                            </Swiper>
+                            <Swiper
+                                onSwiper={setThumbsSwiper}
+                                spaceBetween={10}
+                                slidesPerView={3}
+                                freeMode={true}
+                                watchSlidesProgress={true}
+                                modules={[FreeMode, Navigation, Thumbs]}
+                                className="mySwiper"
+                            >
+                                <SwiperSlide>
+                                    <img alt='marell' className='w-100' src="/assets/image/sliderMini.png" />
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <img alt='marell' className='w-100' src="/assets/image/sliderMini.png" />
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <img alt='marell' className='w-100' src="/assets/image/sliderMini.png" />
+                                </SwiperSlide>
+                            </Swiper>
+                        </div>
+                    </div>
+
+
+
+
+
+                    {/* 
             <div className="row pt-5 ">
                 <div className="col-lg-4 col-6 mb-4">
                     <div className="myCard myRadius pinks">
@@ -160,15 +221,15 @@ const Partners = () => {
                     </div>
                 </div>
 
+            </div> */}
+
+                </LeftLayout>
+
             </div>
-
-        </LeftLayout>
-
-        </div>
 
 
         </>
     )
 }
 
-export default Partners
+export default Brands
