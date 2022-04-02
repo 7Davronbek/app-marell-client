@@ -63,6 +63,24 @@ const Brands = () => {
                                 </SwiperSlide>
                             </Swiper>
                         </div>
+
+                        <div className="col-6">
+                            <div className="top">
+                                <div>
+                                    <h1>Футболка “Marell” </h1>
+                                    <div className="d-flex align-items-center mt-1">
+                                        <i className="icon mr-1 icon-star"></i>
+                                        <i className="icon mr-1 icon-star"></i>
+                                        <i className="icon mr-1 icon-star"></i>
+                                        <i className="icon mr-1 icon-star"></i>
+                                        <i className="icon mr-1 icon-star"></i>
+                                        <h2>3.5</h2>
+                                    </div>
+                                </div>
+                                <span><img src="/assets/icon/export.svg" alt="" /></span>
+
+                            </div>
+                        </div>
                     </div>
 
 

@@ -3351,6 +3351,26 @@ html {
 
             .myRow {
                 margin-top: 40px;
+
+                .top {
+                    display: flex;
+                    justify-content: space-between;
+
+                    h1 {
+                        font-weight: 700;
+                        font-size: 40px;
+                        line-height: 50px;
+                        color: #FFFFFF;
+                    }
+
+                    h2 {
+                        font-weight: 700;
+                        font-size: 25px;
+                        line-height: 31px;
+                        color: #F9FAFC;
+                        margin-left: 10px;
+                    }
+                }
             }
             
             .swiper {
