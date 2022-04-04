@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import LeftLayout from './LeftLayout'
 import { FreeMode, Navigation, Thumbs } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { TabContent, TabPane, Nav, NavItem, NavLink, Row } from 'reactstrap';
+import classnames from 'classnames';
 
 
 // Import Swiper styles
@@ -9,9 +11,16 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
+import { Link } from 'react-router-dom';
 
 const Brands = () => {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
+
+    const [activeTab, setActiveTab] = useState('1');
+
+    const toggle = tab => {
+        if (activeTab !== tab) setActiveTab(tab);
+    }
 
     return (
         <>
@@ -123,6 +132,86 @@ const Brands = () => {
                                     <p><b>Состав:</b> хлопок 80%, полиэстер 20%</p>
                                 </div>
                             </div>
+                        </div>
+
+                        <div className="col-12">
+                            <Nav tabs className=' myNavs nav-pills nav-justified'>
+                                <NavItem>
+                                    <NavLink
+                                        className={classnames({ active: activeTab === '1' })}
+                                        onClick={() => { toggle('1'); }}
+                                    >
+                                        Описание
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink
+                                        className={classnames({ active: activeTab === '2' })}
+                                        onClick={() => { toggle('2'); }}
+                                    >
+                                        Отзывы
+                                    </NavLink>
+                                </NavItem>
+                            </Nav>
+
+                            <TabContent activeTab={activeTab}>
+
+                                <TabPane tabId="1" className=''>
+                                    <Row className='myRow'>
+                                        <div data-aos='fade-right' className=" col-12 mb-2 px-2">
+                                            <div className="cards">
+
+                                                <p>Акционеры крупнейших компаний, вне зависимости от их уровня, должны быть описаны максимально подробно. Но сделанные на базе интернет-аналитики выводы неоднозначны и будут разоблачены. Разнообразный и богатый опыт говорит нам, что перспективное...</p>
+                                                <h5>Вырез горловины	........................... округлый</h5>
+                                                <h5>Декоративные элементы .............. принт</h5>
+                                                <h5>Любимые герои	.............................. Другие персонажи Дисней</h5>
+                                                <h5>Назначение ......................................	повседневная</h5>
+                                                <h5>Особенности модели .....................	дышащий материал</h5>
+                                                <h5>Покрой ...............................................	свободный</h5>
+                                                <h5>Размер на модели ...........................	L</h5>
+                                                <h5>Рисунок ..............................................	marvel</h5>
+
+                                            </div>
+
+                                            <Link to='#'>Подробнее...</Link>
+                                        </div>
+                                    </Row>
+                                </TabPane>
+                                <TabPane tabId="2" className='   '>
+                                    <Row className='myRow'>
+                                        <div className="card">
+                                            <div className="card-body">
+                                                <div className="topCard">
+                                                    <div>
+                                                        <img src="/assets/icon/user.svg" alt="" />
+                                                    </div>
+                                                    <div>
+                                                        <h2>Иван Иванов</h2>
+                                                        <div className="d-flex align-items-center">
+                                                            <i className="icon icon-star"></i>
+                                                            <i className="icon icon-star"></i>
+                                                            <i className="icon icon-star"></i>
+                                                            <i className="icon icon-star"></i>
+                                                            <i className="icon icon-star"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div className='d-flex align-items-center'>
+                                                        <div className="d-flex align-items-center">
+                                                            <span><img src="/assets/icon/like.svg" alt="" /></span>
+                                                            <h5>0</h5>
+                                                        </div>
+                                                        <div className="d-flex align-items-center">
+                                                            <span><img src="/assets/icon/dislike.svg" alt="" /></span>
+                                                            <h5>0</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Row>
+                                </TabPane>
+
+                            </TabContent>
                         </div>
                     </div>
 
@@ -286,7 +375,7 @@ const Brands = () => {
 
                 </LeftLayout>
 
-            </div>
+            </div >
 
 
         </>
