@@ -3352,6 +3352,43 @@ html {
             .myRow {
                 margin-top: 40px;
 
+                .colorWrap {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin: 15px 0 20px;
+
+                    .left,
+                    .right {
+                        cursor: pointer;
+                    }
+
+                    .btn {
+                        width: 20px;
+                        height: 30px;
+                        border: 1px solid #758089;
+                        border-radius: 5px;
+                        padding: 2px;
+                        background: #FF2BFF;
+
+                        &:nth-child(2), &:nth-child(3) {
+                            background: #B479FF;
+                        }
+
+                        &:nth-child(3), &:nth-child(5) {
+                            background: #0EECEC;
+                        }
+                    }
+                }
+
+                p {
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #758089;
+                    text-align: center;
+                }
+
                 .buttonWrap {
                     display: flex;
                     align-items: center;

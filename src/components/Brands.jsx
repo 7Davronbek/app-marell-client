@@ -108,6 +108,20 @@ const Brands = () => {
                                         <i><img src="/assets/icon/love.svg" alt="" /></i>
                                     </div>
                                 </div>
+
+                                <div className="col-6 pt-5">
+                                    <h4 className='w-50 mx-auto text-center d-block'>Цвета</h4>
+                                    <div className="colorWrap">
+                                        <div className="left"><img src="/assets/icon/left.svg" alt="" /></div>
+                                        <button className="btn"></button>
+                                        <button className="btn"></button>
+                                        <button className="btn"></button>
+                                        <button className="btn"></button>
+                                        <button className="btn"></button>
+                                        <div className="right"><img src="/assets/icon/right.svg" alt="" /></div>
+                                    </div>
+                                    <p><b>Состав:</b> хлопок 80%, полиэстер 20%</p>
+                                </div>
                             </div>
                         </div>
                     </div>
