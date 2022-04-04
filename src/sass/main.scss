@@ -3352,6 +3352,80 @@ html {
             .myRow {
                 margin-top: 40px;
 
+                .buttonWrap {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin: 20px 0;
+
+                    .btn {
+                        font-weight: 600;
+                        font-size: 15px;
+                        line-height: 19px;
+                        color: #FFFFFF;
+                        border: 0.3px solid #0EECEC;
+                        border-radius: 5px;
+                        width: 30px;
+                        height: 40px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+
+                h5 {
+                    font-weight: 600;
+                    font-size: 25px;
+                    line-height: 31px;
+                    color: #FFFFFF;
+                    margin-bottom: 13px !important;
+                }
+
+                .basket {
+                    font-weight: 700;
+                    font-size: 25px;
+                    line-height: 31px;
+                    color: #FFFFFF;
+                    padding: 6px 25px;
+                    background: #ff2bff86;
+                    backdrop-filter: blur(16px);
+                    border-radius: 8px;
+                }
+
+                h4 {
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #758089;
+                    border-bottom: 1px dashed #758089;
+                    ;
+                    padding-bottom: 6px;
+                    display: inline-block;
+                }
+
+                .wrap {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 35px;
+                    justify-content: space-between;
+                    margin-bottom: 10px;
+
+                    h3 {
+                        font-weight: 700;
+                        font-size: 25px;
+                        line-height: 31px;
+                        color: #F9FAFC;
+                    }
+
+                    h6 {
+                        margin-bottom: 8px;
+                        font-weight: 600;
+                        font-size: 25px;
+                        line-height: 31px;
+                        color: #758089;
+                    }
+                }
+
                 .top {
                     display: flex;
                     justify-content: space-between;
@@ -3372,7 +3446,7 @@ html {
                     }
                 }
             }
-            
+
             .swiper {
                 padding: 15px;
 
@@ -3396,7 +3470,8 @@ html {
                     transition: all .4s ease-in-out;
                 }
 
-                .swiper-button-next, .swiper-button-prev {
+                .swiper-button-next,
+                .swiper-button-prev {
                     display: none;
                 }
             }
@@ -3802,12 +3877,12 @@ html {
                         &::-webkit-scrollbar {
                             width: 10px;
                         }
-    
+
                         &::-webkit-scrollbar-track {
                             background: transparent;
                             background: #ff2bff70;
                         }
-    
+
                         &::-webkit-scrollbar-thumb {
                             background: #FF2BFF;
                             border-radius: 15px;
@@ -3869,7 +3944,7 @@ html {
                         input {
                             border: 0;
                         }
-                        
+
                         span {
                             margin-right: 25px;
                             cursor: pointer;

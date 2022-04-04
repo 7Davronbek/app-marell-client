@@ -80,6 +80,35 @@ const Brands = () => {
                                 <span><img src="/assets/icon/export.svg" alt="" /></span>
 
                             </div>
+
+                            <div className="row">
+                                <div className="col-6">
+                                    <div className="wrap">
+                                        <div className=''>
+                                            <h6>RUB</h6>
+                                            <h3>1600 P</h3>
+                                        </div>
+                                        <div>
+                                            <h6>AMARELL</h6>
+                                            <h3>94</h3>
+                                        </div>
+                                    </div>
+
+                                    <h4>Таблица размеров</h4>
+                                    <div className="buttonWrap">
+                                        <button className="btn">XS</button>
+                                        <button className="btn">S</button>
+                                        <button className="btn">M</button>
+                                        <button className="btn">L</button>
+                                        <button className="btn">XL</button>
+                                    </div>
+                                    <h5>Артикул: 585858</h5>
+                                    <div className="d-flex align-items-center justify-content-between   ">
+                                        <button className="btn basket">В корзину</button>
+                                        <i><img src="/assets/icon/love.svg" alt="" /></i>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
