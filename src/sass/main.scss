@@ -3547,12 +3547,36 @@ html {
                 .card {
                     background: linear-gradient(180deg, #191B1F 0%, rgba(25, 27, 31, 0.64) 100%);
                     border-radius: 8px;
+                    padding: 20px 15px;
+
+                    a {
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 22px;
+                        display: flex;
+                        color: #758089;
+                        margin-top: 10px;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 25px;
+                        text-align: left;
+                        color: #FFFFFF;
+                    }
                 }
 
                 .topCard {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
+                    margin-bottom: 20px;
+
+                    .icon-star {
+                        width: 20px;
+                        height: 20px;
+                    }
 
 
                     h2 {
@@ -3560,13 +3584,14 @@ html {
                         font-size: 25px;
                         line-height: 31px;
                         color: #FFFFFF;
+                        margin-bottom: 1px !important;
                     }
 
                     h5 {
                         font-weight: 400;
                         font-size: 12px;
                         line-height: 15px;
-                        margin-bottom: 0 !important;
+                        margin: 0 7px !important;
                         color: #FFFFFF;
                     }
                 }

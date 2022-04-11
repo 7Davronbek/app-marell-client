@@ -179,32 +179,69 @@ const Brands = () => {
                                 </TabPane>
                                 <TabPane tabId="2" className='   '>
                                     <Row className='myRow'>
-                                        <div className="card">
-                                            <div className="card-body">
-                                                <div className="topCard">
-                                                    <div>
-                                                        <img src="/assets/icon/user.svg" alt="" />
-                                                    </div>
-                                                    <div>
-                                                        <h2>Иван Иванов</h2>
-                                                        <div className="d-flex align-items-center">
-                                                            <i className="icon icon-star"></i>
-                                                            <i className="icon icon-star"></i>
-                                                            <i className="icon icon-star"></i>
-                                                            <i className="icon icon-star"></i>
-                                                            <i className="icon icon-star"></i>
+                                        <div className="col-6">
+                                            <div className="card">
+                                                <div className="card-body">
+                                                    <div className="topCard">
+                                                        <div>
+                                                            <img src="/assets/icon/user.svg" alt="" />
+                                                        </div>
+                                                        <div>
+                                                            <h2>Иван Иванов</h2>
+                                                            <div className="d-flex align-items-center">
+                                                                <i className="icon icon-star"></i>
+                                                                <i className="icon icon-star"></i>
+                                                                <i className="icon icon-star"></i>
+                                                                <i className="icon icon-star"></i>
+                                                                <i className="icon icon-star"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div className='d-flex align-items-center'>
+                                                            <div className="d-flex align-items-center">
+                                                                <span><img src="/assets/icon/like.svg" alt="" /></span>
+                                                                <h5>0</h5>
+                                                            </div>
+                                                            <div className="d-flex align-items-center">
+                                                                <span><img src="/assets/icon/dislike.svg" alt="" /></span>
+                                                                <h5>0</h5>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <div className='d-flex align-items-center'>
-                                                        <div className="d-flex align-items-center">
-                                                            <span><img src="/assets/icon/like.svg" alt="" /></span>
-                                                            <h5>0</h5>
+                                                    <p>Акционеры крупнейших компаний, вне зависимости от их уровня, должны быть описаны максимально подробно. Но сделанные на базе интернет-аналитики выводы неоднозначны и будут разоблачены. Разнообразный и богатый опыт говорит нам, что перспективное...</p>
+                                                    <a href="#">Подробнее...</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-6">
+                                            <div className="card">
+                                                <div className="card-body">
+                                                    <div className="topCard">
+                                                        <div>
+                                                            <img src="/assets/icon/user.svg" alt="" />
                                                         </div>
-                                                        <div className="d-flex align-items-center">
-                                                            <span><img src="/assets/icon/dislike.svg" alt="" /></span>
-                                                            <h5>0</h5>
+                                                        <div>
+                                                            <h2>Иван Иванов</h2>
+                                                            <div className="d-flex align-items-center">
+                                                                <i className="icon icon-star"></i>
+                                                                <i className="icon icon-star"></i>
+                                                                <i className="icon icon-star"></i>
+                                                                <i className="icon icon-star"></i>
+                                                                <i className="icon icon-star"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div className='d-flex align-items-center'>
+                                                            <div className="d-flex align-items-center">
+                                                                <span><img src="/assets/icon/like.svg" alt="" /></span>
+                                                                <h5>0</h5>
+                                                            </div>
+                                                            <div className="d-flex align-items-center">
+                                                                <span><img src="/assets/icon/dislike.svg" alt="" /></span>
+                                                                <h5>0</h5>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    <p>Акционеры крупнейших компаний, вне зависимости от их уровня, должны быть описаны максимально подробно. Но сделанные на базе интернет-аналитики выводы неоднозначны и будут разоблачены. Разнообразный и богатый опыт говорит нам, что перспективное...</p>
+                                                    <a href="#">Подробнее...</a>
                                                 </div>
                                             </div>
                                         </div>
