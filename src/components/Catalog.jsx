@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
-import CatalogSecond from './CatalogSecond';
 import EyeAnimation from './EyeAnimation';
 import LeftLayout from './LeftLayout';
 
@@ -140,7 +139,6 @@ const Catalog = () => {
 
             </div>
 
-            <CatalogSecond />
         </>
     )
 }

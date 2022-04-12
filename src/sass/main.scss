@@ -3185,6 +3185,7 @@ html {
                 cursor: pointer;
                 margin-bottom: 50px;
                 margin-right: 0;
+                box-shadow: 0 3px 3px #0eecec;
 
                 .cardsHeader {
                     position: relative;
@@ -3212,7 +3213,6 @@ html {
                 }
 
                 .cardsBody {
-                    display: none;
                     padding: 17px 17px 30px;
 
                     .top {
@@ -3268,7 +3268,6 @@ html {
                 }
 
                 &:hover {
-                    box-shadow: 0 3px 3px #0eecec;
 
                     .cardsHeader {
 

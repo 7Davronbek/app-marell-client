@@ -27,6 +27,9 @@ import Clothes from "./pages/catalog/Clothes";
 import ForMan from "./pages/catalog/ForMan";
 import TShirt from "./pages/catalog/TShirt";
 import Brands from "./components/Brands";
+import CatalogSecond from "./components/CatalogSecond";
+import ViewCatalog from "./pages/ViewCatalog";
+import ViewReviews from "./pages/ViewReviews";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -66,6 +69,9 @@ const App = () => {
           <Route exact path="/catalog/clothes" component={Clothes} />
           <Route exact path="/catalog/clothes/for-man" component={ForMan} />
           <Route exact path="/catalog/clothes/for-man/t-shirt" component={TShirt} />
+          <Route exact path="/catalog/search" component={CatalogSecond} />
+          <Route exact path="/catalog/view" component={ViewCatalog} />
+          <Route exact path="/catalog/view/reviews" component={ViewReviews} />
 
           <Route exact path="/woman" component={Woman} />
           <Route exact path="/brands" component={Brands} />

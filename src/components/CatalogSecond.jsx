@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 import EyeAnimation from './EyeAnimation';
 import LeftLayout from './LeftLayout';
 
@@ -38,7 +39,7 @@ const CatalogSecond = () => {
 
 
                                 </div>
-                                <input type="text" placeholder='Я ищу...' className="form-control" />
+                                <input type="text" value='Футболка Marell ' placeholder='Я ищу...' className="form-control" />
                                 <p><span><img src="/assets/icon/search.svg" alt="" /></span> поиск</p>
 
 
@@ -72,7 +73,7 @@ const CatalogSecond = () => {
                     </div>
 
                     <div className="row mt-5">
-                        <div className="col-4">
+                        <Link to='/catalog/view' className="col-4">
                             <div className="cards">
 
                                 <div className="cardsHeader">
@@ -104,8 +105,8 @@ const CatalogSecond = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-4">
+                        </Link>
+                        <Link to='/catalog/view' className="col-4">
                             <div className="cards">
 
                                 <div className="cardsHeader">
@@ -137,8 +138,8 @@ const CatalogSecond = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-4">
+                        </Link>
+                        <Link to='/catalog/view' className="col-4">
                             <div className="cards">
 
                                 <div className="cardsHeader">
@@ -170,8 +171,8 @@ const CatalogSecond = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-4">
+                        </Link>
+                        <Link to='/catalog/view' className="col-4">
                             <div className="cards">
 
                                 <div className="cardsHeader">
@@ -203,8 +204,8 @@ const CatalogSecond = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-4">
+                        </Link>
+                        <Link to='/catalog/view' className="col-4">
                             <div className="cards">
 
                                 <div className="cardsHeader">
@@ -236,8 +237,8 @@ const CatalogSecond = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-4">
+                        </Link>
+                        <Link to='/catalog/view' className="col-4">
                             <div className="cards">
 
                                 <div className="cardsHeader">
@@ -269,7 +270,7 @@ const CatalogSecond = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
 
 
