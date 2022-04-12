@@ -44,12 +44,15 @@ const ViewCatalog = () => {
                             >
                                 <SwiperSlide className='topImg'>
                                     <img alt='marell' className='w-100' src="/assets/image/slider.png" />
+                                    <i><img src="/assets/image/marellMini2.png" alt="" /></i>
                                 </SwiperSlide>
                                 <SwiperSlide className='topImg'>
                                     <img alt='marell' className='w-100' src="/assets/image/slider.png" />
+                                    <i><img src="/assets/image/marellMini2.png" alt="" /></i>
                                 </SwiperSlide>
                                 <SwiperSlide className='topImg'>
                                     <img alt='marell' className='w-100' src="/assets/image/slider.png" />
+                                    <i><img src="/assets/image/marellMini2.png" alt="" /></i>
                                 </SwiperSlide>
                             </Swiper>
                             <Swiper

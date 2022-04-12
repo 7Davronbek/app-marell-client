@@ -3692,6 +3692,25 @@ html {
                 .topImg {
                     box-shadow: 0 3px 5px #0eecec;
                     border-radius: 35px;
+                    position: relative;
+
+                    i {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        background: rgba(132, 141, 183, 0.44);
+                        backdrop-filter: blur(16px);
+                        width: 66px;
+                        height: 66px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 10px 0 0;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
                 }
 
                 .swiper-slide {
