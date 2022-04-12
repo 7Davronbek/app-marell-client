@@ -3342,6 +3342,92 @@ html {
             }
         }
 
+        .viewReviews {
+            padding: 40px 0;
+
+            .card {
+                background: linear-gradient(180deg, #191B1F 0%, rgba(25, 27, 31, 0.64) 100%);
+                border-radius: 8px;
+                margin-top: 50px;
+                padding: 15px;
+
+                .card-body {
+                    padding-right: 50px;
+                }
+
+                .topCard {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 20px;
+
+                    .icon-star {
+                        width: 20px;
+                        height: 20px;
+                    }
+
+
+                    h2 {
+                        font-weight: 600;
+                        font-size: 25px;
+                        line-height: 31px;
+                        color: #FFFFFF;
+                        margin-bottom: 1px !important;
+                    }
+
+                    h5 {
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 15px;
+                        margin: 0 7px !important;
+                        color: #FFFFFF;
+                    }
+                }
+
+                .imgWrap {
+                    border-radius: 16px;
+                    box-shadow: 0 3px 10px #0eecec;
+                    position: relative;
+
+                    i {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        background: rgba(132, 141, 183, 0.44);
+                        backdrop-filter: blur(16px);
+                        width: 66px;
+                        height: 66px;
+                        display: flex;
+                        align-items: center;
+                        border-radius: 10px 0 0;
+                        justify-content: center;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+            h1 {
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 50px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                color: #FFFFFF;
+                border-radius: 16px;
+                box-shadow: 0 3px 10px rgb(14, 236, 236);
+                width: 240px;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto;
+            }
+        }
+
         .tShirtPagination {
             padding-bottom: 40px;
         }
