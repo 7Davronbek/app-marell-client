@@ -26,10 +26,10 @@ import EyeAnimation from "./components/EyeAnimation";
 import Clothes from "./pages/catalog/Clothes";
 import ForMan from "./pages/catalog/ForMan";
 import TShirt from "./pages/catalog/TShirt";
-import Brands from "./components/Brands";
 import CatalogSecond from "./components/CatalogSecond";
 import ViewCatalog from "./pages/ViewCatalog";
 import ViewReviews from "./pages/ViewReviews";
+import Brands from "./pages/Brands";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
