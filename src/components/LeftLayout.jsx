@@ -76,8 +76,8 @@ const LeftLayout = (props) => {
                                         </div>
                                     </Link>
 
-                                    <Link onClick={() => {setMenu(false)}} to='/woman'>
-                                        <div className={`myCard ${history.location.pathname === '/woman' ? 'active' : ''}`}>
+                                    <Link onClick={() => {setMenu(false)}} to='/career'>
+                                        <div className={`myCard ${history.location.pathname === '/career' ? 'active' : ''}`}>
                                             <div className=""><img src="/assets/icon/amarell.svg" alt="" /></div>
                                             <h5>Карьера</h5>
                                         </div>

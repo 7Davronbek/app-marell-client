@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Catalog from "./components/Catalog";
 import Main from "./components/Main";
-import Woman from "./components/Woman";
 import PrivateRoom from "./components/PrivateRoom";
 import Support from "./components/Support";
 import LogIn from "./components/LogIn";
@@ -31,12 +30,14 @@ import ViewCatalog from "./pages/ViewCatalog";
 import ViewReviews from "./pages/ViewReviews";
 import Brands from "./pages/Brands";
 
+import LeftCareer from "./pages/LeftCareer";
+
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
-      console.clear();
+      // console.clear();
     }, 1000);
   }, []);
 
@@ -48,9 +49,9 @@ const App = () => {
     <>
       {isLoading ? (
         <div className="loader">
-        <div className={`eye cursor text-center `}>
+          <div className={`eye cursor text-center `}>
             <EyeAnimation />
-        </div>
+          </div>
         </div>
       ) : (
         ""
@@ -64,16 +65,19 @@ const App = () => {
           <Route exact path="/" component={Main} />
           <Route exact path="/basket" component={Baskets} />
           <Route exact path="/basket/checkout" component={Checkout} />
-          
+
           <Route exact path="/catalog" component={Catalog} />
           <Route exact path="/catalog/clothes" component={Clothes} />
           <Route exact path="/catalog/clothes/for-man" component={ForMan} />
-          <Route exact path="/catalog/clothes/for-man/t-shirt" component={TShirt} />
+          <Route
+            exact
+            path="/catalog/clothes/for-man/t-shirt"
+            component={TShirt}
+          />
           <Route exact path="/catalog/search" component={CatalogSecond} />
           <Route exact path="/catalog/view" component={ViewCatalog} />
           <Route exact path="/catalog/view/reviews" component={ViewReviews} />
 
-          <Route exact path="/woman" component={Woman} />
           <Route exact path="/brands" component={Brands} />
 
           <Route exact path="/support" component={Support} />
@@ -118,6 +122,9 @@ const App = () => {
             path="/marell-admin/shoping-history"
             component={ShoppingHistory}
           />
+
+          <Route exact path="/career" component={LeftCareer} />
+
         </Switch>
       </Router>
     </>
