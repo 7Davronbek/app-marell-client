@@ -31,6 +31,12 @@ import ViewReviews from "./pages/ViewReviews";
 import Brands from "./pages/Brands";
 
 import LeftCareer from "./pages/LeftCareer";
+import LicniyKabinet from "./pages/LicniyKabinet";
+import OwnBrand from "./pages/OwnBrand";
+import Favorites from "./pages/Favorites";
+import Orders from "./pages/Orders";
+import Finance from "./pages/Finance";
+import Questions from "./pages/Questions";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -124,12 +130,12 @@ const App = () => {
           />
 
           <Route exact path="/career" component={LeftCareer} />
-          <Route exact path="/licniy-kabinet" component={LeftCareer} />
-          <Route exact path="/own-brand" component={LeftCareer} />
-          <Route exact path="/favorives" component={LeftCareer} />
-          <Route exact path="/orders" component={LeftCareer} />
-          <Route exact path="/finance" component={LeftCareer} />
-          <Route exact path="/questions" component={LeftCareer} />
+          <Route exact path="/licniy-kabinet" component={LicniyKabinet} />
+          <Route exact path="/own-brand" component={OwnBrand} />
+          <Route exact path="/favorives" component={Favorites} />
+          <Route exact path="/orders" component={Orders} />
+          <Route exact path="/finance" component={Finance} />
+          <Route exact path="/questions" component={Questions} />
 
         </Switch>
       </Router>

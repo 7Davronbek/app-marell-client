@@ -4351,79 +4351,93 @@ html {
         .leftCareer {
             padding: 40px 0;
 
-            h1 {
-                font-weight: 700;
-                font-size: 14px;
-                line-height: 18px;
-                color: #FFFFFF;
-            }
-
-            h2 {
-                font-weight: 700;
-                font-size: 14px;
-                line-height: 18px;
-                display: flex;
-                align-items: center;
-                text-align: center;
-                color: #FFFFFF;
-                border: 0.3px solid #ff2bff7a;
-                padding: 0px 7px;
-                margin-left: 80px;
-
-                span {
-                    margin-left: 10px;
-                }
-            }
-
-            .cards {
-                display: flex;
-                align-items: center;
-                background: rgba(255, 255, 255, 0.1);
-                border-radius: 5px;
-                padding: 18px;
-                margin-top: 25px;
-
-                .cardsBody {
-                    display: flex;
-                    align-items: center;
-                    background: #f2f2f213;
-                    border-radius: 5px;
-
-                    h3 {
-                        font-weight: 500;
-                        font-size: 14px;
-                        line-height: 18px;
-                        color: #FFFFFF;
-                    }
-
-                    h4 {
-
-                        font-weight: 400;
-                        font-size: 13px;
-                        line-height: 16px;
-                        color: #717E90;
-
-                    }
-                }
+            .top {
 
                 h1 {
-                    color: rgba(255, 255, 255, 0.6);
-                    margin-bottom: 12px !important;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 18px;
+                    color: #FFFFFF;
                 }
 
-                .btn {
-                    font-weight: 600;
+                h2 {
+                    font-weight: 700;
                     font-size: 14px;
-                    line-height: 16px;
-                    border-radius: 5px;
-                    box-shadow: -4px 0 6px #0eecec6e;
+                    line-height: 18px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
                     color: #FFFFFF;
-                    width: 170px;
-                    text-align: left;
-                    padding: 8px 10px;
+                    border: 0.3px solid #ff2bff7a;
+                    padding: 0px 7px;
+                    margin-left: 80px;
 
                     span {
-                        font-weight: 400;
+                        margin-left: 10px;
+                    }
+                }
+
+                .cards {
+                    display: flex;
+                    align-items: center;
+                    background: rgba(255, 255, 255, 0.1);
+                    border-radius: 5px;
+                    padding: 18px;
+                    margin-top: 25px;
+
+                    .cardsBody {
+                        display: flex;
+                        align-items: center;
+                        background: #f2f2f213;
+                        border-radius: 5px;
+                        padding: 10px 10px 10px 20px;
+
+                        .btn {}
+
+                        h3 {
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 18px;
+                            color: #FFFFFF;
+                        }
+
+                        h4 {
+
+                            font-weight: 400;
+                            font-size: 13px;
+                            line-height: 16px;
+                            color: #717E90;
+                            margin-top: 3px;
+
+                        }
+                    }
+
+                    h1 {
+                        color: rgba(255, 255, 255, 0.6);
+                        margin-bottom: 12px !important;
+                    }
+
+                    .btn {
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 16px;
+                        border-radius: 5px;
+                        box-shadow: -4px 0 6px #0eecec6e;
+                        color: #FFFFFF;
+                        text-align: left;
+                        padding: 8px 10px;
+                        width: auto !important;
+                        display: flex;
+                        align-items: center;
+
+                        h1 {
+                            margin-bottom: 0 !important;
+                        }
+
+                        span {
+                            font-weight: 400;
+                            margin-right: 3px;
+                        }
                     }
                 }
             }
