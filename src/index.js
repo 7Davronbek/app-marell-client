@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import App from './App';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "swiper/css";
+import "swiper/css/navigation";
 import './sass/main.scss';
 import './sass/admin.scss'
 import { Provider } from 'react-redux';

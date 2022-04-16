@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import AliceCarousel from 'react-alice-carousel';
 import BenefitOffers from './BenefitOffers';
 import BestSeller from './BestSeller';
 import LeftLayout from './LeftLayout';
 import Reviews from './Reviews';
+
+import { Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const Main = () => {
     const [catalog, setCatalog] = useState(false)
@@ -43,22 +45,74 @@ const Main = () => {
                     </div>
 
                     <div className="row">
-                        <div className="col-12 " >
+                        <div className="col-12">
                             <div className="mainHeader">
 
-                                <AliceCarousel className='myCarousel' responsive={{
-                                    0: {
-                                        items: 1
-                                    }
-                                }} mouseTracking autoPlay={true} autoPlayInterval={3500} disableDotsControls={true} infinite={true} >
-
-                                    <div className="carouselWrap ">
-                                        <div className="myCard">
-                                            <img src="/assets/image/mainHeader.png" alt="" className="w-100" />
+                                <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+                                    <SwiperSlide>
+                                        <div className="carouselWrap ">
+                                            <div className="myCard">
+                                                <img src="/assets/image/mainHeader.png" alt="" className="w-100" />
+                                            </div>
                                         </div>
-                                    </div>
-
-                                </AliceCarousel>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div className="carouselWrap ">
+                                            <div className="myCard">
+                                                <img src="/assets/image/mainHeader.png" alt="" className="w-100" />
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div className="carouselWrap ">
+                                            <div className="myCard">
+                                                <img src="/assets/image/mainHeader.png" alt="" className="w-100" />
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div className="carouselWrap ">
+                                            <div className="myCard">
+                                                <img src="/assets/image/mainHeader.png" alt="" className="w-100" />
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div className="carouselWrap ">
+                                            <div className="myCard">
+                                                <img src="/assets/image/mainHeader.png" alt="" className="w-100" />
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div className="carouselWrap ">
+                                            <div className="myCard">
+                                                <img src="/assets/image/mainHeader.png" alt="" className="w-100" />
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div className="carouselWrap ">
+                                            <div className="myCard">
+                                                <img src="/assets/image/mainHeader.png" alt="" className="w-100" />
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div className="carouselWrap ">
+                                            <div className="myCard">
+                                                <img src="/assets/image/mainHeader.png" alt="" className="w-100" />
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div className="carouselWrap ">
+                                            <div className="myCard">
+                                                <img src="/assets/image/mainHeader.png" alt="" className="w-100" />
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                </Swiper>
 
                             </div>
                         </div>
