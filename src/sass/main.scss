@@ -1708,7 +1708,7 @@ html {
             .mainHeader {
                 margin-top: 50px;
 
-                .swiper-button-next{
+                .swiper-button-next {
                     top: 50% !important;
                     transform: translateY(-50%);
                     right: -20px;
@@ -1719,7 +1719,7 @@ html {
                     }
                 }
 
-                .swiper-button-prev{
+                .swiper-button-prev {
                     top: 50% !important;
                     transform: translateY(-50%);
                     left: -20px;
@@ -1767,7 +1767,7 @@ html {
                     }
                 }
 
-                .swiper-button-next{
+                .swiper-button-next {
                     position: absolute;
                     top: -70px;
                     right: 0;
@@ -1800,7 +1800,7 @@ html {
                     }
                 }
 
-                .swiper-button-prev{
+                .swiper-button-prev {
                     position: absolute;
                     top: -70px;
                     right: 65px;
@@ -1971,9 +1971,9 @@ html {
 
             .swiper {
                 padding: 10px 0 !important;
-            } 
+            }
 
-            .swiper-button-prev{
+            .swiper-button-prev {
                 top: 130px !important;
                 left: 0px !important;
                 transform: translateY(-50%) !important;
@@ -1984,7 +1984,7 @@ html {
                 }
             }
 
-            .swiper-button-next{
+            .swiper-button-next {
                 top: 130px !important;
                 right: 0px !important;
                 transform: translateY(-50%) !important;
@@ -2664,7 +2664,7 @@ html {
                 }
             }
 
-            .swiper-button-next{
+            .swiper-button-next {
                 position: absolute;
                 top: -70px;
                 right: 0;
@@ -2695,6 +2695,7 @@ html {
                         font-size: 18px;
                         color: #fff;
                     }
+
                     @media(max-width: 992px) {
                         width: 50px;
                         height: 50px;
@@ -2702,7 +2703,7 @@ html {
                 }
             }
 
-            .swiper-button-prev{
+            .swiper-button-prev {
                 position: absolute;
                 top: -70px;
                 right: 65px;
@@ -2733,6 +2734,7 @@ html {
                         height: 18px;
                         background-image: url(../assets/arrowLeft.svg);
                     }
+
                     @media(max-width: 992px) {
                         width: 50px;
                         height: 50px;
@@ -2896,7 +2898,7 @@ html {
         .esspecially {
             padding-bottom: 40px;
 
-            .swiper-button-next{
+            .swiper-button-next {
                 position: absolute;
                 top: -70px;
                 right: 0;
@@ -2939,7 +2941,7 @@ html {
                 }
             }
 
-            .swiper-button-prev{
+            .swiper-button-prev {
                 position: absolute;
                 top: -70px;
                 right: 65px;
@@ -4322,7 +4324,7 @@ html {
                 }
 
                 .cardsBody {
-                    padding: 0 10px 20px ;
+                    padding: 0 10px 20px;
                     display: none;
                     transition: all .4s linear;
 
@@ -4341,6 +4343,87 @@ html {
 
                     .cardsBody {
                         display: block;
+                    }
+                }
+            }
+        }
+
+        .leftCareer {
+            padding: 40px 0;
+
+            h1 {
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 18px;
+                color: #FFFFFF;
+            }
+
+            h2 {
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 18px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                color: #FFFFFF;
+                border: 0.3px solid #ff2bff7a;
+                padding: 0px 7px;
+                margin-left: 80px;
+
+                span {
+                    margin-left: 10px;
+                }
+            }
+
+            .cards {
+                display: flex;
+                align-items: center;
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 5px;
+                padding: 18px;
+                margin-top: 25px;
+
+                .cardsBody {
+                    display: flex;
+                    align-items: center;
+                    background: #f2f2f213;
+                    border-radius: 5px;
+
+                    h3 {
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 18px;
+                        color: #FFFFFF;
+                    }
+
+                    h4 {
+
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 16px;
+                        color: #717E90;
+
+                    }
+                }
+
+                h1 {
+                    color: rgba(255, 255, 255, 0.6);
+                    margin-bottom: 12px !important;
+                }
+
+                .btn {
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 16px;
+                    border-radius: 5px;
+                    box-shadow: -4px 0 6px #0eecec6e;
+                    color: #FFFFFF;
+                    width: 170px;
+                    text-align: left;
+                    padding: 8px 10px;
+
+                    span {
+                        font-weight: 400;
                     }
                 }
             }

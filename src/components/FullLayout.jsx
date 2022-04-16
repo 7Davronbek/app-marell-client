@@ -145,10 +145,6 @@ const FullLayout = (props) => {
                                     </Link>
                                 </div>
 
-                                <Link onClick={() => { setMenu(false) }} to='/private-office'>
-                                    <h4 className={` ${history.location.pathname === '/private-office' ? 'active' : ''}`}>ЛИЧНЫЙ КАБИНЕТ</h4>
-                                </Link>
-
                             </div>
                         </div>
 
