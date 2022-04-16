@@ -1828,7 +1828,8 @@ html {
                         }
 
                         &::after {
-                            display: none;
+                            font-size: 18px;
+                            color: #fff;
                         }
                     }
                 }
@@ -1968,20 +1969,30 @@ html {
         .bestSeller {
             padding-bottom: 80px;
 
-            .alice-carousel__wrapper {
-                padding: 10px !important;
-            }
+            .swiper {
+                padding: 10px 0 !important;
+            } 
 
             .swiper-button-prev{
                 top: 130px !important;
-                left: -35px !important;
+                left: 0px !important;
                 transform: translateY(-50%) !important;
+
+                &::after {
+                    font-size: 18px;
+                    color: #fff;
+                }
             }
 
             .swiper-button-next{
                 top: 130px !important;
-                right: -35px !important;
+                right: 0px !important;
                 transform: translateY(-50%) !important;
+
+                &::after {
+                    font-size: 18px;
+                    color: #fff;
+                }
             }
 
             .cards {
@@ -2021,7 +2032,7 @@ html {
                                 font-size: 16px;
                                 line-height: 20px;
                                 color: #FFFFFF;
-                                padding: 12px 30px;
+                                padding: 12px 15px;
                             }
 
                             &:nth-child(2) {
@@ -2681,9 +2692,9 @@ html {
                     }
 
                     &::after {
-                        display: none;
+                        font-size: 18px;
+                        color: #fff;
                     }
-
                     @media(max-width: 992px) {
                         width: 50px;
                         height: 50px;
@@ -2704,6 +2715,11 @@ html {
                 background: rgba(153, 162, 213, 0.04);
                 backdrop-filter: blur(16px);
 
+                &::after {
+                    font-size: 18px;
+                    color: #fff;
+                }
+
                 span {
                     width: 54px;
                     height: 54px;
@@ -2717,11 +2733,6 @@ html {
                         height: 18px;
                         background-image: url(../assets/arrowLeft.svg);
                     }
-
-                    &::after {
-                        display: none;
-                    }
-
                     @media(max-width: 992px) {
                         width: 50px;
                         height: 50px;
@@ -2917,7 +2928,8 @@ html {
                     }
 
                     &::after {
-                        display: none;
+                        font-size: 18px;
+                        color: #fff;
                     }
 
                     @media(max-width: 992px) {
@@ -2959,7 +2971,8 @@ html {
                     }
 
                     &::after {
-                        display: none;
+                        font-size: 18px;
+                        color: #fff;
                     }
 
                     @media(max-width: 992px) {

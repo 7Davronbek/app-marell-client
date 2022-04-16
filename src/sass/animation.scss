@@ -43,6 +43,11 @@
         -webkit-mask-image: url("../assets/widjet.svg");
     }
 
+    &.icon-heartBig {
+        mask-image: url("../assets/heart.svg");
+        -webkit-mask-image: url("../assets/heart.svg");
+    }
+
     &.icon-car {
         mask-image: url("../assets/car.svg");
         -webkit-mask-image: url("../assets/car.svg");
@@ -51,11 +56,17 @@
     &.icon-money {
         mask-image: url("../assets/money.svg");
         -webkit-mask-image: url("../assets/money.svg");
+
+        width: 20px;
+        height: 20px;
     }
 
     &.icon-faq {
         mask-image: url("../assets/faq.svg");
         -webkit-mask-image: url("../assets/faq.svg");
+
+        width: 15px;
+        height: 24px;
     }
 
     &.icon-info {

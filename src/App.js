@@ -124,6 +124,12 @@ const App = () => {
           />
 
           <Route exact path="/career" component={LeftCareer} />
+          <Route exact path="/licniy-kabinet" component={LeftCareer} />
+          <Route exact path="/own-brand" component={LeftCareer} />
+          <Route exact path="/favorives" component={LeftCareer} />
+          <Route exact path="/orders" component={LeftCareer} />
+          <Route exact path="/finance" component={LeftCareer} />
+          <Route exact path="/questions" component={LeftCareer} />
 
         </Switch>
       </Router>
