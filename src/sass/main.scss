@@ -3710,7 +3710,7 @@ html {
 
 
             .swiper {
-                padding: 15px;
+                padding: 0 15px;
 
                 .swiper-wrapper {
                     padding: 11px;
@@ -3720,6 +3720,13 @@ html {
                     box-shadow: 0 3px 5px #0eecec;
                     border-radius: 35px;
                     position: relative;
+
+                    height: 400px;
+                    padding: 10px;
+                    
+                    img {
+                        height: 100%;
+                    }
 
                     i {
                         position: absolute;
@@ -3736,6 +3743,7 @@ html {
 
                         img {
                             width: 100%;
+                            height: auto;
                         }
                     }
                 }

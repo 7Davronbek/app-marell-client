@@ -160,7 +160,7 @@ const ViewCatalog = () => {
                             <TabContent activeTab={activeTab}>
 
                                 <TabPane tabId="1" className=''>
-                                    <Row className='myRow'>
+                                    <Row className='myRows mt-4'>
                                         <div data-aos='fade-right' className=" col-12 mb-2 px-2">
                                             <div className="cards">
 
@@ -181,7 +181,7 @@ const ViewCatalog = () => {
                                     </Row>
                                 </TabPane>
                                 <TabPane tabId="2" className='   '>
-                                    <Row className='myRow'>
+                                    <Row className='myRows mt-4'>
                                         <div className="col-6">
                                             <div className="card">
                                                 <div className="card-body">
