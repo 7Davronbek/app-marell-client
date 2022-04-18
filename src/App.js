@@ -136,7 +136,6 @@ const App = () => {
           <Route exact path="/orders" component={Orders} />
           <Route exact path="/finance" component={Finance} />
           <Route exact path="/questions" component={Questions} />
-
         </Switch>
       </Router>
     </>
