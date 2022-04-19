@@ -47,7 +47,34 @@ const LeftCareer = () => {
           </div>
 
           <div className="row bottom">
-            
+            <div className="col-4 left">
+              <h1>| Командные бонусы</h1>
+              <div className="myCards">
+                <div className="cardsLeft">
+                  <h6>1%</h6>
+                </div>
+                <div className="">
+                  <div className="cardsRight blue">
+                    <div className="d-flex align-items-center justify-content-between">
+                      <h5>Текущий процент</h5>
+                      <h5>1%</h5>
+                    </div>
+                  </div>
+                  <div className="cardsRight">
+                    <div className="d-flex align-items-center justify-content-between">
+                      <h5>ЛО</h5>
+                      <h5>00.00 AMARELL </h5>
+                    </div>
+                  </div>
+                  <div className="cardsRight pink">
+                    <div className="d-flex align-items-center justify-content-between">
+                      <h5>Следующий процент</h5>
+                      <h5>2%</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </FullLayout>
