@@ -61,6 +61,14 @@
         height: 20px;
     }
 
+    &.icon-down {
+        mask-image: url("../assets/down.svg");
+        -webkit-mask-image: url("../assets/down.svg");
+
+        width: 14px;
+        height: 13px;
+    }
+
     &.icon-faq {
         mask-image: url("../assets/faq.svg");
         -webkit-mask-image: url("../assets/faq.svg");

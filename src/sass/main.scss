@@ -4468,7 +4468,52 @@ html {
                         background: rgba(255, 255, 255, 0.1);
                         box-shadow: inset 0px 0px 12px #0EECEC;
 
-                        .cardsLeft {}
+                        .cardsLeft {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            position: relative;
+
+                            &::after {
+                                content: '';
+                                position: absolute;
+                                width: 2px;
+                                height: 60%;
+                                top: 20%;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                background-color: #E1E1E1;
+                            }
+
+                            h6 {
+                                font-weight: 700;
+                                font-size: 22px;
+                                line-height: 26px;
+                                color: #FFFFFF;
+                                border: 1px solid #0EECEC;
+                                border-radius: 50%;
+                                width: 50px;
+                                height: 50px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+
+                            h3 {
+                                font-weight: 700;
+                                font-size: 22px;
+                                line-height: 26px;
+                                color: #FF2BFF;
+                                border: 2px solid #0EECEC;
+                                border-radius: 50%;
+                                width: 50px;
+                                height: 50px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                margin-top: 40px;
+                            }
+                        }
 
                         .cardsRight {
                             border-radius: 9px;
@@ -4476,6 +4521,14 @@ html {
                             padding: 10px;
                             margin-left: 10px;
                             margin-bottom: 8px;
+                            position: relative;
+
+                            h4 {
+                                font-weight: 400;
+                                font-size: 9px;
+                                line-height: 11px;
+                                color: #0EECEC;
+                            }
 
                             h5 {
                                 font-weight: 700;
@@ -4491,6 +4544,44 @@ html {
                             &.pink {
                                 background: rgba(255, 43, 255, 0.3);
                             }
+
+                            &.active {
+
+                                &::after {
+                                    content: '';
+                                    position: absolute;
+                                    top: 50%;
+                                    transform: translateY(-50%);
+                                    background-color: #E1E1E1;
+                                    width: 33px;
+                                    left: -33px;
+                                    height: 2px;
+                                }
+                            }
+                        }
+                    }
+
+                    .arrow {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        text-align: center;
+                        color: #0EECEC;
+                        background: rgba(255, 255, 255, 0.1);
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        width: 180px;
+                        height: 40px;
+                        margin: 0 auto;
+                        flex-direction: column;
+
+                        .icon-down {
+                            background-color: #fff;
+                        }
+
+                        h3 {
+                            font-weight: 700;
+                            font-size: 12px;
+                            line-height: 14px;
                         }
                     }
                 }
