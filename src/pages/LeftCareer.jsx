@@ -112,6 +112,30 @@ const LeftCareer = () => {
                 <div className="icon icon-down"></div>
               </div>
             </div>
+            <div className="col-7 right">
+              <h2>| Моя команда</h2>
+
+              <div className="cards">
+                <div className="cardsHeader">
+                  <div className="mini">
+                    <h3>5 000</h3>
+                    <h4>Всего людей в команде</h4>
+                  </div>
+                  <div className="mini">
+                    <h3>5 000</h3>
+                    <h4>Всего людей в команде</h4>
+                  </div>
+                  <div className="mini">
+                    <h3>5 000</h3>
+                    <h4>Всего людей в команде</h4>
+                  </div>
+                  <div className="mini">
+                    <h3>5 000</h3>
+                    <h4>Всего людей в команде</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </FullLayout>

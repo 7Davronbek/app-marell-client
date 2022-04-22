@@ -4585,6 +4585,52 @@ html {
                         }
                     }
                 }
+
+                .right {
+                    h2 {
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 20px;
+                        margin-bottom: 25px;
+                        color: #FFFFFF;
+                    }
+
+                    .cards {
+                        background: rgba(255, 255, 255, 0.1);
+                        box-shadow: inset 0px 0px 12px #0EECEC;
+                        border-radius: 5px;
+
+                        .cardsHeader {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            .mini {
+                                background: rgba(255, 255, 255, 0.1);
+                                box-shadow: inset 0px 0px 12px #0EECEC;
+                                border-radius: 5px;
+                                width: 24%;
+
+                                h3 {
+                                    font-weight: 200;
+                                    font-size: 20px;
+                                    line-height: 25px;
+                                    text-align: center;
+                                    color: #FFFFFF;
+                                }
+
+                                h4 {
+                                    font-weight: 500;
+                                    font-size: 13px;
+                                    line-height: 15px;
+                                    align-items: center;
+                                    margin-top: 10px;
+                                    color: rgba(255, 255, 255, 0.6);
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
 
