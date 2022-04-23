@@ -4599,17 +4599,20 @@ html {
                         background: rgba(255, 255, 255, 0.1);
                         box-shadow: inset 0px 0px 12px #0EECEC;
                         border-radius: 5px;
+                        padding: 25px 10px;
 
                         .cardsHeader {
                             display: flex;
                             align-items: center;
                             justify-content: space-between;
+                            margin-bottom: 30px;
 
                             .mini {
                                 background: rgba(255, 255, 255, 0.1);
                                 box-shadow: inset 0px 0px 12px #0EECEC;
                                 border-radius: 5px;
                                 width: 24%;
+                                padding: 10px;
 
                                 h3 {
                                     font-weight: 200;
@@ -4623,8 +4626,8 @@ html {
                                     font-weight: 500;
                                     font-size: 13px;
                                     line-height: 15px;
-                                    align-items: center;
-                                    margin-top: 10px;
+                                    text-align: center;
+                                    margin-top: 7px;
                                     color: rgba(255, 255, 255, 0.6);
                                 }
                             }
