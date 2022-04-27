@@ -165,7 +165,21 @@ const LeftCareer = () => {
                 </div>
 
                 <div className="cardsBottom">
-                  
+                  <div className="left">
+                    <i><img src="/assets/icon/plus.svg" alt="" /></i>
+                    <div className="circle"></div>
+                    <div>
+                      <h1>Username1</h1>
+                      <h2>Уровень: 1</h2>
+                    </div>
+                  </div>
+                  <div className="right ml-auto">
+                    <div>
+                      <h3>50.00 AMARELL</h3>
+                      <h4>ЛО</h4>
+                    </div>
+                    <span><img src="/assets/icon/i.png" alt="" /></span>
+                  </div>
                 </div>
               </div>
             </div>

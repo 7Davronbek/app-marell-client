@@ -4742,6 +4742,24 @@ html {
                                 }
                             }
                         }
+
+                        .cardsBottom {
+                            border: 0.3px solid #FF2BFF;
+                            display: flex;
+                            align-items: center;
+                            border-radius: 5px;
+                            padding: 6px;
+
+                            .left {
+                                display: flex;
+                                align-items: center;
+
+                                .circle {
+                                    background: #0EECEC;
+                                    
+                                }
+                            }
+                        }
                     }
                 }
             }
