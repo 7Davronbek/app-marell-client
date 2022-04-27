@@ -4661,6 +4661,7 @@ html {
                                     .hover {
                                         opacity: 1;
                                         visibility: visible;
+                                        z-index: 99;
                                     }
                                 }
                             }
@@ -4669,13 +4670,76 @@ html {
                         .cardsMid {
                             display: flex;
                             align-items: center;
+                            margin-bottom: 25px;
 
                             .left {
                                 display: flex;
                                 align-items: center;
                                 border: 1px solid #0EECEC;
                                 border-radius: 5px;
-                                padding: 2px;
+                                padding: 2px 2px 2px 5px;
+
+                                .form-control {
+                                    background: transparent;
+                                    border: 0;
+                                    box-shadow: none;
+                                    font-weight: 400;
+                                    font-size: 13px;
+                                    line-height: 15px;
+                                    color: #fff;
+                                }
+
+                                .myBtn {
+                                    background: rgba(14, 236, 236, 0.3);
+                                    border-radius: 5px;
+                                    font-weight: 500;
+                                    font-size: 13px;
+                                    line-height: 15px;
+                                    display: flex;
+                                    align-items: center;
+                                    color: #FFFFFF;
+                                    padding: 9px;
+
+                                    span {
+                                        margin-left: 10px;
+                                    }
+                                }
+                            }
+
+                            .right {
+                                background: #191B1F;
+                                border-radius: 5px;
+                                position: relative;
+                                margin-left: 10px;
+
+                                h5 {
+                                    font-weight: 500;
+                                    font-size: 13px;
+                                    line-height: 15px;
+                                    color: #FFFFFF;
+                                    padding: 8px;
+                                    background: #191B1F;
+                                    cursor: pointer;
+                                }
+
+                                .hiden {
+                                    transition: all .3s ease;
+                                    position: absolute;
+                                    top: 30px;
+                                    opacity: 0;
+                                    visibility: hidden;
+                                    width: 100%;
+                                    padding-top: 10px;
+                                }
+
+                                &:hover {
+
+                                    .hiden {
+                                        opacity: 1;
+                                        visibility: visible;
+                                        z-index: 99;
+                                    }
+                                }
                             }
                         }
                     }

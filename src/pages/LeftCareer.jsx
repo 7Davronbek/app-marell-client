@@ -158,11 +158,14 @@ const LeftCareer = () => {
                   <div className="right">
                     <h5>По дате регистрации</h5>
                     <div className="hiden">
-                      <h5>По дате регистрации</h5>
                       <h5>По имени</h5>
                       <h5>По ЛО</h5>
                     </div>
                   </div>
+                </div>
+
+                <div className="cardsBottom">
+                  
                 </div>
               </div>
             </div>
