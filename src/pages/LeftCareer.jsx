@@ -144,6 +144,26 @@ const LeftCareer = () => {
                     <h4>Общий оборот</h4>
                   </div>
                 </div>
+
+                <div className="cardsMid">
+                  <div className="left">
+                    <i><img src="/assets/icon/search_24.svg" alt="" /></i>
+                    <input type="text" className='form-control' placeholder='Введите ИМЯ/НИК или ID пользоваеля...' />
+                    <div className="d-flex myBtn">
+                      Вернуться
+                      <span><img src="/assets/icon/close.png" alt="" /></span>
+                    </div>
+                  </div>
+
+                  <div className="right">
+                    <h5>По дате регистрации</h5>
+                    <div className="hiden">
+                      <h5>По дате регистрации</h5>
+                      <h5>По имени</h5>
+                      <h5>По ЛО</h5>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

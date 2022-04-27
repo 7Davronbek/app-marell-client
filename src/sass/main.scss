@@ -4665,6 +4665,19 @@ html {
                                 }
                             }
                         }
+
+                        .cardsMid {
+                            display: flex;
+                            align-items: center;
+
+                            .left {
+                                display: flex;
+                                align-items: center;
+                                border: 1px solid #0EECEC;
+                                border-radius: 5px;
+                                padding: 2px;
+                            }
+                        }
                     }
                 }
             }
