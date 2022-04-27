@@ -1,5 +1,12 @@
 import React from 'react'
 import FullLayout from '../components/FullLayout'
+import {
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
+} from 'react-accessible-accordion';
 
 const LeftCareer = () => {
   return (
@@ -164,23 +171,193 @@ const LeftCareer = () => {
                   </div>
                 </div>
 
-                <div className="cardsBottom">
-                  <div className="cardsBottomLeft">
-                    <i><img src="/assets/icon/plus.svg" alt="" /></i>
-                    <div className="circle"></div>
-                    <div>
-                      <h1>Username1</h1>
-                      <h2>Уровень: 1</h2>
-                    </div>
-                  </div>
-                  <div className="cardsBottomRight ml-auto">
-                    <div>
-                      <h3>50.00 AMARELL</h3>
-                      <h4>ЛО</h4>
-                    </div>
-                    <span className='icon icon-info'></span>
-                  </div>
-                </div>
+
+                <Accordion>
+                  <AccordionItem>
+                    <AccordionItemHeading>
+                      <AccordionItemButton>
+
+                        <div className="cardsBottom">
+                          <div className="cardsBottomLeft">
+                            <i><img src="/assets/icon/plus.svg" alt="" /></i>
+                            <div className="circle"></div>
+                            <div>
+                              <h1>Username1</h1>
+                              <h2>Уровень: 1</h2>
+                            </div>
+                          </div>
+                          <div className="cardsBottomRight ml-auto">
+                            <div>
+                              <h3>50.00 AMARELL</h3>
+                              <h4>ЛО</h4>
+                            </div>
+                            <span className='icon icon-info'></span>
+                          </div>
+                        </div>
+
+                      </AccordionItemButton>
+                    </AccordionItemHeading>
+                    <AccordionItemPanel>
+
+                      <div className="cardsBottom inner">
+                        <div className="cardsBottomLeft">
+                          <i><img src="/assets/icon/plus.svg" alt="" /></i>
+                          <div className="circle"></div>
+                          <div>
+                            <h1>Username1</h1>
+                            <h2>Уровень: 1</h2>
+                          </div>
+                        </div>
+                        <div className="cardsBottomRight ml-auto">
+                          <div>
+                            <h3>50.00 AMARELL</h3>
+                            <h4>ЛО</h4>
+                          </div>
+                          <span className='icon icon-info'></span>
+                        </div>
+                      </div>
+
+                    </AccordionItemPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <AccordionItemHeading>
+                      <AccordionItemButton>
+
+                        <div className="cardsBottom">
+                          <div className="cardsBottomLeft">
+                            <i><img src="/assets/icon/plus.svg" alt="" /></i>
+                            <div className="circle"></div>
+                            <div>
+                              <h1>Username1</h1>
+                              <h2>Уровень: 1</h2>
+                            </div>
+                          </div>
+                          <div className="cardsBottomRight ml-auto">
+                            <div>
+                              <h3>50.00 AMARELL</h3>
+                              <h4>ЛО</h4>
+                            </div>
+                            <span className='icon icon-info'></span>
+                          </div>
+                        </div>
+
+                      </AccordionItemButton>
+                    </AccordionItemHeading>
+                    <AccordionItemPanel>
+
+                      <div className="cardsBottom inner">
+                        <div className="cardsBottomLeft">
+                          <i><img src="/assets/icon/plus.svg" alt="" /></i>
+                          <div className="circle"></div>
+                          <div>
+                            <h1>Username1</h1>
+                            <h2>Уровень: 1</h2>
+                          </div>
+                        </div>
+                        <div className="cardsBottomRight ml-auto">
+                          <div>
+                            <h3>50.00 AMARELL</h3>
+                            <h4>ЛО</h4>
+                          </div>
+                          <span className='icon icon-info'></span>
+                        </div>
+                      </div>
+
+                    </AccordionItemPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <AccordionItemHeading>
+                      <AccordionItemButton>
+
+                        <div className="cardsBottom">
+                          <div className="cardsBottomLeft">
+                            <i><img src="/assets/icon/plus.svg" alt="" /></i>
+                            <div className="circle"></div>
+                            <div>
+                              <h1>Username1</h1>
+                              <h2>Уровень: 1</h2>
+                            </div>
+                          </div>
+                          <div className="cardsBottomRight ml-auto">
+                            <div>
+                              <h3>50.00 AMARELL</h3>
+                              <h4>ЛО</h4>
+                            </div>
+                            <span className='icon icon-info'></span>
+                          </div>
+                        </div>
+
+                      </AccordionItemButton>
+                    </AccordionItemHeading>
+                    <AccordionItemPanel>
+
+                      <div className="cardsBottom inner">
+                        <div className="cardsBottomLeft">
+                          <i><img src="/assets/icon/plus.svg" alt="" /></i>
+                          <div className="circle"></div>
+                          <div>
+                            <h1>Username1</h1>
+                            <h2>Уровень: 1</h2>
+                          </div>
+                        </div>
+                        <div className="cardsBottomRight ml-auto">
+                          <div>
+                            <h3>50.00 AMARELL</h3>
+                            <h4>ЛО</h4>
+                          </div>
+                          <span className='icon icon-info'></span>
+                        </div>
+                      </div>
+
+                    </AccordionItemPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <AccordionItemHeading>
+                      <AccordionItemButton>
+
+                        <div className="cardsBottom">
+                          <div className="cardsBottomLeft">
+                            <i><img src="/assets/icon/plus.svg" alt="" /></i>
+                            <div className="circle"></div>
+                            <div>
+                              <h1>Username1</h1>
+                              <h2>Уровень: 1</h2>
+                            </div>
+                          </div>
+                          <div className="cardsBottomRight ml-auto">
+                            <div>
+                              <h3>50.00 AMARELL</h3>
+                              <h4>ЛО</h4>
+                            </div>
+                            <span className='icon icon-info'></span>
+                          </div>
+                        </div>
+
+                      </AccordionItemButton>
+                    </AccordionItemHeading>
+                    <AccordionItemPanel>
+
+                      <div className="cardsBottom inner">
+                        <div className="cardsBottomLeft">
+                          <i><img src="/assets/icon/plus.svg" alt="" /></i>
+                          <div className="circle"></div>
+                          <div>
+                            <h1>Username1</h1>
+                            <h2>Уровень: 1</h2>
+                          </div>
+                        </div>
+                        <div className="cardsBottomRight ml-auto">
+                          <div>
+                            <h3>50.00 AMARELL</h3>
+                            <h4>ЛО</h4>
+                          </div>
+                          <span className='icon icon-info'></span>
+                        </div>
+                      </div>
+
+                    </AccordionItemPanel>
+                  </AccordionItem>
+                </Accordion>
               </div>
             </div>
           </div>

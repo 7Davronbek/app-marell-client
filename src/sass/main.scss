@@ -4743,12 +4743,27 @@ html {
                             }
                         }
 
+                        .accordion__button {
+                            background-color: transparent;
+                            padding: 0;
+
+                            &::before {
+                                display: none;
+                            }
+                        }
+
+                        .accordion__panel {
+                            padding: 20px 0 20px 25px;
+                        }
+
                         .cardsBottom {
                             border: 0.3px solid #FF2BFF;
                             display: flex;
                             align-items: center;
                             border-radius: 5px;
                             padding: 6px;
+                            position: relative;
+                            margin-top: 10px;
 
                             .cardsBottomLeft {
                                 display: flex;
@@ -4801,6 +4816,29 @@ html {
                                     line-height: 15px;
                                     color: rgba(255, 255, 255, 0.6);
                                     margin-top: 9px;
+                                }
+                            }
+
+                            &.inner {
+
+                                &::after {
+                                    content: '';
+                                    position: absolute;
+                                    width: 2px;
+                                    height: 100%;
+                                    background-color: #E1E1E1;
+                                    top: -32px;
+                                    left: -13px;
+                                }
+
+                                &::before {
+                                    content: '';
+                                    position: absolute;
+                                    width: 14px;
+                                    height: 2px;
+                                    background-color: #E1E1E1;
+                                    left: -13px;
+                                    bottom: 30px;
                                 }
                             }
                         }
