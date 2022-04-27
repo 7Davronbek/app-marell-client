@@ -4750,13 +4750,57 @@ html {
                             border-radius: 5px;
                             padding: 6px;
 
-                            .left {
+                            .cardsBottomLeft {
                                 display: flex;
                                 align-items: center;
 
                                 .circle {
                                     background: #0EECEC;
-                                    
+                                    width: 50px;
+                                    height: 50px;
+                                    border-radius: 50%;
+                                    margin: 0 7px
+                                }
+
+                                h1 {
+                                    font-weight: 200;
+                                    font-size: 16px;
+                                    line-height: 20px;
+                                    color: #FFFFFF;
+                                }
+
+                                h2 {
+                                    font-weight: 400;
+                                    margin-top: 9px;
+                                    font-size: 13px;
+                                    line-height: 15px;
+                                    color: rgba(255, 255, 255, 0.6);
+                                    margin-bottom: 0 !important;
+                                }
+                            }
+
+                            .cardsBottomRight {
+                                margin-left: auto;
+                                display: flex;
+                                align-items: center;
+
+                                span {
+                                    margin-left: 15px;
+                                }
+
+                                h3 {
+                                    font-weight: 500;
+                                    font-size: 13px;
+                                    line-height: 15px;
+                                    color: #FFFFFF;
+                                }
+
+                                h4 {
+                                    font-weight: 400;
+                                    font-size: 13px;
+                                    line-height: 15px;
+                                    color: rgba(255, 255, 255, 0.6);
+                                    margin-top: 9px;
                                 }
                             }
                         }
