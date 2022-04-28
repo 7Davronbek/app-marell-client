@@ -3592,13 +3592,14 @@ html {
 
                 .basket {
                     font-weight: 700;
-                    font-size: 23px;
                     line-height: 31px;
                     color: #FFFFFF;
-                    padding: 6px 25px;
                     background: #ff2bff86;
                     backdrop-filter: blur(16px);
                     border-radius: 8px;
+                    font-size: 19px;
+                    padding: 6px 12px;
+                
                 }
 
                 h4 {
@@ -5208,6 +5209,85 @@ html {
                     position: absolute;
                     width: 15px;
                     height: 15px;
+                }
+            }
+        }
+
+        .orders {
+            padding: 40px 0;
+            
+            h1 {
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 31px;
+                color: #FFFFFF;
+            }
+
+            p {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 25px;
+                color: #FFFFFF;
+                background: #0eecec0c;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+
+            .swiper-button-next {
+                right: 0;
+                top: -20px;
+                width: 54px;
+                height: 54px;
+                background-color: #404040d7;
+                border-radius: 8px;
+                border-radius: 50%;
+                top: 37%;
+                right: -1px;
+            
+
+                &::after {
+                    font-size: 18px;
+                    color: #fff;
+                }
+            }
+
+            .swiper-button-prev {
+                right: 60px;
+                left: inherit;
+                top: -20px;
+                width: 54px;
+                height: 54px;
+                background-color: #404040d7;
+                border-radius: 8px;
+                border-radius: 50%;
+                top: 37%;
+                left: -1px;
+
+                &::after {
+                    font-size: 18px;
+                    color: #fff;
+                }
+            }
+
+            .carouselWrap {
+                margin: 8px;
+            }
+
+            .cards {
+
+                p {
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 25px;
+                    color: #0EECEC;
+                    margin-top: 10px;
+                }
+
+                .cardsHeader {
+                    box-shadow: 0 2px 10px #0eecec;
+                    border-radius: 10px;
                 }
             }
         }
