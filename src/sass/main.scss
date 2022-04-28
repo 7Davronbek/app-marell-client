@@ -5108,6 +5108,25 @@ html {
                 border-radius: 10px;
                 padding: 10px;
 
+                p {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 20px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    color: #FFFFFF;
+                    justify-content: center;
+                }
+
+                h1 {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 20px;
+                    margin-bottom: 10px !important;
+                    color: #FFFFFF;
+                }
+
                 label {
                     font-weight: 700;
                     font-size: 13px;
@@ -5156,6 +5175,40 @@ html {
                     }
                 }
 
+            }
+        }
+
+        .favorites {
+            padding: 100px 0 50px;
+
+            .btn {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 25px;
+                color: #FFFFFF;
+                background: rgba(255, 255, 255, 0.1);
+                box-shadow: inset 0px 0px 12px #0eecec;
+                border-radius: 5px;
+                padding: 10px 33px;
+
+                &.pinks {
+                    background: rgba(255, 255, 255, 0.1);
+                    box-shadow: inset 0px 0px 12px #FF2BFF;
+                }
+                
+            }
+
+            .cards {
+                position: relative;
+
+                .icon-heart {
+                    top: 5px;
+                    right: 10px;
+                    background-color: #ff2bff;
+                    position: absolute;
+                    width: 15px;
+                    height: 15px;
+                }
             }
         }
 

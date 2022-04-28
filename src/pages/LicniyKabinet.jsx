@@ -106,7 +106,7 @@ const LicniyKabinet = () => {
                     <input type="password" id='password2' className="form-control" placeholder='Волк с Уолл-стрит' />
                   </div>
                 </div>
-                
+
                 <div className="d-flex align-items">
                   <div className='mr-2'>
                     <label htmlFor="password3">Текущий пароль</label>
@@ -116,6 +116,35 @@ const LicniyKabinet = () => {
                     <button className="btn">Сохранить</button>
                   </div>
                 </div>
+
+              </div>
+
+              <div className="rightCards">
+                <h1>| Адреса доставки</h1>
+
+                <div className="d-flex align-items-center">
+                  <div className="mr-2">
+                    <label htmlFor="index">Индекс</label>
+                    <input type="text" className="form-control" id="index" />
+                  </div>
+                  <div>
+                    <label htmlFor="index2">Адрес</label>
+                    <input type="text" className="form-control" id="index2" />
+                  </div>
+                </div>
+
+                <div className="d-flex align-items-center">
+                  <div className="mr-2">
+                    <label htmlFor="index3">Индекс</label>
+                    <input type="text" className="form-control" id="index3" />
+                  </div>
+                  <div>
+                    <label htmlFor="index4">Адрес</label>
+                    <input type="text" className="form-control" id="index4" />
+                  </div>
+                </div>
+
+                <p>Добавить адрес +</p>
 
               </div>
             </div>
