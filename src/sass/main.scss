@@ -4961,7 +4961,7 @@ html {
                     padding: 14px 0;
                     margin-bottom: 12px;
                 }
-                
+
                 select {
                     font-weight: 700;
                     font-size: 13px;
@@ -4976,6 +4976,186 @@ html {
                         background: linear-gradient(0deg, #ff000033, #ff000033);
                     }
                 }
+            }
+
+            .cardsBottom {
+                background: #0E0F12;
+                box-shadow: 0px 0px 20px #0EECEC;
+                border-radius: 10px;
+                padding: 10px;
+
+                .wrap {
+                    position: relative;
+
+                    .hidens {
+                        position: absolute;
+                        top: 30px;
+                        right: -99px;
+                        background: #1C1E26;
+                        border: 0.3px solid #FF2BFF;
+                        box-sizing: border-box;
+                        border-radius: 0px 0px 5px 5px;
+                        padding: 10px;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: all .3s ease;
+
+                        h4 {
+                            font-weight: 700;
+                            font-size: 13px;
+                            line-height: 16px;
+                            color: #FFFFFF;
+                        }
+                    }
+
+                    &:hover {
+
+                        .hidens {
+                            opacity: 1;
+                            visibility: visible;
+                            z-index: 99;
+                        }
+                    }
+                }
+
+                .bottomCards {
+                    background: rgba(255, 255, 255, 0.1);
+                    border-radius: 5px;
+
+                    .cardsTop {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        box-shadow: inset 0px 0px 12px #FF2BFF;
+                        padding: 10px 5px;
+
+                        &.blue {
+                            background: rgba(255, 255, 255, 0.1);
+                            box-shadow: inset 0px 0px 12px #00FFFF;
+                            margin-top: 20px;
+                        }
+
+
+                        h2 {
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #FFFFFF;
+
+                        }
+
+                        h3 {
+                            background: linear-gradient(90deg, #00FFFF 5.17%, #2FCFFF 20.42%, #8777FF 50.22%, #C737FF 74.57%, #EF0FFF 92.19%, #FF00FF 101.3%);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            background-clip: text;
+                            text-fill-color: transparent;
+                            display: flex;
+                            align-items: center;
+
+                            span {
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 20px;
+                                color: #FFFFFF;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+
+                    .cardsBot {
+                        background: #1C1E26;
+                        border: 0.3px solid #FF2BFF;
+                        box-sizing: border-box;
+                        border-radius: 0px 0px 5px 5px;
+                        padding: 10px 5px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+
+                        .btn {
+                            font-weight: 700;
+                            font-size: 13px;
+                            line-height: 16px;
+                            text-align: center;
+                            color: #FFFFFF;
+                            padding: 10px 20px;
+                            background: rgba(14, 236, 236, 0.7);
+                            border-radius: 3px;
+
+                            &.pinkBtn {
+                                background: rgba(255, 43, 255, 0.5);
+                            }
+                        }
+                    }
+                }
+
+                .icon-info {
+                    background-color: #F50AFF;
+                }
+
+                h1 {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #FFFFFF;
+                }
+            }
+
+            .rightCards {
+                background: #0E0F12;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 10px;
+                padding: 10px;
+
+                label {
+                    font-weight: 700;
+                    font-size: 13px;
+                    line-height: 16px;
+                    color: #717E90;
+                }
+
+
+                label {
+                    font-weight: 700;
+                    font-size: 13px;
+                    line-height: 16px;
+                    color: #717E90;
+                    margin-bottom: 12px;
+                }
+
+                .btn {
+                    font-weight: 700;
+                    font-size: 13px;
+                    line-height: 16px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    background: #0EAAAA;
+                    border-radius: 3.66071px;
+                    width: 100%;
+                    margin-top: 32px;
+                    padding: 8px 35px;
+                }
+
+                .form-control {
+                    font-weight: 700;
+                    font-size: 13px;
+                    line-height: 16px;
+                    border-radius: 5px;
+                    color: #FFFFFF;
+                    padding: 8px;
+                    background: transparent;
+                    box-shadow: none;
+                    margin-bottom: 18px;
+                    background: rgba(218, 218, 218, 0.1);
+                    border-radius: 5px;
+                    border: 0;
+
+                    &::placeholder {
+                        color: #FFFFFF;
+                    }
+                }
+
             }
         }
 
