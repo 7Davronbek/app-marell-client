@@ -43,6 +43,12 @@
         -webkit-mask-image: url("../assets/widjet.svg");
     }
 
+    &.icon-photo {
+        mask-image: url("../assets/add_a_photo.svg");
+        -webkit-mask-image: url("../assets/add_a_photo.svg");
+        background-color: rgba(14, 236, 236, 0.5);;
+    }
+
     &.icon-heartBig {
         mask-image: url("../assets/heart.svg");
         -webkit-mask-image: url("../assets/heart.svg");
