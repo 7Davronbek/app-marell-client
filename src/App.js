@@ -37,6 +37,7 @@ import Favorites from "./pages/Favorites";
 import Orders from "./pages/Orders";
 import Finance from "./pages/Finance";
 import Questions from "./pages/Questions";
+import AdminBrands from "./pages/AdminBrands";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -136,6 +137,8 @@ const App = () => {
           <Route exact path="/orders" component={Orders} />
           <Route exact path="/finance" component={Finance} />
           <Route exact path="/questions" component={Questions} />
+
+          <Route exact path="/admin/brands" component={AdminBrands} />
         </Switch>
       </Router>
     </>
