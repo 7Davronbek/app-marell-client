@@ -5511,6 +5511,137 @@ html {
     .finance {
       padding: 50px 0;
 
+      .tables {
+
+        h1 {
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 20px;
+          color: #FFFFFF;
+          margin-bottom: 18px !important;
+        }
+
+        .cards {
+          background: rgba(255, 255, 255, 0.1);
+          box-shadow: inset 0px 0px 12px #0EECEC;
+          border-radius: 5px;
+          padding: 15px;
+
+          .table {
+            margin-top: 25px;
+
+            tbody {
+              display: flex;
+              flex-direction: column;
+          
+            }
+
+            .first {
+              padding: 0;
+            }
+
+            th {
+              vertical-align: middle;
+              border: 0;
+            }
+
+            tr {
+              border: 0.3px solid #0EECEC;
+              border-radius: 5px;
+              margin-bottom: 25px;
+            }
+
+            .btn {
+              font-weight: 700;
+              font-size: 13px;
+              line-height: 16px;
+              text-align: center;
+              color: #FFFFFF;
+              background: rgba(14, 236, 236, 0.3);
+              border-radius: 5px;
+              padding: 15px 10px;
+            }
+
+            h2 {  
+              font-weight: 700;
+              font-size: 13px;
+              line-height: 11px;
+              color: #FFFFFF;
+              margin-bottom: 4px !important;
+            }
+
+            h3 {
+              font-weight: 500;
+              font-size: 13px;
+              line-height: 11px;
+              color: #717E90;
+            }
+          }
+        }
+      }
+
+      .cardsTop {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        color: #FFFFFF;
+        background: rgba(14, 236, 236, 0.3);
+        width: 100%;
+        padding: 0;
+        border-radius: 5px 5px 0 0;
+        padding: 10px 0;
+        text-align: center;
+      }
+
+      .cardsWrap {
+        background: rgba(242, 242, 242, 0.05);
+        border-radius: 5px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 5px;
+
+        .user {
+          display: flex;
+          align-items: center;
+          padding: 10px 0;
+          cursor: pointer;
+
+          b {
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 12px;
+            color: #FFFFFF;
+            margin: 0 10px;
+          }
+
+          .circle {
+            border-radius: 8px;
+            width: 25px;
+            height: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(14, 236, 236, 0.1);
+
+            &.active {
+              background: #FF2BFF;
+            }
+          }
+
+          span {
+            width: 25px;
+            height: 25px;
+
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+
       .select {
         position: relative;
         border-radius: 5px;

@@ -97,17 +97,169 @@ const Finance = () => {
 
                                         <div className="d-flex">
                                             <div>
-                                                <label htmlFor="sum"></label>
+                                                <label htmlFor="sum">Сумма</label>
                                                 <div className="wrap">
-                                                    <input type="number" placeholder='123132' className="form-control" />
+                                                    <input type="number" id='sum' placeholder='123132' className="form-control" />
                                                     <h4>AMARELL</h4>
+                                                </div>
+                                                <label htmlFor="sum2" className='mt-3'>Никнейм</label>
+                                                <div className="wrap">
+                                                    <input type="text" id='sum2' placeholder='Никнейм' className="form-control" />
+                                                    <h4>AMARELL</h4>
+                                                </div>
+                                                <h5 className='mt-3'>Комиссия: 3%</h5>
+                                            </div>
+
+                                            <div className='cardsWrap'>
+                                                <div className="cardsTop">Получатели</div>
+                                                <div className="user">
+                                                    <span><img src="/assets/image/wolf.png" alt="" /></span>
+                                                    <b>Username111</b>
+                                                    <div className="circle active"><img src="/assets/icon/check.svg" alt="" /></div>
+                                                </div>
+                                                <div className="user">
+                                                    <span><img src="/assets/image/wolf.png" alt="" /></span>
+                                                    <b>Username111</b>
+                                                    <div className="circle"><img src="/assets/icon/plusMini.svg" alt="" /></div>
+                                                </div>
+                                                <div className="user">
+                                                    <span><img src="/assets/image/wolf.png" alt="" /></span>
+                                                    <b>Username111</b>
+                                                    <div className="circle"><img src="/assets/icon/plusMini.svg" alt="" /></div>
                                                 </div>
                                             </div>
                                         </div>
 
+                                        <button className="btn">ПЕРЕВЕСТИ</button>
+
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+
+                    <div className="tables">
+                        <h1>| Последние транзакции</h1>
+                        
+                        <div className="cards">
+                            <table className="table">
+                                <tbody>
+                                    <tr>
+                                        <th className='first'><button className="btn">РЕФЕРАЛЬНЫЙ БОНУС</button></th>
+                                        <th>
+                                            <h2>2021-10-01  07:56:32</h2>
+                                            <h3>Дата</h3>
+                                        </th>
+                                        <th>
+                                            <h2>#485746</h2>
+                                            <h3>Транзакция</h3>
+                                        </th>
+                                        <th>
+                                            <h2>Marell</h2>
+                                            <h3>Никнейм</h3>
+                                        </th>
+                                        <th>
+                                            <h2>AMARELL 100 (12 000р) 10%</h2>
+                                            <h3>Сумма</h3>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th className='first'><button className="btn">РЕФЕРАЛЬНЫЙ БОНУС</button></th>
+                                        <th>
+                                            <h2>2021-10-01  07:56:32</h2>
+                                            <h3>Дата</h3>
+                                        </th>
+                                        <th>
+                                            <h2>#485746</h2>
+                                            <h3>Транзакция</h3>
+                                        </th>
+                                        <th>
+                                            <h2>Marell</h2>
+                                            <h3>Никнейм</h3>
+                                        </th>
+                                        <th>
+                                            <h2>AMARELL 100 (12 000р) 10%</h2>
+                                            <h3>Сумма</h3>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th className='first'><button className="btn">РЕФЕРАЛЬНЫЙ БОНУС</button></th>
+                                        <th>
+                                            <h2>2021-10-01  07:56:32</h2>
+                                            <h3>Дата</h3>
+                                        </th>
+                                        <th>
+                                            <h2>#485746</h2>
+                                            <h3>Транзакция</h3>
+                                        </th>
+                                        <th>
+                                            <h2>Marell</h2>
+                                            <h3>Никнейм</h3>
+                                        </th>
+                                        <th>
+                                            <h2>AMARELL 100 (12 000р) 10%</h2>
+                                            <h3>Сумма</h3>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th className='first'><button className="btn">РЕФЕРАЛЬНЫЙ БОНУС</button></th>
+                                        <th>
+                                            <h2>2021-10-01  07:56:32</h2>
+                                            <h3>Дата</h3>
+                                        </th>
+                                        <th>
+                                            <h2>#485746</h2>
+                                            <h3>Транзакция</h3>
+                                        </th>
+                                        <th>
+                                            <h2>Marell</h2>
+                                            <h3>Никнейм</h3>
+                                        </th>
+                                        <th>
+                                            <h2>AMARELL 100 (12 000р) 10%</h2>
+                                            <h3>Сумма</h3>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th className='first'><button className="btn">РЕФЕРАЛЬНЫЙ БОНУС</button></th>
+                                        <th>
+                                            <h2>2021-10-01  07:56:32</h2>
+                                            <h3>Дата</h3>
+                                        </th>
+                                        <th>
+                                            <h2>#485746</h2>
+                                            <h3>Транзакция</h3>
+                                        </th>
+                                        <th>
+                                            <h2>Marell</h2>
+                                            <h3>Никнейм</h3>
+                                        </th>
+                                        <th>
+                                            <h2>AMARELL 100 (12 000р) 10%</h2>
+                                            <h3>Сумма</h3>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th className='first'><button className="btn">РЕФЕРАЛЬНЫЙ БОНУС</button></th>
+                                        <th>
+                                            <h2>2021-10-01  07:56:32</h2>
+                                            <h3>Дата</h3>
+                                        </th>
+                                        <th>
+                                            <h2>#485746</h2>
+                                            <h3>Транзакция</h3>
+                                        </th>
+                                        <th>
+                                            <h2>Marell</h2>
+                                            <h3>Никнейм</h3>
+                                        </th>
+                                        <th>
+                                            <h2>AMARELL 100 (12 000р) 10%</h2>
+                                            <h3>Сумма</h3>
+                                        </th>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
