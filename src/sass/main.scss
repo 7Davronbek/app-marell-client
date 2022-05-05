@@ -32,6 +32,7 @@ html {
       margin-bottom: 0 !important;
       margin: 0;
     }
+
     .eyeWrap {
       .eyes {
         position: absolute;
@@ -486,11 +487,9 @@ html {
       border-bottom-color: #0ddddd;
       position: relative;
       border-radius: 10px;
-      background: linear-gradient(
-        360deg,
-        #16181b 0%,
-        rgba(22, 24, 27, 0) 70.26%
-      );
+      background: linear-gradient(360deg,
+          #16181b 0%,
+          rgba(22, 24, 27, 0) 70.26%);
       filter: drop-shadow(0px 16px 16px rgba(0, 0, 0, 0.16));
       filter: drop-shadow(0px 16px 16px rgba(0, 0, 0, 0.16));
 
@@ -730,11 +729,9 @@ html {
             right: 0;
             bottom: 0;
             z-index: -1;
-            background: linear-gradient(
-              180deg,
-              #191b1f 0%,
-              rgba(25, 27, 31, 0.64) 100%
-            );
+            background: linear-gradient(180deg,
+                #191b1f 0%,
+                rgba(25, 27, 31, 0.64) 100%);
             opacity: 0.42;
             border-radius: 8px;
             transition: all 0.3s linear;
@@ -1637,11 +1634,9 @@ html {
         }
 
         &:focus {
-          background: linear-gradient(
-            90deg,
-            rgba(255, 43, 255, 0.45) 0%,
-            rgba(255, 255, 255, 0.05) 100%
-          );
+          background: linear-gradient(90deg,
+              rgba(255, 43, 255, 0.45) 0%,
+              rgba(255, 255, 255, 0.05) 100%);
           color: #fff;
         }
       }
@@ -1719,11 +1714,9 @@ html {
             left: -1px;
             bottom: 6%;
             height: 200%;
-            background-image: linear-gradient(
-              360deg,
-              #0dddddd1 0%,
-              #0ddddd0a 99%
-            );
+            background-image: linear-gradient(360deg,
+                #0dddddd1 0%,
+                #0ddddd0a 99%);
           }
 
           &::after {
@@ -1733,11 +1726,9 @@ html {
 
           &.pinks {
             &::before {
-              background-image: linear-gradient(
-                360deg,
-                #ff2bff 0%,
-                #ff2bff0a 99%
-              );
+              background-image: linear-gradient(360deg,
+                  #ff2bff 0%,
+                  #ff2bff0a 99%);
             }
           }
         }
@@ -1841,7 +1832,7 @@ html {
             position: relative;
 
             &:hover {
-              & ~ .bodyContent {
+              &~.bodyContent {
                 display: block;
               }
             }
@@ -1982,11 +1973,9 @@ html {
       }
 
       .cards {
-        background: linear-gradient(
-          360deg,
-          #16181b 0%,
-          rgba(22, 24, 27, 0) 70.26%
-        );
+        background: linear-gradient(360deg,
+            #16181b 0%,
+            rgba(22, 24, 27, 0) 70.26%);
         filter: drop-shadow(0px 16px 16px rgba(0, 0, 0, 0.16));
         border-radius: 16px;
         margin-right: 8px;
@@ -2214,11 +2203,9 @@ html {
           }
 
           h1 {
-            background: linear-gradient(
-              90.38deg,
-              #01ffff -2.58%,
-              #f50aff 99.67%
-            );
+            background: linear-gradient(90.38deg,
+                #01ffff -2.58%,
+                #f50aff 99.67%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -2298,11 +2285,9 @@ html {
           position: relative;
 
           input {
-            background: linear-gradient(
-              90deg,
-              #0eecec 0%,
-              rgba(255, 255, 255, 0.05) 100%
-            );
+            background: linear-gradient(90deg,
+                #0eecec 0%,
+                rgba(255, 255, 255, 0.05) 100%);
             border-radius: 6px;
             box-shadow: 0 2px 8px #0eecec;
             border: 0;
@@ -2345,6 +2330,7 @@ html {
           .cardsBody {
             padding: 15px 6px;
             border-bottom: 1px solid rgba(14, 236, 236, 0.5);
+
             h2 {
               font-weight: 700;
               font-size: 15px;
@@ -2573,11 +2559,9 @@ html {
               z-index: -1;
 
               @media (max-width: 992px) {
-                background: linear-gradient(
-                  180deg,
-                  #191b1f 0%,
-                  rgba(25, 27, 31, 0.64) 100%
-                );
+                background: linear-gradient(180deg,
+                    #191b1f 0%,
+                    rgba(25, 27, 31, 0.64) 100%);
                 opacity: 0.48;
                 box-shadow: 0px 0px 23px #0eecec;
                 padding: 15px 5px;
@@ -2587,11 +2571,9 @@ html {
             &.pinkShadow {
               &::after {
                 @media (max-width: 992px) {
-                  background: linear-gradient(
-                    180deg,
-                    #191b1f 0%,
-                    rgba(25, 27, 31, 0.64) 100%
-                  );
+                  background: linear-gradient(180deg,
+                      #191b1f 0%,
+                      rgba(25, 27, 31, 0.64) 100%);
                   box-shadow: 0px 0px 23px #ff2bff;
                 }
               }
@@ -2610,11 +2592,9 @@ html {
         }
 
         input {
-          background: linear-gradient(
-            90deg,
-            rgba(14, 236, 236, 0.45) 0%,
-            rgba(255, 255, 255, 0) 100%
-          );
+          background: linear-gradient(90deg,
+              rgba(14, 236, 236, 0.45) 0%,
+              rgba(255, 255, 255, 0) 100%);
           border-radius: 6px;
           color: #fff;
           font-weight: bold;
@@ -2627,11 +2607,9 @@ html {
           border-right-color: transparent;
 
           &.pinkText {
-            background: linear-gradient(
-              90deg,
-              #ff2bff 0%,
-              rgba(255, 255, 255, 0) 100%
-            );
+            background: linear-gradient(90deg,
+                #ff2bff 0%,
+                rgba(255, 255, 255, 0) 100%);
           }
 
           &::placeholder {
@@ -2756,7 +2734,7 @@ html {
           position: relative;
 
           &:hover {
-            & ~ .bodyContent {
+            &~.bodyContent {
               display: block;
             }
           }
@@ -3062,11 +3040,9 @@ html {
 
       &.tShirt {
         .cards {
-          background: linear-gradient(
-            360deg,
-            #16181b 0%,
-            rgba(22, 24, 27, 0) 70.26%
-          );
+          background: linear-gradient(360deg,
+              #16181b 0%,
+              rgba(22, 24, 27, 0) 70.26%);
           filter: drop-shadow(0px 16px 16px rgba(0, 0, 0, 0.16));
           border-radius: 16px;
           margin-right: 8px;
@@ -3199,11 +3175,9 @@ html {
       padding-bottom: 200px;
 
       .cards {
-        background: linear-gradient(
-          360deg,
-          #16181b 0%,
-          rgba(22, 24, 27, 0) 70.26%
-        );
+        background: linear-gradient(360deg,
+            #16181b 0%,
+            rgba(22, 24, 27, 0) 70.26%);
         filter: drop-shadow(0px 16px 16px rgba(0, 0, 0, 0.16));
         border-radius: 16px;
         margin-right: 8px;
@@ -3312,11 +3286,9 @@ html {
         height: 50px;
         display: flex;
         align-items: center;
-        background: linear-gradient(
-          180deg,
-          rgba(25, 27, 31, 0.48) 0%,
-          rgba(25, 27, 31, 0.3072) 100%
-        );
+        background: linear-gradient(180deg,
+            rgba(25, 27, 31, 0.48) 0%,
+            rgba(25, 27, 31, 0.3072) 100%);
         border: 2px solid #ff2bff;
         box-sizing: border-box;
         border-radius: 8px;
@@ -3346,11 +3318,9 @@ html {
             font-size: 14px;
             line-height: 18px;
             color: #ffffff;
-            background: linear-gradient(
-              180deg,
-              rgba(25, 27, 31, 0.48) 0%,
-              rgba(25, 27, 31, 0.3072) 100%
-            );
+            background: linear-gradient(180deg,
+                rgba(25, 27, 31, 0.48) 0%,
+                rgba(25, 27, 31, 0.3072) 100%);
             border: 1px solid #ff2bff;
             box-sizing: border-box;
             border-radius: 4px;
@@ -3376,11 +3346,9 @@ html {
       padding: 40px 0;
 
       .card {
-        background: linear-gradient(
-          180deg,
-          #191b1f 0%,
-          rgba(25, 27, 31, 0.64) 100%
-        );
+        background: linear-gradient(180deg,
+            #191b1f 0%,
+            rgba(25, 27, 31, 0.64) 100%);
         border-radius: 8px;
         margin-top: 50px;
         padding: 15px;
@@ -3660,11 +3628,9 @@ html {
         }
 
         .card {
-          background: linear-gradient(
-            180deg,
-            #191b1f 0%,
-            rgba(25, 27, 31, 0.64) 100%
-          );
+          background: linear-gradient(180deg,
+              #191b1f 0%,
+              rgba(25, 27, 31, 0.64) 100%);
           border-radius: 8px;
           padding: 20px 15px;
 
@@ -4309,11 +4275,9 @@ html {
         border-radius: 16px;
         user-select: none;
         padding-bottom: 10px;
-        background: linear-gradient(
-          360deg,
-          #16181b 0%,
-          rgba(22, 24, 27, 0) 70.26%
-        );
+        background: linear-gradient(360deg,
+            #16181b 0%,
+            rgba(22, 24, 27, 0) 70.26%);
         filter: drop-shadow(0px 16px 16px rgba(0, 0, 0, 0.16));
         border-radius: 16px;
         margin-bottom: 15px;
@@ -5029,15 +4993,13 @@ html {
             }
 
             h3 {
-              background: linear-gradient(
-                90deg,
-                #00ffff 5.17%,
-                #2fcfff 20.42%,
-                #8777ff 50.22%,
-                #c737ff 74.57%,
-                #ef0fff 92.19%,
-                #ff00ff 101.3%
-              );
+              background: linear-gradient(90deg,
+                  #00ffff 5.17%,
+                  #2fcfff 20.42%,
+                  #8777ff 50.22%,
+                  #c737ff 74.57%,
+                  #ef0fff 92.19%,
+                  #ff00ff 101.3%);
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
               background-clip: text;
@@ -5366,12 +5328,10 @@ html {
         font-size: 25px;
         line-height: 31px;
         color: #ffffff;
-        background: radial-gradient(
-          50% 50% at 50.09% 50%,
-          rgba(14, 236, 236, 0.2) 0%,
-          rgba(14, 236, 236, 0) 99.99%,
-          rgba(196, 196, 196, 0) 100%
-        );
+        background: radial-gradient(50% 50% at 50.09% 50%,
+            rgba(14, 236, 236, 0.2) 0%,
+            rgba(14, 236, 236, 0) 99.99%,
+            rgba(196, 196, 196, 0) 100%);
         text-align: center;
       }
 
@@ -5635,15 +5595,13 @@ html {
           }
 
           h2 {
-            background: linear-gradient(
-              90deg,
-              #00ffff 5.17%,
-              #2fcfff 20.42%,
-              #8777ff 50.22%,
-              #c737ff 74.57%,
-              #ef0fff 92.19%,
-              #ff00ff 101.3%
-            );
+            background: linear-gradient(90deg,
+                #00ffff 5.17%,
+                #2fcfff 20.42%,
+                #8777ff 50.22%,
+                #c737ff 74.57%,
+                #ef0fff 92.19%,
+                #ff00ff 101.3%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -5659,26 +5617,26 @@ html {
         margin: 44px 0;
 
         .btn {
-            font-weight: 700;
-            font-size: 13px;
-            line-height: 16px;
-            text-align: center;
-            color: #FFFFFF;
-            background: rgba(14, 236, 236, 0.7);
-            border-radius: 5px;
-            display: block;
-            width: 100%;
-            padding: 15px 0;
-            margin: 10px 0;
+          font-weight: 700;
+          font-size: 13px;
+          line-height: 16px;
+          text-align: center;
+          color: #FFFFFF;
+          background: rgba(14, 236, 236, 0.7);
+          border-radius: 5px;
+          display: block;
+          width: 100%;
+          padding: 15px 0;
+          margin: 10px 0;
         }
 
         h5 {
-            font-weight: 700;
-            font-size: 13px;
-            line-height: 16px;
-            color: #FFFFFF;
+          font-weight: 700;
+          font-size: 13px;
+          line-height: 16px;
+          color: #FFFFFF;
         }
-        
+
         .cards {
           background: rgba(255, 255, 255, 0.1);
           box-shadow: inset 0px 0px 12px #0eecec;
@@ -5709,22 +5667,22 @@ html {
             background: transparent;
             border: none;
             box-shadow: none;
-         }
+          }
 
-         .wrap {
+          .wrap {
             border: 0.3px solid #0EECEC;
             border-radius: 5px;
             display: flex;
             align-items: center;
             padding: 5px;
-        }
+          }
 
-         h4 {
+          h4 {
             font-weight: 700;
             font-size: 14px;
             line-height: 16px;
             color: #FFFFFF;
-         }
+          }
         }
       }
     }

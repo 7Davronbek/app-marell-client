@@ -90,7 +90,7 @@ const Finance = () => {
                                         <button className="btn">ВЫВОД</button>
                                     </div>
                                 </div>
-                            
+
                                 <div className="col-5">
                                     <div className="cards">
                                         <h1>| Перевод пользователю</h1>
@@ -104,7 +104,7 @@ const Finance = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                             </div>
