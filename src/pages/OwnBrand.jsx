@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import FullLayout from '../components/FullLayout'
 
 const OwnBrand = () => {
@@ -129,7 +130,9 @@ const OwnBrand = () => {
                                     </div>
                                 </div>
 
-                                <button onClick={() => setCard(true)} className="btn">РАЗМЕСТИТЬ БЕСПЛАТНО <span><img src="/assets/image/miniEye.png" alt="" /></span></button>
+                                <div className="text-right">
+                                    <Link to='/admin/brands' onClick={() => setCard(true)} className="btn d-inline-block ml-auto mx-auto w-auto">РАЗМЕСТИТЬ БЕСПЛАТНО <span><img src="/assets/image/miniEye.png" alt="" /></span></Link>
+                                </div>
 
                             </div>
                         </div>

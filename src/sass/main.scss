@@ -6252,6 +6252,107 @@ html {
     .tovar {
       padding: 40px 0;
 
+      .right {
+        .cards {
+          background: linear-gradient(360deg,
+              #16181b 0%,
+              rgba(22, 24, 27, 0) 70.26%);
+          filter: drop-shadow(0px 16px 16px rgba(0, 0, 0, 0.16));
+          border-radius: 16px;
+          margin-right: 8px;
+          cursor: pointer;
+          padding-bottom: 20px;
+
+          .cardsHeader {
+            position: relative;
+
+            .icon-heart {
+              position: absolute;
+              top: 45px;
+              right: 45px;
+              background-color: #ff2bff;
+            }
+          }
+
+          .cardsBody {
+            padding: 17px 17px 30px;
+            display: block;
+
+            .top {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+
+              .btn {
+                background: rgba(153, 162, 213, 0.08);
+                backdrop-filter: blur(16px);
+                border-radius: 8px;
+
+                &:nth-child(1) {
+                  font-weight: 700;
+                  font-size: 16px;
+                  line-height: 20px;
+                  color: #ffffff;
+                  padding: 12px 30px;
+                }
+
+                &:nth-child(2) {
+                  background: #ff2bff38;
+                  backdrop-filter: blur(16px);
+                }
+              }
+            }
+
+            .bottom {
+              padding-top: 15px;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+
+              .icon {
+                width: 20px;
+                height: 20px;
+              }
+
+              h5 {
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 18px;
+                color: #758089;
+              }
+
+              h4 {
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 19px;
+                color: #f9fafc;
+              }
+            }
+          }
+
+          &:hover {
+            box-shadow: 0 3px 3px #0eecec;
+
+            .cardsHeader {
+              .icon-heart {
+                background-color: #fff;
+              }
+            }
+
+            .cardsBody {
+            }
+          }
+        }
+      }
+
+      .cardWrap {
+        background: rgba(255, 255, 255, 0.1);
+        border: 0.3px solid #FF2BFF;
+        box-shadow: inset 0px 0px 12px #0EECEC;
+        border-radius: 16px;
+        padding: 10px;
+      }
+
       h1 {
         font-weight: 700;
         font-size: 14px;

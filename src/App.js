@@ -36,7 +36,7 @@ import OwnBrand from "./pages/OwnBrand";
 import Favorites from "./pages/Favorites";
 import Orders from "./pages/Orders";
 import Finance from "./pages/Finance";
-import Questions from "./pages/Questions";
+// import Questions from "./pages/Questions";
 import AdminBrands from "./pages/AdminBrands";
 import Tovar from "./pages/Tovar";
 
