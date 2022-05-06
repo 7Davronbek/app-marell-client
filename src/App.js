@@ -38,6 +38,7 @@ import Orders from "./pages/Orders";
 import Finance from "./pages/Finance";
 import Questions from "./pages/Questions";
 import AdminBrands from "./pages/AdminBrands";
+import Tovar from "./pages/Tovar";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -139,6 +140,7 @@ const App = () => {
           <Route exact path="/questions" component={Questions} />
 
           <Route exact path="/admin/brands" component={AdminBrands} />
+          <Route exact path="/admin/tovar" component={Tovar} />
         </Switch>
       </Router>
     </>
