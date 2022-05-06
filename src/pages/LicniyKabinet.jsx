@@ -64,7 +64,7 @@ const LicniyKabinet = () => {
                     <button className="btn pinkBtn">Отменить</button>
                   </div>
 
-                  <div className="cardsTop blue">
+                  <div className="cardsTop ">
                     <h2>12 МЕСЯЦ</h2>
                     <h3><span>53</span> AMARELL</h3>
                   </div>

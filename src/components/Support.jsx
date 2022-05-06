@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import LeftLayout from './LeftLayout'
+// import LeftLayout from './LeftLayout'
 import {
     Accordion,
     AccordionItem,
@@ -11,6 +11,7 @@ import {
 
 import 'react-accessible-accordion/dist/fancy-example.css';
 import EyeAnimation from './EyeAnimation';
+import FullLayout from './FullLayout';
 
 const Support = () => {
     const [isLoading, setIsLoading] = useState(true);
@@ -33,7 +34,7 @@ const Support = () => {
                 ""
             )}
 
-            <LeftLayout>
+            <FullLayout>
 
                 <div className="row myRow">
                     <div className="col-5">
@@ -206,7 +207,7 @@ const Support = () => {
                     <Link className='a' to='/support/partnership'>Сотрудничество</Link>
 
                 </div> */}
-            </LeftLayout>
+            </FullLayout>
 
         </div>
     )

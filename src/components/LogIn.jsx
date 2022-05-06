@@ -32,7 +32,7 @@ const LogIn = () => {
                             <a>Забыл пароль</a>
 
                             <div className="d-flex align-items-center justify-content-center btnWrap">
-                                <Link to='/marell-admin' className="btn nyBtn pink mr-3">Вход</Link>
+                                <Link to='/licniy-kabinet' className="btn nyBtn pink mr-3">Вход</Link>
                             </div>
                         </div>
 

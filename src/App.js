@@ -137,7 +137,7 @@ const App = () => {
           <Route exact path="/favorives" component={Favorites} />
           <Route exact path="/orders" component={Orders} />
           <Route exact path="/finance" component={Finance} />
-          <Route exact path="/questions" component={Questions} />
+          <Route exact path="/questions" component={Support} />
 
           <Route exact path="/admin/brands" component={AdminBrands} />
           <Route exact path="/admin/tovar" component={Tovar} />

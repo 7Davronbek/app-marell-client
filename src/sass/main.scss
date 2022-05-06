@@ -748,6 +748,11 @@ html {
             font-size: 15px;
             line-height: 19px;
             transition: all 0.4s ease-in-out;
+            margin: 10px auto 0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
           }
 
           &.mans {
