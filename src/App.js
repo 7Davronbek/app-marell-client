@@ -42,6 +42,7 @@ import Tovar from "./pages/Tovar";
 import AdminEmployee from "./pages/AdminEmployee";
 import AdminOrders from "./pages/AdminOrders";
 import PageNotFound from "./pages/PageNotFound";
+import Texnik from "./pages/Texnik";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -152,6 +153,7 @@ const App = () => {
 
           
           
+          <Route exact path="/texnik" component={Texnik} />
           <Route component={PageNotFound} />
         </Switch>
       </Router>

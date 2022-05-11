@@ -6465,5 +6465,27 @@ html {
         text-align: center;
       }
     }
+
+    .pageNotFound {
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+
+      h1 {
+        margin: 150px 0 50px !important;
+        text-align: left;
+      }
+
+      p {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 50px;
+        color: #FFFFFF;
+        text-align: left;
+      }
+    }
   }
 }
