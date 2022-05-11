@@ -6310,9 +6310,6 @@ html {
                 background-color: #fff;
               }
             }
-
-            .cardsBody {
-            }
           }
         }
       }
@@ -6448,6 +6445,24 @@ html {
           align-items: center;
           justify-content: center;
         }
+      }
+    }
+
+    .adminEmployee {
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      h5 {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 31px;
+        color: #FFFFFF;
+        margin-top: 30px;
+        width: 50%;
+        text-align: center;
       }
     }
   }

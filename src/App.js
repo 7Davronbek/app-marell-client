@@ -39,6 +39,9 @@ import Finance from "./pages/Finance";
 // import Questions from "./pages/Questions";
 import AdminBrands from "./pages/AdminBrands";
 import Tovar from "./pages/Tovar";
+import AdminEmployee from "./pages/AdminEmployee";
+import AdminOrders from "./pages/AdminOrders";
+import PageNotFound from "./pages/PageNotFound";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -141,6 +144,15 @@ const App = () => {
 
           <Route exact path="/admin/brands" component={AdminBrands} />
           <Route exact path="/admin/tovar" component={Tovar} />
+          <Route exact path="/admin/employee" component={AdminEmployee} />
+          <Route exact path="/admin/client" component={AdminEmployee} />
+          <Route exact path="/admin/orders" component={AdminOrders} />
+          <Route exact path="/admin/support" component={AdminEmployee} />
+          <Route exact path="/admin/user" component={AdminEmployee} />
+
+          
+          
+          <Route component={PageNotFound} />
         </Switch>
       </Router>
     </>
