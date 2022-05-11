@@ -25,11 +25,11 @@ const LogIn = () => {
 
                             <label htmlFor="password">Пароль</label>
                             <div className="inputWrap">
-                                <input  type={passwordShown ? 'text' : 'password'} id='password' className="form-control" />
-                                <div className='miniEye ' onClick={() => {setPasswordShown(!passwordShown)}} ><img src="/assets/icon/miniEye.svg" alt=""/></div>
+                                <input type={passwordShown ? 'text' : 'password'} id='password' className="form-control" />
+                                <div className='miniEye ' onClick={() => { setPasswordShown(!passwordShown) }} ><img src="/assets/icon/miniEye.svg" alt="" /></div>
                             </div>
 
-                            <a>Забыл пароль</a>
+                            <a href='#!'>Забыл пароль</a>
 
                             <div className="d-flex align-items-center justify-content-center btnWrap">
                                 <Link to='/licniy-kabinet' className="btn nyBtn pink mr-3">Вход</Link>

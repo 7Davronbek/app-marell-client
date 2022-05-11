@@ -1,6 +1,14 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import FullLayout from '../components/FullLayout'
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-cards";
+
+// import required modules
+import { EffectCards } from "swiper";
 
 const OwnBrand = () => {
     const [card, setCard] = useState(false)
@@ -13,24 +21,75 @@ const OwnBrand = () => {
                     <h2>Marell.store  - это эффективный и выгодный канал продаж для вашего бренда.</h2>
 
                     <div className="row">
-                        <div className="col-5">
+                        <div className="col-5 overflow-hidden">
 
-                            <div className="leftCards">
-                                <div className="cardsBody">
-                                    <div className="d-flex align-items-center justify-content-around">
+                            <Swiper
+                                effect={"cards"}
+                                grabCursor={true}
+                                modules={[EffectCards]}
+                                className="mySwiper"
+                            >
+                                <SwiperSlide>
 
-                                        <h3>НЕДОСТАТКИ</h3>
-                                        <span><img src="/assets/image/brand.png" alt="" /></span>
+                                    <div className="leftCards">
 
+                                        <div className="cardsBody">
+                                            <div className="d-flex align-items-center justify-content-around">
+
+                                                <h3>НЕДОСТАТКИ</h3>
+                                                <span><img src="/assets/image/brand.png" alt="" /></span>
+
+                                            </div>
+                                            <p>Придется зарабатывать пожизненно</p>
+                                            <p>Не нужно продавать, но продаватся будет </p>
+                                            <p>Придется забыть про поиск работы</p>
+                                            <p>На 20% времени придёт 80% дохода</p>
+                                            <p>Платформа доступна бесплатно и без смс </p>
+
+                                        </div>
                                     </div>
-                                    <p>Придется зарабатывать пожизненно</p>
-                                    <p>Не нужно продавать, но продаватся будет </p>
-                                    <p>Придется забыть про поиск работы</p>
-                                    <p>На 20% времени придёт 80% дохода</p>
-                                    <p>Платформа доступна бесплатно и без смс </p>
+                                </SwiperSlide>
+                                <SwiperSlide>
 
-                                </div>
-                            </div>
+                                    <div className="leftCards">
+
+                                        <div className="cardsBody">
+                                            <div className="d-flex align-items-center justify-content-around">
+
+                                                <h3>НЕДОСТАТКИ</h3>
+                                                <span><img src="/assets/image/brand.png" alt="" /></span>
+
+                                            </div>
+                                            <p>Придется зарабатывать пожизненно</p>
+                                            <p>Не нужно продавать, но продаватся будет </p>
+                                            <p>Придется забыть про поиск работы</p>
+                                            <p>На 20% времени придёт 80% дохода</p>
+                                            <p>Платформа доступна бесплатно и без смс </p>
+
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+
+                                    <div className="leftCards">
+
+                                        <div className="cardsBody">
+                                            <div className="d-flex align-items-center justify-content-around">
+
+                                                <h3>НЕДОСТАТКИ</h3>
+                                                <span><img src="/assets/image/brand.png" alt="" /></span>
+
+                                            </div>
+                                            <p>Придется зарабатывать пожизненно</p>
+                                            <p>Не нужно продавать, но продаватся будет </p>
+                                            <p>Придется забыть про поиск работы</p>
+                                            <p>На 20% времени придёт 80% дохода</p>
+                                            <p>Платформа доступна бесплатно и без смс </p>
+
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                            </Swiper>
 
                         </div>
 
