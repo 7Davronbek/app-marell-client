@@ -135,7 +135,7 @@ const Main = () => {
 
                 <div className="container">
                     <div className="row">
-                        <div className="col-12">
+                        <div  className="col-12 overflow-auto">
 
                             <div className="mainLine">
                                 <div></div>
