@@ -9,10 +9,10 @@ const Reviews = () => {
                     <div className="col-12 text-center">
                         <h1>ОТЗЫВЫ</h1>
                     </div>
-                    <div className="col-lg-6 mt-5">
+                    <div className="col-6 p-2 mt-lg-5 mt-3">
                         <div className='wrap'></div>
                     </div>
-                    <div className="col-lg-6 mt-5">
+                    <div className="col-6 p-2 mt-lg-5 mt-3">
                         <div className='wrap'></div>
                     </div>
                 </div>

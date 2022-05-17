@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
-import Esspecially from '../../components/Esspecially';
+// import Esspecially from '../../components/Esspecially';
 import EyeAnimation from '../../components/EyeAnimation';
 import LeftLayout from '../../components/LeftLayout';
 
@@ -61,7 +61,7 @@ const Clothes = () => {
 
                     <div className="cardWrap">
                         <div className="row">
-                            <div className="col-3">
+                            <div className="col-lg-3 col-5">
                                 <Link to='/catalog' className="card main">
                                     <div className="card-body">
                                         <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -73,11 +73,11 @@ const Clothes = () => {
                                 </Link>
                             </div>
 
-                            <div className="col-9">
+                            <div className="col-lg-9">
                                 <div className="row">
 
 
-                                    <Link to='/catalog/clothes/for-man' className="col-4">
+                                    <Link to='/catalog/clothes/for-man' className="col-lg-4 col-6">
                                         <div className="card">
                                             <div className="card-body">
                                                 <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -86,7 +86,7 @@ const Clothes = () => {
                                         </div>
                                     </Link>
 
-                                    <Link to='/catalog/clothes/for-man' className="col-4">
+                                    <Link to='/catalog/clothes/for-man' className="col-lg-4 col-6">
                                         <div className="card">
                                             <div className="card-body">
                                                 <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -95,7 +95,7 @@ const Clothes = () => {
                                         </div>
                                     </Link>
 
-                                    <Link to='/catalog/clothes/for-man' className="col-4">
+                                    <Link to='/catalog/clothes/for-man' className="col-lg-4 col-6">
                                         <div className="card">
                                             <div className="card-body">
                                                 <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -111,7 +111,7 @@ const Clothes = () => {
                         </div>
                     </div>
 
-                    <Esspecially />
+                    {/* <Esspecially /> */}
 
                 </LeftLayout>
 

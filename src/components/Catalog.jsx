@@ -60,7 +60,7 @@ const Catalog = () => {
 
                     <div className="cardWrap">
                         <div className="row">
-                            <div className="col-3">
+                            <div className="col-lg-3 col-6">
                                 <Link to='/catalog/clothes' className="card">
                                     <div className="card-body">
                                         <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -69,7 +69,7 @@ const Catalog = () => {
                                 </Link>
                             </div>
                             
-                            <Link to='/catalog/clothes' className="col-3">
+                            <Link to='/catalog/clothes' className="col-lg-3 col-6">
                                 <div className="card">
                                     <div className="card-body">
                                         <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -78,7 +78,7 @@ const Catalog = () => {
                                 </div>
                             </Link>
                             
-                            <Link to='/catalog/clothes' className="col-3">
+                            <Link to='/catalog/clothes' className="col-lg-3 col-6">
                                 <div className="card">
                                     <div className="card-body">
                                         <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -87,7 +87,7 @@ const Catalog = () => {
                                 </div>
                             </Link>
                             
-                            <Link to='/catalog/clothes' className="col-3">
+                            <Link to='/catalog/clothes' className="col-lg-3 col-6">
                                 <div className="card">
                                     <div className="card-body">
                                         <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -96,7 +96,7 @@ const Catalog = () => {
                                 </div>
                             </Link>
                             
-                            <Link to='/catalog/clothes' className="col-3">
+                            <Link to='/catalog/clothes' className="col-lg-3 col-6">
                                 <div className="card">
                                     <div className="card-body">
                                         <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -105,7 +105,7 @@ const Catalog = () => {
                                 </div>
                             </Link>
                             
-                            <Link to='/catalog/clothes' className="col-3">
+                            <Link to='/catalog/clothes' className="col-lg-3 col-6">
                                 <div className="card">
                                     <div className="card-body">
                                         <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -114,7 +114,7 @@ const Catalog = () => {
                                 </div>
                             </Link>
                             
-                            <Link to='/catalog/clothes' className="col-3">
+                            <Link to='/catalog/clothes' className="col-lg-3 col-6">
                                 <div className="card">
                                     <div className="card-body">
                                         <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -123,7 +123,7 @@ const Catalog = () => {
                                 </div>
                             </Link>
                             
-                            <Link to='/catalog/clothes' className="col-3">
+                            <Link to='/catalog/clothes' className="col-lg-3 col-6">
                                 <div className="card">
                                     <div className="card-body">
                                         <img src="/assets/image/catalog.png" className='w-100' alt="" />

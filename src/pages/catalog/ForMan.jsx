@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
-import Esspecially from '../../components/Esspecially';
+// import Esspecially from '../../components/Esspecially';
 import EyeAnimation from '../../components/EyeAnimation';
 import LeftLayout from '../../components/LeftLayout';
 
@@ -36,7 +36,7 @@ const ForMan = () => {
                             <div className="searchWrap shadows positin-relative">
                                 <div onClick={() => setCatalog(!catalog)} className="btn">
 
-                                Mужская <span><img src="/assets/icon/down.svg" alt="" /></span>
+                                    Mужская <span><img src="/assets/icon/down.svg" alt="" /></span>
 
 
                                 </div>
@@ -61,7 +61,7 @@ const ForMan = () => {
 
                     <div className="cardWrap">
                         <div className="row">
-                            <div className="col-3 myCol">
+                            <div className="col-lg-3 col-6 myCol">
                                 <Link to='/catalog' className="card main">
                                     <div className="card-body">
                                         <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -82,10 +82,10 @@ const ForMan = () => {
                                 </Link>
                             </div>
 
-                            <div className="col-9">
-                                <div className="row">
+                            <div className="col-lg-9">
+                                <div className="row mt-4 mt-lg-0">
 
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
+                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-lg-3 col-6">
                                         <div className="card">
                                             <div className="card-body">
                                                 <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -94,7 +94,7 @@ const ForMan = () => {
                                         </div>
                                     </Link>
 
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
+                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-lg-3 col-6">
                                         <div className="card">
                                             <div className="card-body">
                                                 <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -103,7 +103,7 @@ const ForMan = () => {
                                         </div>
                                     </Link>
 
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
+                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-lg-3 col-6">
                                         <div className="card">
                                             <div className="card-body">
                                                 <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -112,7 +112,7 @@ const ForMan = () => {
                                         </div>
                                     </Link>
 
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
+                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-lg-3 col-6">
                                         <div className="card">
                                             <div className="card-body">
                                                 <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -121,7 +121,7 @@ const ForMan = () => {
                                         </div>
                                     </Link>
 
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
+                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-lg-3 col-6">
                                         <div className="card">
                                             <div className="card-body">
                                                 <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -130,7 +130,7 @@ const ForMan = () => {
                                         </div>
                                     </Link>
 
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
+                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-lg-3 col-6">
                                         <div className="card">
                                             <div className="card-body">
                                                 <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -139,7 +139,7 @@ const ForMan = () => {
                                         </div>
                                     </Link>
 
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
+                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-lg-3 col-6">
                                         <div className="card">
                                             <div className="card-body">
                                                 <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -148,7 +148,7 @@ const ForMan = () => {
                                         </div>
                                     </Link>
 
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
+                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-lg-3 col-6">
                                         <div className="card">
                                             <div className="card-body">
                                                 <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -157,7 +157,7 @@ const ForMan = () => {
                                         </div>
                                     </Link>
 
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
+                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-lg-3 col-6">
                                         <div className="card">
                                             <div className="card-body">
                                                 <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -166,7 +166,7 @@ const ForMan = () => {
                                         </div>
                                     </Link>
 
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
+                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-lg-3 col-6">
                                         <div className="card">
                                             <div className="card-body">
                                                 <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -175,7 +175,7 @@ const ForMan = () => {
                                         </div>
                                     </Link>
 
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
+                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-lg-3 col-6">
                                         <div className="card">
                                             <div className="card-body">
                                                 <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -184,7 +184,7 @@ const ForMan = () => {
                                         </div>
                                     </Link>
 
-                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-3">
+                                    <Link to='/catalog/clothes/for-man/t-shirt' className="col-lg-3 col-6">
                                         <div className="card">
                                             <div className="card-body">
                                                 <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -199,7 +199,7 @@ const ForMan = () => {
                         </div>
                     </div>
 
-                    <Esspecially />
+                    {/* <Esspecially /> */}
 
 
                 </LeftLayout>
