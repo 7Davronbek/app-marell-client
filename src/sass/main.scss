@@ -2035,6 +2035,10 @@ html {
                     font-size: 18px;
                     color: #fff;
                 }
+
+                @media(max-width: 992px) {
+                    top: 195px !important;
+                }
             }
 
             .swiper-button-next {
@@ -2045,6 +2049,22 @@ html {
                 &::after {
                     font-size: 18px;
                     color: #fff;
+                }
+
+                @media(max-width: 992px) {
+                    top: 195px !important;
+                }
+            }
+
+            .swiperBg {
+                position: absolute;
+                top: -35px;
+                left: 0;
+                transform: scale(1.1);
+                display: none;
+
+                @media(max-width: 767px) {
+                    display: block;
                 }
             }
 
@@ -2122,6 +2142,14 @@ html {
                             color: #f9fafc;
                         }
                     }
+
+                    @media(max-width: 992px) {
+                        display: block;
+                    }
+                }
+
+                @media(max-width: 992px) {
+                    box-shadow: 0 3px 3px #0eecec;
                 }
 
                 &:hover {
@@ -2137,6 +2165,10 @@ html {
                         display: block;
                     }
                 }
+
+                @media(max-width: 767px) {
+                    margin: 0 15px;
+                }
             }
 
             h1 {
@@ -2145,11 +2177,31 @@ html {
                 line-height: 50px;
                 text-align: center;
                 color: #ffffff;
-                margin-bottom: 50px !important;
+                margin-bottom: 60px !important;
+
+                @media(max-width: 767px) {
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 25px;
+                    margin-bottom: 60px !important;
+                }
             }
         }
 
         .benefitOffers {
+
+            .swiperBg {
+                position: absolute;
+                top: -35px;
+                left: 0;
+                transform: scale(1.1);
+                display: none;
+
+                @media(max-width: 767px) {
+                    display: block;
+                }
+            }
+
             h1 {
                 font-weight: 700;
                 font-size: 40px;
@@ -2157,6 +2209,13 @@ html {
                 text-align: center;
                 color: #ffffff;
                 margin-bottom: 50px !important;
+            
+                @media(max-width: 992px) {
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 25px;
+                    text-align: center;
+                }
             }
 
             .cards {
@@ -2167,6 +2226,22 @@ html {
                     position: absolute;
                     right: 35px;
                     top: 35px;
+                }
+            }
+
+            .carouselWrap {
+                display: none;
+
+                @media(max-width: 992px) {
+                    display: block;
+                }
+            }
+            
+            .web {
+                display: block;
+
+                @media(max-width: 992px) {
+                    display: none;
                 }
             }
 
@@ -2181,6 +2256,19 @@ html {
                     height: 270px;
                     border: 1.5px solid #ff2bff;
                     border-radius: 16px;
+
+                    @media(max-width: 992px) {
+                        width: 350px;
+                        margin-right: 10px;
+                    }
+                }
+
+                @media(max-width: 992px) {
+                    overflow: auto;
+                    width: 100%;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    width: 700px;
                 }
             }
         }

@@ -14,16 +14,35 @@ const BestSeller = () => {
                     </div>
 
                     <div className="row">
-                        <div className="col-12">
+                        <div className="col-12 position-relative ">
+                            <div className="swiperBg">
+                                <img src="/assets/image/bgSlider.png" alt="" />
+                            </div>
 
                             <Swiper
                                 navigation={true}
-                                slidesPerView={4}
                                 centeredSlides={false}
                                 spaceBetween={10}
                                 grabCursor={true}
                                 pagination={{
                                     clickable: true,
+                                }}
+                                breakpoints={{
+                                    // when window width is >= 640px
+                                    640: {
+                                        // width: 640,
+                                        slidesPerView: 1,
+                                    },
+                                    // when window width is >= 768px
+                                    767: {
+                                        // width: 768,
+                                        slidesPerView: 2,
+                                    },
+                                    // when window width is >= 768px
+                                    993: {
+                                        // width: 768,
+                                        slidesPerView: 4,
+                                    },
                                 }}
                                 modules={[Pagination]}
                                 className="mySwiper"
