@@ -73,7 +73,7 @@ const CatalogSecond = () => {
                     </div>
 
                     <div className="row mt-5">
-                        <Link to='/catalog/view' className="col-4">
+                        <Link to='/catalog/view' className="col-lg-4 col-6">
                             <div className="cards">
 
                                 <div className="cardsHeader">
@@ -106,7 +106,7 @@ const CatalogSecond = () => {
                                 </div>
                             </div>
                         </Link>
-                        <Link to='/catalog/view' className="col-4">
+                        <Link to='/catalog/view' className="col-lg-4 col-6">
                             <div className="cards">
 
                                 <div className="cardsHeader">
@@ -139,7 +139,7 @@ const CatalogSecond = () => {
                                 </div>
                             </div>
                         </Link>
-                        <Link to='/catalog/view' className="col-4">
+                        <Link to='/catalog/view' className="col-lg-4 col-6">
                             <div className="cards">
 
                                 <div className="cardsHeader">
@@ -172,7 +172,7 @@ const CatalogSecond = () => {
                                 </div>
                             </div>
                         </Link>
-                        <Link to='/catalog/view' className="col-4">
+                        <Link to='/catalog/view' className="col-lg-4 col-6">
                             <div className="cards">
 
                                 <div className="cardsHeader">
@@ -205,7 +205,7 @@ const CatalogSecond = () => {
                                 </div>
                             </div>
                         </Link>
-                        <Link to='/catalog/view' className="col-4">
+                        <Link to='/catalog/view' className="col-lg-4 col-6">
                             <div className="cards">
 
                                 <div className="cardsHeader">
@@ -238,7 +238,7 @@ const CatalogSecond = () => {
                                 </div>
                             </div>
                         </Link>
-                        <Link to='/catalog/view' className="col-4">
+                        <Link to='/catalog/view' className="col-lg-4 col-6">
                             <div className="cards">
 
                                 <div className="cardsHeader">
