@@ -3308,6 +3308,14 @@ html {
                         }
                     }
 
+                    .stars {
+                        display: flex;
+
+                        @media(max-width: 992px) {
+                            display: none !important;
+                        }
+                    }
+
                     .cardsBody {
                         display: none;
                         padding: 17px 17px 30px;
@@ -3328,11 +3336,26 @@ html {
                                     line-height: 20px;
                                     color: #ffffff;
                                     padding: 12px 30px;
+
+                                    @media(max-width: 992px) {
+                                        font-weight: 700;
+                                        font-size: 12px;
+                                        line-height: 15px;
+                                        padding: 10px 12px;
+                                    }
                                 }
 
                                 &:nth-child(2) {
                                     background: #ff2bff38;
                                     backdrop-filter: blur(16px);
+
+                                    img {
+
+                                        @media(max-width: 992px) {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -3353,6 +3376,12 @@ html {
                                 font-size: 14px;
                                 line-height: 18px;
                                 color: #758089;
+
+                                @media(max-width: 992px) {
+                                    font-weight: 600;
+                                    font-size: 10px;
+                                    line-height: 12px;
+                                }
                             }
 
                             h4 {
@@ -3360,7 +3389,23 @@ html {
                                 font-size: 15px;
                                 line-height: 19px;
                                 color: #f9fafc;
+
+                                @media(max-width: 992px) {
+                                    font-weight: 600;
+                                    font-size: 10px;
+                                    line-height: 12px;
+                                }
                             }
+
+                            @media(max-width: 992px) {
+                                justify-content: start;
+                                padding-left: 10px;
+                            }
+                        }
+
+                        @media(max-width: 992px) {
+                            display: block;
+                            padding: 16px 5px;
                         }
                     }
 
@@ -3384,6 +3429,12 @@ html {
                     width: 87%;
                     top: 120px;
                     z-index: 99;
+
+                    @media(max-width: 992px) {
+                        top: 0;
+                        left: 90px;
+                        background: rgb(29, 31, 39) !important;
+                    }
                 }
             }
 

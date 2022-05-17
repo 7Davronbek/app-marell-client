@@ -81,11 +81,8 @@ const App = () => {
           <Route exact path="/catalog" component={Catalog} />
           <Route exact path="/catalog/clothes" component={Clothes} />
           <Route exact path="/catalog/clothes/for-man" component={ForMan} />
-          <Route
-            exact
-            path="/catalog/clothes/for-man/t-shirt"
-            component={TShirt}
-          />
+          <Route exact  path="/catalog/clothes/for-man/t-shirt" component={TShirt} />
+          
           <Route exact path="/catalog/search" component={CatalogSecond} />
           <Route exact path="/catalog/view" component={ViewCatalog} />
           <Route exact path="/catalog/view/reviews" component={ViewReviews} />

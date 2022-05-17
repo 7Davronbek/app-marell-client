@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
-import Esspecially from '../../components/Esspecially';
+// import Esspecially from '../../components/Esspecially';
 import EyeAnimation from '../../components/EyeAnimation';
 import LeftLayout from '../../components/LeftLayout';
 import TShirtPagination from '../../components/TShirtPagination';
@@ -62,7 +62,7 @@ const TShirt = () => {
 
                     <div className="cardWrap">
                         <div className="row">
-                            <div className="col-3 myCol">
+                            <div className="col-lg-3 col-6 myCol">
                                 <Link to='/catalog' className="card main">
                                     <div className="card-body">
                                         <img src="/assets/image/catalog.png" className='w-100' alt="" />
@@ -92,7 +92,7 @@ const TShirt = () => {
                                 </Link>
                             </div>
 
-                            <div className="col-9">
+                            <div className="col-lg-9 mt-4 mt-lg-0">
                                 <div className="d-flex">
                                     <div className='d-flex flex-column'>
                                         <div className="cards">
@@ -107,7 +107,7 @@ const TShirt = () => {
                                                     <button className="btn"><img src="/assets/icon/cardBag.svg" alt="" /></button>
                                                 </div>
                                                 <div className="bottom">
-                                                    <div className=''>
+                                                    <div className='mr-4 mr-lg-0'>
                                                         <h5>RUB</h5>
                                                         <h4>1600 P</h4>
                                                     </div>
@@ -115,7 +115,7 @@ const TShirt = () => {
                                                         <h5>AMARELL</h5>
                                                         <h4>94</h4>
                                                     </div>
-                                                    <div className='d-flex align-items-center'>
+                                                    <div className='d-flex align-items-center stars'>
                                                         <i className="icon icon-star mr-1"></i>
                                                         <i className="icon icon-star mr-1"></i>
                                                         <i className="icon icon-star mr-1"></i>
@@ -138,7 +138,7 @@ const TShirt = () => {
                                                     <button className="btn"><img src="/assets/icon/cardBag.svg" alt="" /></button>
                                                 </div>
                                                 <div className="bottom">
-                                                    <div className=''>
+                                                    <div className='mr-4 mr-lg-0'>
                                                         <h5>RUB</h5>
                                                         <h4>1600 P</h4>
                                                     </div>
@@ -146,7 +146,7 @@ const TShirt = () => {
                                                         <h5>AMARELL</h5>
                                                         <h4>94</h4>
                                                     </div>
-                                                    <div className='d-flex align-items-center'>
+                                                    <div className='d-flex align-items-center stars'>
                                                         <i className="icon icon-star mr-1"></i>
                                                         <i className="icon icon-star mr-1"></i>
                                                         <i className="icon icon-star mr-1"></i>
@@ -158,7 +158,7 @@ const TShirt = () => {
                                         </div>
                                     </div>
                                     <div className='d-flex flex-column'>
-                                        <div className="cards">
+                                        <div className="cards mr-0">
 
                                             <div className="cardsHeader">
                                                 <img src="/assets/image/1.png" alt="" className="w-100" />
@@ -170,7 +170,7 @@ const TShirt = () => {
                                                     <button className="btn"><img src="/assets/icon/cardBag.svg" alt="" /></button>
                                                 </div>
                                                 <div className="bottom">
-                                                    <div className=''>
+                                                    <div className='mr-4 mr-lg-0'>
                                                         <h5>RUB</h5>
                                                         <h4>1600 P</h4>
                                                     </div>
@@ -178,7 +178,7 @@ const TShirt = () => {
                                                         <h5>AMARELL</h5>
                                                         <h4>94</h4>
                                                     </div>
-                                                    <div className='d-flex align-items-center'>
+                                                    <div className='d-flex align-items-center stars'>
                                                         <i className="icon icon-star mr-1"></i>
                                                         <i className="icon icon-star mr-1"></i>
                                                         <i className="icon icon-star mr-1"></i>
@@ -189,7 +189,7 @@ const TShirt = () => {
                                             </div>
                                         </div>
 
-                                        <div className="cards">
+                                        <div className="cards mr-0">
 
                                             <div className="cardsHeader">
                                                 <img src="/assets/image/1.png" alt="" className="w-100" />
@@ -201,7 +201,7 @@ const TShirt = () => {
                                                     <button className="btn"><img src="/assets/icon/cardBag.svg" alt="" /></button>
                                                 </div>
                                                 <div className="bottom">
-                                                    <div className=''>
+                                                    <div className='mr-4 mr-lg-0'>
                                                         <h5>RUB</h5>
                                                         <h4>1600 P</h4>
                                                     </div>
@@ -209,7 +209,7 @@ const TShirt = () => {
                                                         <h5>AMARELL</h5>
                                                         <h4>94</h4>
                                                     </div>
-                                                    <div className='d-flex align-items-center'>
+                                                    <div className='d-flex align-items-center stars'>
                                                         <i className="icon icon-star mr-1"></i>
                                                         <i className="icon icon-star mr-1"></i>
                                                         <i className="icon icon-star mr-1"></i>
@@ -233,7 +233,7 @@ const TShirt = () => {
 
                 <TShirtPagination />
 
-                <Esspecially />
+                {/* <Esspecially /> */}
             </div>
         </>
     )
