@@ -4107,6 +4107,10 @@ html {
                             height: auto;
                         }
                     }
+
+                    @media(max-width: 767px) {
+                        height: 350px;
+                    }
                 }
 
                 .swiper-slide {
@@ -4123,6 +4127,22 @@ html {
                 .swiper-button-next,
                 .swiper-button-prev {
                     display: none;
+                }
+            }
+
+            .desktopCol {
+                display: block;
+
+                @media(max-width: 992px) {
+                    display: none;
+                }
+            }
+
+            .mobileCol {
+                display: none;
+
+                @media(max-width: 992px) {
+                    display: block;
                 }
             }
         }

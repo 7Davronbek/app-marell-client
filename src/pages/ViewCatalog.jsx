@@ -30,7 +30,7 @@ const ViewCatalog = () => {
                 <LeftLayout>
 
                     <div className="row myRow">
-                        <div className="col-6">
+                        <div className="col-lg-6 col-md-6 col-7 p-0 pl-lg-5 pr-lg-5">
                             <Swiper
                                 style={{
                                     "--swiper-navigation-color": "#fff",
@@ -55,10 +55,33 @@ const ViewCatalog = () => {
                                     <i><img src="/assets/image/marellMini2.png" alt="" /></i>
                                 </SwiperSlide>
                             </Swiper>
+
                             <Swiper
                                 onSwiper={setThumbsSwiper}
                                 spaceBetween={10}
                                 slidesPerView={3}
+                                freeMode={true}
+                                watchSlidesProgress={true}
+                                modules={[FreeMode, Navigation, Thumbs]}
+                                className="mySwiper desktopCol"
+                            >
+                                <SwiperSlide>
+                                    <img alt='marell' className='w-100' src="/assets/image/sliderMini.png" />
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <img alt='marell' className='w-100' src="/assets/image/sliderMini.png" />
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <img alt='marell' className='w-100' src="/assets/image/sliderMini.png" />
+                                </SwiperSlide>
+                            </Swiper>
+                        </div>
+
+                        <div className="col-5 mobileCol">
+                            <Swiper
+                                onSwiper={setThumbsSwiper}
+                                spaceBetween={10}
+                                slidesPerView={2}
                                 freeMode={true}
                                 watchSlidesProgress={true}
                                 modules={[FreeMode, Navigation, Thumbs]}
@@ -76,7 +99,7 @@ const ViewCatalog = () => {
                             </Swiper>
                         </div>
 
-                        <div className="col-6">
+                        <div className="col-lg-6 col-md-6">
                             <div className="top">
                                 <div>
                                     <h1>Футболка “Marell” </h1>
