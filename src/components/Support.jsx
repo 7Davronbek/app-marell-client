@@ -37,7 +37,7 @@ const Support = () => {
             <FullLayout>
 
                 <div className="row myRow">
-                    <div className="col-5">
+                    <div className="col-lg-5">
                         <h2>MARELL FAQ</h2>
 
                         <p>Здесь вы найдете ответы на часто задаваемые вопросы о платформе Marell.store.</p>
@@ -143,7 +143,7 @@ const Support = () => {
 
                     </div>
 
-                    <div className="col-7">
+                    <div className="col-lg-7 mt-4 mt-lg-0">
                         <div className="top">
                             <button className="btn">Доставка и Оплата</button>
                             <button className="btn">Условия Возврата</button>

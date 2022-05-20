@@ -4485,6 +4485,12 @@ html {
                             color: #03060e;
                             background-color: #0eecec;
                         }
+
+                        @media(max-width: 992px) {
+                            font-size: 12px;
+                            line-height: 15px;
+                            padding: 11px 5px;
+                        }
                     }
                 }
 
@@ -4506,6 +4512,11 @@ html {
 
                         &:last-child {
                             margin-bottom: 0;
+                        }
+
+                        @media(max-width: 992px) {
+                            font-size: 15px;
+                            line-height: 19px;
                         }
                     }
 
@@ -4549,6 +4560,10 @@ html {
                             background: #ff2bff;
                             border-radius: 15px;
                         }
+
+                        @media(max-width: 992px) {
+                            padding: 20px 10px;
+                        }
                     }
 
                     .admin_text {
@@ -4566,6 +4581,11 @@ html {
                             background: rgba(14, 236, 236, 0.37);
                             border-radius: 7px 7px 7px 0;
                             padding: 7px;
+
+                            @media(max-width: 992px) {
+                                font-size: 12px;
+                                line-height: 15px;
+                            }
                         }
                     }
 
@@ -4586,6 +4606,11 @@ html {
                             border-radius: 7px 7px 0 7px;
                             padding: 7px;
                             margin-right: 10px;
+
+                            @media(max-width: 992px) {
+                                font-size: 12px;
+                                line-height: 15px;
+                            }
                         }
 
                         .circle {
@@ -4618,6 +4643,19 @@ html {
                     font-weight: 700;
                     font-size: 35px;
                     line-height: 44px;
+
+                    @media(max-width: 992px) {
+                        font-size: 35px;
+                        line-height: 44px;
+                    }
+                }
+
+                h6 {
+
+                    @media(max-width: 992px) {
+                        font-size: 12px;
+                        line-height: 15px;
+                    }
                 }
 
                 p {
@@ -4635,6 +4673,14 @@ html {
 
                         .accordion__panel {
                             padding: 12px 5px 5px;
+
+                            @media(max-width: 992px) {
+                                background: linear-gradient(360deg, #16181B 0%, rgba(22, 24, 27, 0) 70.26%);
+                                filter: drop-shadow(0px 16px 16px rgba(0, 0, 0, 0.16));
+                                border-radius: 0 0 16px 16px;
+                                padding: 20px 10px;
+                                box-shadow: 0 4px 10px #085458;
+                            }
                         }
 
                         .accordion__button {
@@ -4668,8 +4714,18 @@ html {
                                     background-color: #ff2bff;
                                 }
                             }
+
+                            @media(max-width: 992px) {
+                                padding: 15px 10px;
+                                font-size: 12px;
+                                line-height: 15px;
+                            }
                         }
                     }
+                }
+
+                @media(max-width: 992px) {
+                    padding-bottom: 50px;
                 }
             }
         }
