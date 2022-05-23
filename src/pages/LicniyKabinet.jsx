@@ -58,19 +58,38 @@ const LicniyKabinet = () => {
                   <div className="cardsTop">
                     <h2>1 МЕСЯЦ</h2>
                     <h3><span>6</span> AMARELL</h3>
-                  </div>
-                  <div className="cardsBot">
-                    <button className="btn">Продлить</button>
-                    <button className="btn pinkBtn">Отменить</button>
+
+                    <div className="cardsBot">
+                      <button className="btn">Продлить</button>
+                      <button className="btn pinkBtn">Отменить</button>
+                    </div>
                   </div>
 
-                  <div className="cardsTop ">
+                  <div className="cardsTop blue" >
+                    <h2>6 МЕСЯЦ</h2>
+                    <h3><span>31</span> AMARELL</h3>
+
+                    <div className="cardsBot">
+                      <button className="btn">УЛУЧШИТЬ</button>
+                    </div>
+                  </div>
+
+                  <div className="cardsTop blue" >
+                    <h2>12 МЕСЯЦ</h2>
+                    <h3><span>53</span> AMARELL</h3>
+
+                    <div className="cardsBot">
+                      <button className="btn">УЛУЧШИТЬ</button>
+                    </div>
+                  </div>
+
+                  {/* <div className="cardsTop ">
                     <h2>12 МЕСЯЦ</h2>
                     <h3><span>53</span> AMARELL</h3>
                   </div>
                   <div className="cardsBot">
-                    <button className="btn">УЛУЧШИТЬ</button>
-                  </div>
+                  </div> */}
+
                 </div>
               </div>
             </div>

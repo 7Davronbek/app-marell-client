@@ -5473,6 +5473,7 @@ html {
                         justify-content: space-between;
                         box-shadow: inset 0px 0px 12px #ff2bff;
                         padding: 10px 5px;
+                        position: relative;
 
                         &.blue {
                             background: rgba(255, 255, 255, 0.1);
@@ -5510,30 +5511,47 @@ html {
                                 margin-right: 10px;
                             }
                         }
-                    }
 
-                    .cardsBot {
-                        background: #1c1e26;
-                        border: 0.3px solid #ff2bff;
-                        box-sizing: border-box;
-                        border-radius: 0px 0px 5px 5px;
-                        padding: 10px 5px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-around;
+                        .cardsBot {
+                            background: #1c1e26;
+                            border: 0.3px solid #ff2bff;
+                            box-sizing: border-box;
+                            border-radius: 0px 0px 5px 5px;
+                            padding: 10px 5px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-around;
+                            position: absolute;
+                            width: 1;
+                            top: 50px;
+                            left: 0;
+                            right: 0;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: all .3s linear;
 
-                        .btn {
-                            font-weight: 700;
-                            font-size: 13px;
-                            line-height: 16px;
-                            text-align: center;
-                            color: #ffffff;
-                            padding: 10px 20px;
-                            background: rgba(14, 236, 236, 0.7);
-                            border-radius: 3px;
+                            .btn {
+                                font-weight: 700;
+                                font-size: 13px;
+                                line-height: 16px;
+                                text-align: center;
+                                color: #ffffff;
+                                padding: 10px 20px;
+                                background: rgba(14, 236, 236, 0.7);
+                                border-radius: 3px;
 
-                            &.pinkBtn {
-                                background: rgba(255, 43, 255, 0.5);
+                                &.pinkBtn {
+                                    background: rgba(255, 43, 255, 0.5);
+                                }
+                            }
+                        }
+
+                        &:hover {
+
+                            .cardsBot {
+                                opacity: 1;
+                                visibility: visible;
+                                z-index: 11;
                             }
                         }
                     }
