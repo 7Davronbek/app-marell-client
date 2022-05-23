@@ -11,10 +11,10 @@ const FullLayout = (props) => {
 
     return (
         <>
-            <div className="left-layout position-relative">
+            <div className="left-layout fullLayout position-relative">
 
                 <div className={`topNavigation } ${history.location.pathname === '/woman' ? 'pinkRadius' : ''}`}>
-                    <div onClick={() => { setMenu(true) }} className="leftMenu">
+                    <div onClick={() => { setMenu(!menu) }} className="leftMenu">
                         <img src="/assets/image/miniEye.png" alt="" />
                         <h3>МЕНЮ</h3>
                     </div>

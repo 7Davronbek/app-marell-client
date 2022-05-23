@@ -660,6 +660,7 @@ html {
             position: sticky;
             top: 40px;
             transition: all 0.5s linear;
+            overflow-y: auto;
 
             .icon-woman {
                 background-color: #ff2bff;
@@ -4733,6 +4734,10 @@ html {
         .brands {
             .myWrap {
                 width: 32%;
+
+                @media(max-width: 992px) {
+                    width: 48%;
+                }
             }
 
             .cards {
@@ -4768,6 +4773,11 @@ html {
                         line-height: 35px;
                         text-align: center;
                         padding: 15px 0;
+
+                        @media(max-width: 992px) {
+                            font-size: 20px;
+                            line-height: 25px;
+                        }
                     }
                 }
 

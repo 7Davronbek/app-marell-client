@@ -38,7 +38,7 @@ const Brands = () => {
             </div>
           </div>
 
-          <div className="row mt-5 justify-content-between">
+          <div className="row mt-lg-5 mt-4 justify-content-lg-between justify-content-around ">
             <div className="d-flex flex-column myWrap">
               <div className="cards">
                 <div className="cardsTop">
@@ -139,7 +139,7 @@ const Brands = () => {
                 </div>
               </div>
             </div>
-            <div className="d-flex flex-column myWrap">
+            <div className="d-flex  flex-column myWrap">
               <div className="cards">
                 <div className="cardsTop">
                   <i className="icon icon-heart"></i>
