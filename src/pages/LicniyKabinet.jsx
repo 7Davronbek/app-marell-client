@@ -7,7 +7,7 @@ const LicniyKabinet = () => {
       <FullLayout>
         <div className="licniyKabinet">
           <div className="row">
-            <div className="col-5">
+            <div className="col-lg-5">
               <div className="cards">
                 <div className="image">
                   <span><img src="/assets/image/wolf.png" alt="" /></span>
@@ -44,7 +44,7 @@ const LicniyKabinet = () => {
 
               </div>
 
-              <div className="cardsBottom">
+              <div className="cardsBottom my-4 m-0">
                 <div className="d-flex align-items-center justify-content-between mt-2 mb-4 wrap" >
                   <h1>| Подписка</h1>
                   <div className="icon icon-info cursor"> </div>
@@ -74,9 +74,9 @@ const LicniyKabinet = () => {
                 </div>
               </div>
             </div>
-            <div className="col-7">
-              <div className="rightCards">
-                <div className="d-flex align-items">
+            <div className="col-lg-7">
+              <div className="rightCards mb-4 mb-lg-0">
+                <div className="d-flex align-items flex-lg-row flex-column">
                   <div className='mr-2'>
                     <label htmlFor="name2">Имя</label>
                     <input type="text" id='name2' className="form-control" placeholder='Волк с Уолл-стрит' />
@@ -86,7 +86,7 @@ const LicniyKabinet = () => {
                     <input type="text" id='name3' className="form-control" placeholder='Волк с Уолл-стрит' />
                   </div>
                 </div>
-                <div className="d-flex align-items">
+                <div className="d-flex align-items flex-lg-row flex-column">
                   <div className='mr-2'>
                     <label htmlFor="phone">Номер телефна</label>
                     <input type="text" id='phone' className="form-control" placeholder='Волк с Уолл-стрит' />
@@ -96,7 +96,7 @@ const LicniyKabinet = () => {
                     <input type="text" id='ru' className="form-control" placeholder='Волк с Уолл-стрит' />
                   </div>
                 </div>
-                <div className="d-flex align-items">
+                <div className="d-flex align-items flex-lg-row flex-column">
                   <div className='mr-2'>
                     <label htmlFor="password">Смена пароля</label>
                     <input type="password" id='password' className="form-control" placeholder='Новый пароль' />
@@ -107,7 +107,7 @@ const LicniyKabinet = () => {
                   </div>
                 </div>
 
-                <div className="d-flex align-items">
+                <div className="d-flex align-items flex-lg-row flex-column">
                   <div className='mr-2'>
                     <label htmlFor="password3">Текущий пароль</label>
                     <input type="password" id='password3' className="form-control" placeholder='Новый пароль' />
@@ -119,26 +119,26 @@ const LicniyKabinet = () => {
 
               </div>
 
-              <div className="rightCards">
+              <div className="rightCards py-3 py-lg-0">
                 <h1>| Адреса доставки</h1>
 
-                <div className="d-flex align-items-center">
-                  <div className="mr-2">
+                <div className="d-flex align-items-center flex-lg-row flex-column">
+                  <div className="mr-2 w-75">
                     <label htmlFor="index">Индекс</label>
                     <input type="text" className="form-control" id="index" />
                   </div>
-                  <div>
+                  <div className='w-75'>
                     <label htmlFor="index2">Адрес</label>
                     <input type="text" className="form-control" id="index2" />
                   </div>
                 </div>
 
-                <div className="d-flex align-items-center">
-                  <div className="mr-2">
+                <div className="d-flex align-items-center flex-lg-row flex-column">
+                  <div className="mr-2 w-75">
                     <label htmlFor="index3">Индекс</label>
                     <input type="text" className="form-control" id="index3" />
                   </div>
-                  <div>
+                  <div className='w-75'>
                     <label htmlFor="index4">Адрес</label>
                     <input type="text" className="form-control" id="index4" />
                   </div>

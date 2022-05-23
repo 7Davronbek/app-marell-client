@@ -104,7 +104,7 @@ const LeftLayout = (props) => {
                                 </div>
 
                                 <Link className='privateOffice' onClick={() => { setMenu(false) }} to='/private-office'>
-                                    <h4 className={` ${history.location.pathname === '/private-office' ? 'active' : ''}`}>ЛИЧНЫЙ КАБИНЕТ</h4>
+                                    <span className={` ${history.location.pathname === '/private-office' ? 'active' : ''}`}>ЛИЧНЫЙ КАБИНЕТ</span>
                                 </Link>
 
                             </div>

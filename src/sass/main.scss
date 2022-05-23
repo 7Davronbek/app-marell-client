@@ -871,6 +871,26 @@ html {
             }
 
             .leftWrap {
+
+                .privateOffice {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 20px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    color: #FFFFFF;
+                    background: rgba(87, 97, 112, 0.08);
+                    border: 1px solid rgba(87, 97, 112, 0.48);
+                    border-radius: 8px;
+                    padding: 14px;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 20px;
+                }
+
                 @media (max-width: 992px) {
                     width: 40%;
                     transform: translateX(70%);
