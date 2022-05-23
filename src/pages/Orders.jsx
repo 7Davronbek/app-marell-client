@@ -20,6 +20,14 @@ const Orders = () => {
                                 centeredSlides={false}
                                 spaceBetween={10}
                                 grabCursor={true}
+                                breakpoints={{
+                                    0: {
+                                        slidesPerView: 2.3,
+                                    },
+                                    992: {
+                                        slidesPerView: 4,
+                                    },
+                                }}
                                 pagination={{
                                     clickable: true,
                                 }}
@@ -120,10 +128,19 @@ const Orders = () => {
 
                             <Swiper
                                 navigation={true}
-                                slidesPerView={4}
                                 centeredSlides={false}
                                 spaceBetween={10}
                                 grabCursor={true}
+
+                                breakpoints={{
+                                    0: {
+                                        slidesPerView: 1.5,
+                                    },
+                                    992: {
+                                        slidesPerView: 4,
+                                    },
+                                }}
+
                                 pagination={{
                                     clickable: true,
                                 }}

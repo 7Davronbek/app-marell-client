@@ -5708,6 +5708,12 @@ html {
                 font-size: 25px;
                 line-height: 31px;
                 color: #ffffff;
+
+                @media(max-width: 992px) {
+                    font-weight: 700;
+                    font-size: 25px;
+                    line-height: 31px;
+                }
             }
 
             p {
@@ -5720,6 +5726,12 @@ html {
                 display: flex;
                 align-items: center;
                 justify-content: space-around;
+
+                @media(max-width: 992px) {
+                    font-weight: 500;
+                    font-size: 17px;
+                    line-height: 21px;
+                }
             }
 
             .swiper-button-next {
@@ -5736,6 +5748,15 @@ html {
                 &::after {
                     font-size: 18px;
                     color: #fff;
+
+                    @media(max-width: 992px) {
+                        font-size: 12px;
+                    }
+                }
+
+                @media(max-width: 992px) {
+                    width: 30px;
+                    height: 30px;
                 }
             }
 
@@ -5754,6 +5775,15 @@ html {
                 &::after {
                     font-size: 18px;
                     color: #fff;
+
+                    @media(max-width: 992px) {
+                        font-size: 12px;
+                    }
+                }
+
+                @media(max-width: 992px) {
+                    width: 30px;
+                    height: 30px;
                 }
             }
 
