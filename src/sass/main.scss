@@ -5660,6 +5660,26 @@ html {
                     background: rgba(255, 255, 255, 0.1);
                     box-shadow: inset 0px 0px 12px #ff2bff;
                 }
+
+                @media(max-width: 992px) {
+                    width: 80%;
+                }
+            }
+
+            .first {
+
+                @media(max-width: 992px) {
+                    display: none;
+                }
+            }
+
+            .mobile {
+                display: none;
+
+                @media(max-width: 992px) {
+                    display: block;
+                    margin: 20px 0;
+                }
             }
 
             .cards {
@@ -5673,6 +5693,10 @@ html {
                     width: 15px;
                     height: 15px;
                 }
+            }
+
+            @media(max-width: 992px) {
+                padding: 50px 0;
             }
         }
 
