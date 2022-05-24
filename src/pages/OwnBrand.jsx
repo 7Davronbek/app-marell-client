@@ -21,7 +21,7 @@ const OwnBrand = () => {
                     <h2>Marell.store  - это эффективный и выгодный канал продаж для вашего бренда.</h2>
 
                     <div className="row">
-                        <div className="col-5 overflow-hidden">
+                        <div className="col-lg-5 overflow-hidden">
 
                             <Swiper
                                 effect={"cards"}
@@ -93,7 +93,7 @@ const OwnBrand = () => {
 
                         </div>
 
-                        <div className="col-7 myCol">
+                        <div className="col-lg-7 mt-5 mt-lg-0 myCol">
 
                             <h6>Анкета Бренда</h6>
                             <div className="rightCards">

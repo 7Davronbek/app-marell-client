@@ -9,7 +9,7 @@ const Finance = () => {
                     <div className="topCard">
                         <div className="container">
                             <div className="row">
-                                <div className="col-lg-4">
+                                <div className="col-lg-4 p-0">
                                     <div className="cards">
                                         <h1>| Баланс</h1>
                                         <div className="d-flex align-items-center mt-2">
@@ -19,7 +19,7 @@ const Finance = () => {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-4">
+                                <div className="col-lg-4 mt-3 p-0 mt-lg-0">
                                     <div className="cards">
                                         <div className="d-flex align-items-center justify-content-between">
                                             <h1>| Пополнить</h1>
@@ -32,10 +32,10 @@ const Finance = () => {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-4 p-0">
+                                <div className="col-lg-4 p-lg-0  mt-3 p-0 mt-lg-0">
                                     <div className="cards">
                                         <h1>| Способ пополнения</h1>
-                                        <div className="d-flex align-items-center mt-2">
+                                        <div className="d-flex align-items-center justify-content-around mt-2">
                                             <div className="select">
                                                 <h3><span className='mr-2'><img src="/assets/icon/btc.svg" alt="" /></span> Cryptocurrency <i className="icon icon-down"></i></h3>
                                                 <div className="hidden">
@@ -57,7 +57,7 @@ const Finance = () => {
                     <div className="bottomCard">
                         <div className="container">
                             <div className="row">
-                                <div className="col-lg-7">
+                                <div className="col-lg-7 p-0 mb-4 mb-lg-0">
                                     <div className="cards">
                                         <h1>| Вывод </h1>
 
@@ -91,7 +91,7 @@ const Finance = () => {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-5">
+                                <div className="col-lg-5 p-0">
                                     <div className="cards">
                                         <h1>| Перевод пользователю</h1>
 
@@ -142,7 +142,7 @@ const Finance = () => {
                         <h1>| Последние транзакции</h1>
 
                         <div className="cards">
-                            <table className="table">
+                            <table className="table table-responsive">
                                 <tbody>
                                     <tr>
                                         <th className='first'><button className="btn">РЕФЕРАЛЬНЫЙ БОНУС</button></th>
