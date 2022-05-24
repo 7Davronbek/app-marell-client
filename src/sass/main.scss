@@ -2128,7 +2128,7 @@ html {
                 top: -35px;
                 left: 0;
                 transform: scale(1.1);
-                display: none;
+                display: none !important;
                 right: 0;
                 width: 100%;
 
@@ -4897,6 +4897,14 @@ html {
                             font-weight: 400;
                             margin-right: 3px;
                         }
+
+                        @media(max-width: 992px) {
+                            width: 80% !important;
+                        }
+                    }
+
+                    @media(max-width: 992px) {
+                        padding: 10px;
                     }
                 }
             }
@@ -5010,6 +5018,10 @@ html {
                                 }
                             }
                         }
+
+                        @media(max-width: 992px) {
+                            padding: 15px 20px 15px 8px;
+                        }
                     }
 
                     .arrow {
@@ -5035,9 +5047,15 @@ html {
                             line-height: 14px;
                         }
                     }
+
+                    @media(max-width: 992px) {
+                        margin-bottom: 30px;
+                    }
                 }
 
                 .right {
+                    padding: 0;
+
                     h2 {
                         font-weight: 700;
                         font-size: 16px;
@@ -5088,6 +5106,10 @@ html {
                                         color: #ffffff;
                                         margin-bottom: 6px !important;
                                     }
+
+                                    @media(max-width: 992px) {
+                                        left: 0;
+                                    }
                                 }
 
                                 h3 {
@@ -5114,6 +5136,15 @@ html {
                                         z-index: 99;
                                     }
                                 }
+
+                                @media(max-width: 992px) {
+                                    width: 49%;
+                                    margin-bottom: 10px;
+                                }
+                            }
+
+                            @media(max-width: 992px) {
+                                flex-wrap: wrap;
                             }
                         }
 
@@ -5154,6 +5185,10 @@ html {
                                         margin-left: 10px;
                                     }
                                 }
+
+                                @media(max-width: 992px) {
+                                    margin-bottom: 10px;
+                                }
                             }
 
                             .right {
@@ -5189,6 +5224,11 @@ html {
                                         z-index: 99;
                                     }
                                 }
+                            }
+
+                            @media(max-width: 992px) {
+                                flex-direction: column;
+                                margin-bottom: 10px;
                             }
                         }
 
@@ -5291,6 +5331,10 @@ html {
                             }
                         }
                     }
+                }
+
+                @media(max-width: 992px) {
+                    margin-top: 25px;
                 }
             }
         }
