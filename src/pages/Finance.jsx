@@ -9,7 +9,7 @@ const Finance = () => {
                     <div className="topCard">
                         <div className="container">
                             <div className="row">
-                                <div className="col-4">
+                                <div className="col-lg-4">
                                     <div className="cards">
                                         <h1>| Баланс</h1>
                                         <div className="d-flex align-items-center mt-2">
@@ -19,7 +19,7 @@ const Finance = () => {
                                     </div>
                                 </div>
 
-                                <div className="col-4">
+                                <div className="col-lg-4">
                                     <div className="cards">
                                         <div className="d-flex align-items-center justify-content-between">
                                             <h1>| Пополнить</h1>
@@ -32,7 +32,7 @@ const Finance = () => {
                                     </div>
                                 </div>
 
-                                <div className="col-4 p-0">
+                                <div className="col-lg-4 p-0">
                                     <div className="cards">
                                         <h1>| Способ пополнения</h1>
                                         <div className="d-flex align-items-center mt-2">
@@ -57,7 +57,7 @@ const Finance = () => {
                     <div className="bottomCard">
                         <div className="container">
                             <div className="row">
-                                <div className="col-7">
+                                <div className="col-lg-7">
                                     <div className="cards">
                                         <h1>| Вывод </h1>
 
@@ -91,7 +91,7 @@ const Finance = () => {
                                     </div>
                                 </div>
 
-                                <div className="col-5">
+                                <div className="col-lg-5">
                                     <div className="cards">
                                         <h1>| Перевод пользователю</h1>
 
@@ -140,7 +140,7 @@ const Finance = () => {
 
                     <div className="tables">
                         <h1>| Последние транзакции</h1>
-                        
+
                         <div className="cards">
                             <table className="table">
                                 <tbody>
