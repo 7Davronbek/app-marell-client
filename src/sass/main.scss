@@ -4110,6 +4110,10 @@ html {
                         line-height: 25px;
                         text-align: left;
                         color: #ffffff;
+
+                        @media(max-width: 992px) {
+                            font-size: 18px;
+                        }
                     }
                 }
 
@@ -4130,6 +4134,10 @@ html {
                         line-height: 31px;
                         color: #ffffff;
                         margin-bottom: 1px !important;
+
+                        @media(max-width: 992px) {
+                            font-size: 18px;
+                        }
                     }
 
                     h5 {
