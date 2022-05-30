@@ -30,7 +30,7 @@ const ViewCatalog = () => {
                 <LeftLayout>
 
                     <div className="row myRow">
-                        <div className="col-lg-6 col-md-6 col-7 p-0 pl-lg-5 pr-lg-5">
+                        <div className="col-lg-6 col-md-6 p-0 pl-lg-5 pr-lg-5">
                             <Swiper
                                 style={{
                                     "--swiper-navigation-color": "#fff",
@@ -63,29 +63,7 @@ const ViewCatalog = () => {
                                 freeMode={true}
                                 watchSlidesProgress={true}
                                 modules={[FreeMode, Navigation, Thumbs]}
-                                className="mySwiper desktopCol"
-                            >
-                                <SwiperSlide>
-                                    <img alt='marell' className='w-100' src="/assets/image/sliderMini.png" />
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <img alt='marell' className='w-100' src="/assets/image/sliderMini.png" />
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <img alt='marell' className='w-100' src="/assets/image/sliderMini.png" />
-                                </SwiperSlide>
-                            </Swiper>
-                        </div>
-
-                        <div className="col-5 mobileCol">
-                            <Swiper
-                                onSwiper={setThumbsSwiper}
-                                spaceBetween={10}
-                                slidesPerView={2}
-                                freeMode={true}
-                                watchSlidesProgress={true}
-                                modules={[FreeMode, Navigation, Thumbs]}
-                                className="mySwiper"
+                                className="mySwiper "
                             >
                                 <SwiperSlide>
                                     <img alt='marell' className='w-100' src="/assets/image/sliderMini.png" />
@@ -117,7 +95,7 @@ const ViewCatalog = () => {
                             </div>
 
                             <div className="row">
-                                <div className="col-6">
+                                <div className="col-lg-6">
                                     <div className="wrap">
                                         <div className=''>
                                             <h6>RUB</h6>
@@ -144,7 +122,7 @@ const ViewCatalog = () => {
                                     </div>
                                 </div>
 
-                                <div className="col-6 pt-5">
+                                <div className="col-lg-6 pt-lg-5 pt-3">
                                     <h4 className='w-50 mx-auto text-center d-block'>Цвета</h4>
                                     <div className="colorWrap">
                                         <div className="left"><img src="/assets/icon/left.svg" alt="" /></div>

@@ -3871,6 +3871,7 @@ html {
         }
 
         .partners {
+
             .myRow {
                 margin-top: 40px;
                 padding-bottom: 50px;
@@ -3929,6 +3930,17 @@ html {
                             background: transparent;
                             box-shadow: 0 3px 4px #0eecec;
                         }
+
+                        @media(max-width: 992px) {
+                            padding: 13px 32px;
+                            font-size: 20px;
+                        }
+                    }
+
+                    @media(max-width: 992px) {
+                        display: flex;
+                        align-items: center;
+                        flex-wrap: nowrap;
                     }
                 }
 
@@ -4033,6 +4045,10 @@ html {
                         font-size: 25px;
                         line-height: 31px;
                         color: #f9fafc;
+
+                        @media(max-width: 992px) {
+                            font-size: 20px;
+                        }
                     }
 
                     h6 {
@@ -4041,6 +4057,10 @@ html {
                         font-size: 25px;
                         line-height: 31px;
                         color: #758089;
+
+                        @media(max-width: 992px) {
+                            font-size: 20px;
+                        }
                     }
                 }
 
@@ -4053,6 +4073,10 @@ html {
                         font-size: 40px;
                         line-height: 50px;
                         color: #ffffff;
+
+                        @media(max-width: 992px) {
+                            font-size: 30px;
+                        }
                     }
 
                     h2 {
@@ -4178,21 +4202,6 @@ html {
                 }
             }
 
-            .desktopCol {
-                display: block;
-
-                @media(max-width: 992px) {
-                    display: none;
-                }
-            }
-
-            .mobileCol {
-                display: none;
-
-                @media(max-width: 992px) {
-                    display: block;
-                }
-            }
         }
 
         .private-office {
