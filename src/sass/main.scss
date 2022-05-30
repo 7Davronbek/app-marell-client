@@ -2393,6 +2393,12 @@ html {
                 align-items: center;
                 justify-content: center;
                 margin-top: 25px;
+
+                @media(max-width: 992px) {
+                    font-size: 28px;
+                    line-height: 30px;
+                    display: flex;
+                }
             }
 
             h2 {
@@ -2504,12 +2510,20 @@ html {
                     font-weight: 700;
                     font-size: 25px;
                     line-height: 31px;
+
+                    @media(max-width: 992px) {
+                        font-size: 23px;
+                    }
                 }
 
                 h6 {
                     font-weight: 500;
                     font-size: 20px;
                     line-height: 25px;
+
+                    @media(max-width: 992px) {
+                        font-size: 16px;
+                    }
                 }
             }
 
@@ -2524,6 +2538,13 @@ html {
                     width: 80%;
                     margin: 0 auto 17px;
                 }
+
+                @media(max-width: 992px) {
+                    box-shadow: none;
+                    margin-bottom: 20px;
+                    background: transparent;
+                    padding: 10px 0;
+                }
             }
 
             .cardsBody {
@@ -2533,15 +2554,17 @@ html {
                     line-height: 25px;
                     color: #0eecec;
                     margin: 12px 0 55px !important;
+
+                    @media(max-width: 992px) {
+                        margin: 15px 0 30px !important;
+                    }
                 }
 
                 .inputWrap {
                     position: relative;
 
                     input {
-                        background: linear-gradient(90deg,
-                                #0eecec 0%,
-                                rgba(255, 255, 255, 0.05) 100%);
+                        background: linear-gradient(90deg, #0eecec6b 0%, rgba(255, 255, 255, 0.05) 100%);
                         border-radius: 6px;
                         box-shadow: 0 2px 8px #0eecec;
                         border: 0;
@@ -2565,6 +2588,10 @@ html {
                         top: 50%;
                         right: 20px;
                         transform: translateY(-50%);
+
+                        @media(max-width: 992px) {
+                            right: 10px;
+                        }
                     }
                 }
             }
