@@ -189,6 +189,56 @@ const Brands = () => {
                 </div>
               </div>
             </div>
+            <div className="d-flex lastWrap flex-column myWrap">
+              <div className="cards">
+                <div className="cardsTop">
+                  <i className="icon icon-heart"></i>
+                  <img src="/assets/image/brandCard.png" className='w-100' alt="" />
+                </div>
+                <div className="cardsBody">
+                  <h5>MARELL</h5>
+                  <div className="d-flex align-items-center justify-content-center">
+                    <i className="icon icon-star"></i>
+                    <i className="icon icon-star"></i>
+                    <i className="icon icon-star"></i>
+                    <i className="icon icon-star"></i>
+                    <i className="icon icon-star"></i>
+                  </div>
+                </div>
+              </div>
+              <div className="cards">
+                <div className="cardsTop">
+                  <i className="icon icon-heart"></i>
+                  <img src="/assets/image/brandCard.png" className='w-100' alt="" />
+                </div>
+                <div className="cardsBody">
+                  <h5>MARELL</h5>
+                  <div className="d-flex align-items-center justify-content-center">
+                    <i className="icon icon-star"></i>
+                    <i className="icon icon-star"></i>
+                    <i className="icon icon-star"></i>
+                    <i className="icon icon-star"></i>
+                    <i className="icon icon-star"></i>
+                  </div>
+                </div>
+              </div>
+              <div className="cards">
+                <div className="cardsTop">
+                  <i className="icon icon-heart"></i>
+                  <img src="/assets/image/brandCard.png" className='w-100' alt="" />
+                </div>
+                <div className="cardsBody">
+                  <h5>MARELL</h5>
+                  <div className="d-flex align-items-center justify-content-center">
+                    <i className="icon icon-star"></i>
+                    <i className="icon icon-star"></i>
+                    <i className="icon icon-star"></i>
+                    <i className="icon icon-star"></i>
+                    <i className="icon icon-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
         </LeftLayout>

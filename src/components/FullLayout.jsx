@@ -15,7 +15,7 @@ const FullLayout = (props) => {
 
                 <div className={`topNavigation } ${history.location.pathname === '/woman' ? 'pinkRadius' : ''}`}>
                     <div onClick={() => { setMenu(!menu) }} className="leftMenu">
-                        <img src="/assets/image/miniEye.png" alt="" />
+                        <i style={{background: "#0EECEC"}} className="icon icon-main"></i>
                         <h3>МЕНЮ</h3>
                     </div>
                     <div className="centerLogo">
@@ -24,12 +24,12 @@ const FullLayout = (props) => {
                         </Link>
                     </div>
                     <div className="rightBasket">
-                        <span className="icon icon-basket"></span>
+                        <span style={{background: '#FF2BFF'}} className="icon icon-basket"></span>
                     </div>
                 </div>
                 <div className="navigationLine"></div>
 
-                <div onClick={() => { setMenu(false) }} className={`closeBtn position-absolute ${menu ? 'activeBtn' : ''}`}>&times;</div>
+                <div onClick={() => { setMenu(false) }} className={`closeBtn d-none position-absolute ${menu ? 'activeBtn' : ''}`}>&times;</div>
                 <div className="container">
                     <div className="row">
                         <div className={`col-lg-3 leftSide ${menu ? 'menued' : ''}`}>
