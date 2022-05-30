@@ -1,6 +1,6 @@
 import React from 'react'
 import FullLayout from '../components/FullLayout'
-import { Pagination } from "swiper";
+import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const Orders = () => {
@@ -28,10 +28,7 @@ const Orders = () => {
                                         slidesPerView: 4,
                                     },
                                 }}
-                                pagination={{
-                                    clickable: true,
-                                }}
-                                modules={[Pagination]}
+                                modules={[Navigation]}
                                 className="mySwiper"
                             >
                                 <SwiperSlide>
@@ -140,11 +137,7 @@ const Orders = () => {
                                         slidesPerView: 4,
                                     },
                                 }}
-
-                                pagination={{
-                                    clickable: true,
-                                }}
-                                modules={[Pagination]}
+                                modules={[Navigation]}
                                 className="mySwiper"
                             >
                                 <SwiperSlide>

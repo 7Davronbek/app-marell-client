@@ -1,5 +1,5 @@
 import React from 'react'
-import { Pagination } from "swiper";
+import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const BestSeller = () => {
@@ -24,9 +24,6 @@ const BestSeller = () => {
                                 centeredSlides={false}
                                 spaceBetween={10}
                                 grabCursor={true}
-                                pagination={{
-                                    clickable: true,
-                                }}
                                 breakpoints={{
                                     // when window width is >= 640px
                                     640: {
@@ -44,7 +41,7 @@ const BestSeller = () => {
                                         slidesPerView: 4,
                                     },
                                 }}
-                                modules={[Pagination]}
+                                modules={[Navigation]}
                                 className="mySwiper"
                             >
                                 <SwiperSlide>

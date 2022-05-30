@@ -1933,6 +1933,8 @@ html {
                     justify-content: center;
                     background: rgba(153, 162, 213, 0.04);
                     backdrop-filter: blur(16px);
+                    left: 3px;
+                    z-index: 1111;
 
                     span {
                         width: 54px;
