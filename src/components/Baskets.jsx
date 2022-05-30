@@ -8,6 +8,86 @@ const Baskets = () => {
             <LeftLayout>
                 <div className="row">
                     <div className="col-lg-8 middle pt-5">
+                        <div className="tableMobile">
+                            <div className="tableCards mb-4">
+                                <div className="bg"><img src="/assets/image/cardBg2.png" alt="" /></div>
+                                <div>
+                                    <div className="img">
+                                        <img src="/assets/image/basketImg.png" alt="" />
+                                        <p>XS</p>
+                                        <i className="marell"><img src="/assets/image/marellMini.png" alt="" /></i>
+                                        <div className="icon icon-heart"></div>
+                                        <div className="trash"><img src="/assets/icon/trash_full.svg" alt="" /></div>
+                                    </div>
+                                    <h4>- <span className="mx-4">1</span> +</h4>
+                                </div>
+                                <div className='content'>
+                                    <h1>Футболка “Marell” </h1>
+                                    <div className="d-flex">
+                                        <div className='mr-4'>
+                                            <h2>RUB</h2>
+                                            <h3>1600 P</h3>
+                                        </div>
+                                        <div>
+                                            <h2 className='pink'>AMARELL</h2>
+                                            <h3>94</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="tableCards mb-4">
+                                <div className="bg"><img src="/assets/image/cardBg2.png" alt="" /></div>
+                                <div>
+                                    <div className="img">
+                                        <img src="/assets/image/basketImg.png" alt="" />
+                                        <p>XS</p>
+                                        <i className="marell"><img src="/assets/image/marellMini.png" alt="" /></i>
+                                        <div className="icon icon-heart"></div>
+                                        <div className="trash"><img src="/assets/icon/trash_full.svg" alt="" /></div>
+                                    </div>
+                                    <h4>- <span className="mx-4">1</span> +</h4>
+                                </div>
+                                <div className='content'>
+                                    <h1>Футболка “Marell” </h1>
+                                    <div className="d-flex">
+                                        <div className='mr-4'>
+                                            <h2>RUB</h2>
+                                            <h3>1600 P</h3>
+                                        </div>
+                                        <div>
+                                            <h2 className='pink'>AMARELL</h2>
+                                            <h3>94</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="tableCards ">
+                                <div className="bg"><img src="/assets/image/cardBg2.png" alt="" /></div>
+                                <div>
+                                    <div className="img">
+                                        <img src="/assets/image/basketImg.png" alt="" />
+                                        <p>XS</p>
+                                        <i className="marell"><img src="/assets/image/marellMini.png" alt="" /></i>
+                                        <div className="icon icon-heart"></div>
+                                        <div className="trash"><img src="/assets/icon/trash_full.svg" alt="" /></div>
+                                    </div>
+                                    <h4>- <span className="mx-4">1</span> +</h4>
+                                </div>
+                                <div className='content'>
+                                    <h1>Футболка “Marell” </h1>
+                                    <div className="d-flex">
+                                        <div className='mr-4'>
+                                            <h2>RUB</h2>
+                                            <h3>1600 P</h3>
+                                        </div>
+                                        <div>
+                                            <h2 className='pink'>AMARELL</h2>
+                                            <h3>94</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div className="cards">
                             <table className="table">
                                 <thead>

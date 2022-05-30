@@ -2637,6 +2637,131 @@ html {
                             padding: 5px 23px;
                         }
                     }
+
+                    @media(max-width: 767px) {
+                        margin-top: 25px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .tableMobile {
+                display: none;
+
+                .content {
+                    padding-top: 40px;
+                }
+
+                .tableCards {
+                    position: relative;
+                    display: flex;
+
+                    h4 {
+                        font-weight: 700;
+                        font-size: 31px;
+                        line-height: 39px;
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        color: #FFFFFF;
+                        position: relative;
+                        top: -18px;
+                        left: 25px;
+
+                    }
+
+                    h1 {
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #FFFFFF;
+                        margin-bottom: 15px !important;
+                    }
+
+                    h2 {
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 18px;
+                        color: #0EECEC;
+
+                        &.pink {
+                            color: #FF2BFF;
+                        }
+                    }
+
+                    h3 {
+                        font-weight: 700;
+                        font-size: 15px;
+                        line-height: 19px;
+                        color: #F9FAFC;
+                        margin-top: 7px;
+                        text-align: center;
+                    }
+
+                    .bg {
+                        width: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        z-index: -1;
+
+                        img {
+                            width: 100%;
+
+                            @media(max-width: 500px) {
+                                width: initial;
+                            }
+                        }
+                    }
+
+                    .img {
+                        position: relative;
+                        left: -25px;
+
+                        p,
+                        .marell,
+                        .icon-heart,
+                        .trash {
+                            position: absolute;
+                        }
+
+                        .marell {
+                            left: 28px;
+                            top: 5px;
+                            background: rgba(132, 141, 183, 0.44);
+                            backdrop-filter: blur(16px);
+                            border-radius: 3px;
+                            padding: 0 5px;
+                        }
+
+                        p {
+                            font-weight: 700;
+                            font-size: 9px;
+                            line-height: 11px;
+                            color: #ffffff;
+                            background: rgba(132, 141, 183, 0.44);
+                            backdrop-filter: blur(16px);
+                            border-radius: 3px;
+                            top: 8px;
+                            right: 24px;
+                            padding: 2px 6px;
+                        }
+
+                        .icon-heart {
+                            bottom: 41px;
+                            right: 24px;
+                            background: #ff2bff;
+                        }
+
+                        .trash {
+                            bottom: 37px;
+                            left: 29px;
+                        }
+                    }
+                }
+
+                @media(max-width: 767px) {
+                    display: block;
                 }
             }
 
@@ -2759,6 +2884,10 @@ html {
                             }
                         }
                     }
+                }
+
+                @media(max-width: 767px) {
+                    display: none;
                 }
             }
         }
